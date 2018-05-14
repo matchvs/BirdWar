@@ -1,0 +1,55 @@
+2018-05-14T12:44:51.932Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-14T12:44:51.936Z - normal: checking language setting...
+2018-05-14T12:44:51.936Z - normal: Language: zh
+2018-05-14T12:44:52.593Z - success: protocol editor-framework registered
+2018-05-14T12:44:52.593Z - success: protocol app registered
+2018-05-14T12:44:52.593Z - success: protocol theme registered
+2018-05-14T12:44:52.593Z - success: protocol packages registered
+2018-05-14T12:44:52.594Z - success: protocol unpack registerred
+2018-05-14T12:44:52.594Z - success: protocol disable-commonjs registerred
+2018-05-14T12:44:52.876Z - normal: connected!
+2018-05-14T12:44:52.878Z - normal: Check project /Users/mac/MatchVsGames/birdComplete
+2018-05-14T12:44:52.879Z - normal: Initializing Cocos2d
+2018-05-14T12:44:53.086Z - normal: Initializing Asset Database
+2018-05-14T12:44:53.119Z - success: protocol uuid registerred
+2018-05-14T12:44:53.119Z - success: protocol db registerred
+2018-05-14T12:44:53.119Z - success: protocol thumbnail registerred
+2018-05-14T12:44:53.119Z - normal: Loading editor/builtin packages
+2018-05-14T12:44:53.138Z - success: anysdk loaded
+2018-05-14T12:44:53.252Z - success: assets loaded
+2018-05-14T12:44:53.255Z - success: builder loaded
+2018-05-14T12:44:53.257Z - success: cocos-analytics loaded
+2018-05-14T12:44:53.261Z - success: console loaded
+2018-05-14T12:44:53.297Z - success: fb-instant-games loaded
+2018-05-14T12:44:53.303Z - success: hierarchy loaded
+2018-05-14T12:44:53.307Z - success: inspector loaded
+2018-05-14T12:44:53.308Z - success: keystore loaded
+2018-05-14T12:44:53.318Z - success: node-library loaded
+2018-05-14T12:44:53.319Z - success: package-asset loaded
+2018-05-14T12:44:53.320Z - success: preferences loaded
+2018-05-14T12:44:53.323Z - success: project-exporter loaded
+2018-05-14T12:44:53.340Z - success: project-importer loaded
+2018-05-14T12:44:53.344Z - success: project-settings loaded
+2018-05-14T12:44:53.347Z - success: ui-kit loaded
+2018-05-14T12:44:53.353Z - success: ui-grid loaded
+2018-05-14T12:44:53.356Z - success: scene loaded
+2018-05-14T12:44:53.357Z - success: sprite-editor loaded
+2018-05-14T12:44:53.361Z - success: store loaded
+2018-05-14T12:44:53.369Z - success: timeline loaded
+2018-05-14T12:44:53.369Z - normal: Loading builtin packages
+2018-05-14T12:44:53.372Z - success: asset-db-debugger loaded
+2018-05-14T12:44:53.373Z - success: color-picker loaded
+2018-05-14T12:44:53.376Z - success: package-manager loaded
+2018-05-14T12:44:53.381Z - success: sdkbox loaded
+2018-05-14T12:44:53.388Z - success: tester loaded
+2018-05-14T12:44:53.394Z - success: ui-kit-preview-extra loaded
+2018-05-14T12:44:53.397Z - success: ui-kit-preview loaded
+2018-05-14T12:44:53.402Z - success: ui-tree loaded
+2018-05-14T12:44:54.403Z - normal: Initializing project /Users/mac/MatchVsGames/birdComplete
+2018-05-14T12:44:54.406Z - normal: Loading packages
+2018-05-14T12:44:54.418Z - success: plugin-matchvs loaded
+2018-05-14T12:44:54.419Z - normal: Watching packages
+2018-05-14T12:44:54.469Z - normal: Run Application
+2018-05-14T12:44:55.230Z - success: preview server running at http://localhost:7456
+2018-05-14T12:45:02.043Z - normal: 1.9.0
+2018-05-14T12:45:10.886Z - info: shutdown preview server
