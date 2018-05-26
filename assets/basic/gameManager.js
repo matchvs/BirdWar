@@ -43,6 +43,17 @@ cc.Class({
                     loseCamp = Camp.Friend;
                 }
                 clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: loseCamp });
+
+                uiFunc.openUI("uiVsResultVer", function(obj) {
+                    var uiVsResult = obj.getComponent("uiVsResult");
+                    data = {
+                        friendIds: this.friendIds,
+                        enemyIds: this.enemyIds,
+                        selfScore: this.friendHearts,
+                        rivalScore: this.enemyHearts
+                    }
+                    uiVsResult.setData(data);
+                }.bind(this))
             } else if (GLB.isRoomOwner) {
                 // 下一回合--
                 setTimeout(function() {
@@ -58,7 +69,9 @@ cc.Class({
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
                 if (GLB.isRoomOwner) {
-                    this.sendRoundStartMsg();
+                    setTimeout(function() {
+                        this.sendRoundStartMsg();
+                    }.bind(this), 1000);
                 }
             }.bind(this));
         }.bind(this));
@@ -76,16 +89,115 @@ cc.Class({
 
     matchVsInit: function() {
         mvs.response.initResponse = this.initResponse.bind(this);
+        mvs.response.errorResponse = this.errorResponse.bind(this);
+        mvs.response.joinRoomResponse = this.joinRoomResponse.bind(this);
+        mvs.response.joinRoomNotify = this.joinRoomNotify.bind(this);
+        mvs.response.leaveRoomResponse = this.leaveRoomResponse.bind(this);
+        mvs.response.leaveRoomNotify = this.leaveRoomNotify.bind(this);
+        mvs.response.joinOverResponse = this.joinOverResponse.bind(this);
+        mvs.response.createRoomResponse = this.createRoomResponse.bind(this);
+        mvs.response.getRoomListResponse = this.getRoomListResponse.bind(this);
+        mvs.response.getRoomDetailResponse = this.getRoomDetailResponse.bind(this);
+        mvs.response.getRoomListExResponse = this.getRoomListExResponse.bind(this);
+        mvs.response.kickPlayerResponse = this.kickPlayerResponse.bind(this);
+        mvs.response.kickPlayerNotify = this.kickPlayerNotify.bind(this);
+        mvs.response.registerUserResponse = this.registerUserResponse.bind(this);
+        mvs.response.loginResponse = this.loginResponse.bind(this); // 用户登录之后的回调
+        mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
+
         var result = mvs.engine.init(mvs.response, GLB.channel, GLB.platform, GLB.gameId);
         if (result !== 0) {
             console.log('初始化失败,错误码:' + result);
         }
     },
 
+    kickPlayerNotify: function(kickPlayerNotify) {
+        var data = {
+            kickPlayerNotify: kickPlayerNotify
+        }
+        clientEvent.dispatch(clientEvent.eventType.kickPlayerNotify, data);
+    },
+
+    kickPlayerResponse: function(kickPlayerRsp) {
+        var data = {
+            kickPlayerRsp: kickPlayerRsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.kickPlayerResponse, data);
+    },
+
+    getRoomListExResponse: function(rsp) {
+        var data = {
+            rsp: rsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.getRoomListExResponse, data);
+    },
+
+    getRoomDetailResponse: function(rsp) {
+        var data = {
+            rsp: rsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.getRoomDetailResponse, data);
+    },
+
+    getRoomListResponse: function(status, roomInfos) {
+        var data = {
+            status: status,
+            roomInfos: roomInfos
+        }
+        clientEvent.dispatch(clientEvent.eventType.getRoomListResponse, data);
+    },
+
+    createRoomResponse: function(rsp) {
+        var data = {
+            rsp: rsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.createRoomResponse, data);
+    },
+
+    joinOverResponse: function(joinOverRsp) {
+        var data = {
+            joinOverRsp: joinOverRsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.joinOverResponse, data);
+    },
+
+    joinRoomResponse: function(status, roomUserInfoList, roomInfo) {
+        var data = {
+            status: status,
+            roomUserInfoList: roomUserInfoList,
+            roomInfo: roomInfo
+        }
+        clientEvent.dispatch(clientEvent.eventType.joinRoomResponse, data);
+    },
+
+    joinRoomNotify: function(roomUserInfo) {
+        var data = {
+            roomUserInfo: roomUserInfo
+        }
+        clientEvent.dispatch(clientEvent.eventType.joinRoomNotify, data);
+    },
+
+    leaveRoomResponse: function(leaveRoomRsp) {
+        var data = {
+            leaveRoomRsp: leaveRoomRsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomResponse, data);
+    },
+
+    leaveRoomNotify: function(leaveRoomInfo) {
+        var data = {
+            leaveRoomInfo: leaveRoomInfo
+        }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomNotify, data);
+    },
+
+    errorResponse: function(error, msg) {
+        console.log("错误信息：" + error);
+        console.log("错误信息：" + msg);
+    },
 
     initResponse: function() {
         console.log('初始化成功，开始注册用户');
-        mvs.response.registerUserResponse = this.registerUserResponse.bind(this); // 用户注册之后的回调
         var result = mvs.engine.registerUser();
         if (result !== 0) {
             console.log('注册用户失败，错误码:' + result);
@@ -101,7 +213,6 @@ cc.Class({
 
         console.log('开始登录,用户Id:' + userInfo.id)
 
-        mvs.response.loginResponse = this.loginResponse.bind(this); // 用户登录之后的回调
         var result = mvs.engine.login(
             userInfo.id, userInfo.token,
             GLB.gameId, GLB.gameVersion,
@@ -123,7 +234,11 @@ cc.Class({
     },
 
     lobbyShow: function() {
-        uiFunc.openUI("uiLobbyPanel");
+        if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
+            uiFunc.openUI("uiLobbyPanelVer");
+        } else {
+            uiFunc.openUI("uiLobbyPanel");
+        }
     },
 
     // 玩家行为通知--
@@ -137,18 +252,27 @@ cc.Class({
             if (remoteUserIds.length % 2 !== 0) {
                 return console.log("人数不为偶数, 无法开战！");
             }
-            var selfCamp;
+            var selfCamp = 0;
             var index;
             for (index = 0; index < remoteUserIds.length; index++) {
                 if (GLB.userInfo.id === remoteUserIds[index]) {
-                    selfCamp = Math.floor(index / 2);
+                    if (index < remoteUserIds.length / 2) {
+                        selfCamp = 0;
+                    } else {
+                        selfCamp = 1;
+                    }
                     break;
                 }
             }
             this.enemyIds = [];
             this.friendIds = [GLB.userInfo.id];
             for (index = 0; index < remoteUserIds.length; index++) {
-                var camp = Math.floor(index / 2);
+                var camp = 0;
+                if (index < remoteUserIds.length / 2) {
+                    camp = 0;
+                } else {
+                    camp = 1;
+                }
                 if (camp === selfCamp) {
                     if (remoteUserIds[index] !== GLB.userInfo.id) {
                         this.friendIds.push(remoteUserIds[index]);

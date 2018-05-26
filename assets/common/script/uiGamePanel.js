@@ -23,6 +23,17 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+        if (GLB.MAX_PLAYER_COUNT === 2) {
+            this.nodeDict["player2Icon"].active = false;
+            this.nodeDict["enemy2Icon"].active = false;
+            this.nodeDict["player1Icon"].getComponent("playerIcon").setData({ id: GLB.playerUserIds[0] });
+            this.nodeDict["enemy1Icon"].getComponent("playerIcon").setData({ id: GLB.playerUserIds[1] });
+        } else {
+            this.nodeDict["player1Icon"].getComponent("playerIcon").setData({ id: GLB.playerUserIds[0] });
+            this.nodeDict["player2Icon"].getComponent("playerIcon").setData({ id: GLB.playerUserIds[1] });
+            this.nodeDict["enemy1Icon"].getComponent("playerIcon").setData({ id: GLB.playerUserIds[2] });
+            this.nodeDict["enemy2Icon"].getComponent("playerIcon").setData({ id: GLB.playerUserIds[3] });
+        }
     },
 
     gameOver: function(data) {
@@ -31,6 +42,7 @@ cc.Class({
         } else {
             cc.audioEngine.play(this.loseClip, false, 1);
         }
+
     },
 
     roundStart: function() {

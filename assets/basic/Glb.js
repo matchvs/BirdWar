@@ -2,6 +2,9 @@ var obj = {
     RANDOM_MATCH: 1,  // 随机匹配
     PROPERTY_MATCH: 2,  // 属性匹配
     MAX_PLAYER_COUNT: 4,
+    PLAYER_COUNTS: [2, 4],
+    COOPERATION: 1,
+    COMPETITION: 2,
     GAME_START_EVENT: "gameStart",
     NEW_ITEM_EVENT: "newItem",
     PLAYER_FLY_EVENT: "playerFly",
@@ -16,11 +19,18 @@ var obj = {
 
     channel: 'MatchVS',
     platform: 'alpha',
+
+    // gameId: 201330,
+    // gameVersion: 1,
+    // appKey: '7c7b185482d8444bb98bc93c7a65daaa',
+    // secret: 'f469fb05eee9488bb32adfd85e4ca370',
+
     gameId: 200757,
     gameVersion: 1,
     appKey: '6783e7d174ef41b98a91957c561cf305',
     secret: 'da47754579fa47e4affab5785451622c',
 
+    gameType: 2,
     matchType: 1,
     tagsInfo: { "title": "A" },
     userInfo: null,
@@ -32,16 +42,6 @@ var obj = {
     syncFrame: true,
     FRAME_RATE: 5,
     roomId: 0,
-    playertime: 180,
-    first: null,
-    second: null,
-    third: null,
     isGameOver: false,
-
-    scoreMap: new Map(),
-
-    number1: "",
-    number2: "",
-    number3: "",
 };
 module.exports = obj;

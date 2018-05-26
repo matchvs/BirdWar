@@ -12,7 +12,14 @@ cc.Class({
 
     onLoad() {
         Game.PlayerManager = this;
+        this.players = [];
         clientEvent.on(clientEvent.eventType.roundStart, this.initPlayers, this);
+        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+
+    },
+
+    gameOver: function() {
+        this.players = [];
     },
 
     checkIsRoundOver: function() {
@@ -65,7 +72,7 @@ cc.Class({
             return;
         }
         var playerScript = null;
-        if (this.players) {
+        if (this.players && this.players.length > 0) {
             for (var j = 0; j < this.players.length; j++) {
                 playerScript = this.players[j].getComponent("player");
                 if (playerScript) {
@@ -114,5 +121,7 @@ cc.Class({
 
     onDestroy: function() {
         clientEvent.off(clientEvent.eventType.roundStart, this.initPlayers, this);
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
+
     }
 });
