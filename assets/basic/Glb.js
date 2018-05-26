@@ -20,15 +20,10 @@ var obj = {
     channel: 'MatchVS',
     platform: 'alpha',
 
-    // gameId: 201330,
-    // gameVersion: 1,
-    // appKey: '7c7b185482d8444bb98bc93c7a65daaa',
-    // secret: 'f469fb05eee9488bb32adfd85e4ca370',
-
-    gameId: 200757,
+    gameId: 201330,
     gameVersion: 1,
-    appKey: '6783e7d174ef41b98a91957c561cf305',
-    secret: 'da47754579fa47e4affab5785451622c',
+    appKey: '7c7b185482d8444bb98bc93c7a65daaa',
+    secret: 'f469fb05eee9488bb32adfd85e4ca370',
 
     gameType: 2,
     matchType: 1,
