@@ -35,7 +35,7 @@ cc.Class({
         // this.playerName.string = "null";
     },
 
-    start() {
+    onLoad() {
         this.init();
     }
 

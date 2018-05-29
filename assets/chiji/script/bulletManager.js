@@ -34,6 +34,10 @@ cc.Class({
             console.log("fire")
             clearInterval(this.scheduleFireID);
             this.scheduleFireID = setInterval(function() {
+                if(Game.GameManager.gameState === GameState.Over){
+                    clearInterval(this.scheduleFireID);
+                    return;
+                }
                 var data = [];
                 for (var j = 0; j < Game.PlayerManager.players.length; j++) {
                     var playerScript = Game.PlayerManager.players[j].getComponent("player");
@@ -86,5 +90,6 @@ cc.Class({
 
     onDestroy: function() {
         clientEvent.off(clientEvent.eventType.roundStart, this.scheduleFire, this);
+        clientEvent.off(clientEvent.eventType.roundOver, this.clearScheduleFire, this);
     }
 });

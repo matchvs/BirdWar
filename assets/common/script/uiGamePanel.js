@@ -23,6 +23,10 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+
+    },
+
+    start() {
         if (GLB.MAX_PLAYER_COUNT === 2) {
             this.nodeDict["player2Icon"].active = false;
             this.nodeDict["enemy2Icon"].active = false;
@@ -52,6 +56,7 @@ cc.Class({
         this.nodeDict['roundCntLb'].getComponent(cc.Label).string = curRound.toString();
         this.nodeDict['roundStart'].getComponent(cc.Animation).play();
         this.nodeDict['roundStart'].getComponent(cc.AudioSource).play();
+        this.nodeDict['rope'].getComponent(cc.Animation).play();
     },
 
     countDown: function() {
@@ -108,5 +113,11 @@ cc.Class({
             action: GLB.PLAYER_FLY_EVENT
         };
         Game.GameManager.sendEventEx(msg);
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
+        clientEvent.off(clientEvent.eventType.roundOver, this.roundOver, this);
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
     }
 });

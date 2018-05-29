@@ -12,12 +12,6 @@ cc.Class({
         this.matchVsInit();
         uiFunc.openUI("uiMaskLayout", function() {
         });
-
-        this.friendHearts = 3;
-        this.enemyHearts = 3;
-        this.curRound = 1;
-        this.gameState = GameState.None;
-
         clientEvent.on(clientEvent.eventType.roundOver, function(data) {
             this.curRound++;
             switch (data.loseCamp) {
@@ -34,6 +28,7 @@ cc.Class({
             }
             if (this.enemyHearts <= 0 || this.friendHearts <= 0) {
                 // 结算界面--
+                this.gameState = GameState.Over;
                 var loseCamp = Camp.None;
                 if (this.enemyHearts <= 0 && this.friendHearts <= 0) {
                     loseCamp = Camp.None;
@@ -58,7 +53,7 @@ cc.Class({
                 // 下一回合--
                 setTimeout(function() {
                     this.sendRoundStartMsg();
-                }.bind(this), 2000);
+                }.bind(this), 3000);
             }
         }, this);
 
@@ -66,12 +61,17 @@ cc.Class({
     },
 
     startGame: function() {
+        this.friendHearts = 3;
+        this.enemyHearts = 3;
+        this.curRound = 1;
+
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
+                this.gameState = GameState.Play;
                 if (GLB.isRoomOwner) {
                     setTimeout(function() {
                         this.sendRoundStartMsg();
-                    }.bind(this), 1000);
+                    }.bind(this), 500);
                 }
             }.bind(this));
         }.bind(this));

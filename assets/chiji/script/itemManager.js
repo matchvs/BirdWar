@@ -22,7 +22,12 @@ cc.Class({
 
     scheduleSpawnItem: function() {
         if (GLB.isRoomOwner) {
+            clearInterval(this.scheduleSpawn);
             this.scheduleSpawn = setInterval(function() {
+                if (Game.GameManager.gameState === GameState.Over) {
+                    clearInterval(this.scheduleSpawn);
+                    return;
+                }
                 var index = dataFunc.randomNum(0, this.itemPrefabs.length - 1);
                 var position = cc.v2(0, dataFunc.randomNum(-450, 350));
                 var msg = {
@@ -53,9 +58,7 @@ cc.Class({
     },
 
     onDestroy: function() {
-        if (GLB.isRoomOwner) {
-            clientEvent.off(clientEvent.eventType.roundStart, this.scheduleSpawnItem, this);
-            clientEvent.off(clientEvent.eventType.roundOver, this.clearScheduleSpawn, this);
-        }
+        clientEvent.off(clientEvent.eventType.roundStart, this.scheduleSpawnItem, this);
+        clientEvent.off(clientEvent.eventType.roundOver, this.clearScheduleSpawn, this);
     }
 });

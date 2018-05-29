@@ -358,7 +358,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "rope",
+    "_name": "key_rope",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -615,7 +615,7 @@
         "__uuid__": "5f8d6306-eda0-4ff7-8017-d7034cb4ea14"
       }
     ],
-    "playOnLoad": true
+    "playOnLoad": false
   },
   {
     "__type__": "cc.PrefabInfo",

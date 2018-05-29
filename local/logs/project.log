@@ -1,374 +1,58 @@
-2018-05-25T09:25:10.858Z - normal: Load ~/.CocosCreator/settings.json
-2018-05-25T09:25:10.862Z - normal: checking language setting...
-2018-05-25T09:25:10.862Z - normal: Language: zh
-2018-05-25T09:25:11.584Z - success: protocol editor-framework registered
-2018-05-25T09:25:11.584Z - success: protocol app registered
-2018-05-25T09:25:11.584Z - success: protocol theme registered
-2018-05-25T09:25:11.585Z - success: protocol packages registered
-2018-05-25T09:25:11.585Z - success: protocol unpack registerred
-2018-05-25T09:25:11.585Z - success: protocol disable-commonjs registerred
-2018-05-25T09:25:11.908Z - normal: connected!
-2018-05-25T09:25:11.911Z - normal: Check project /Users/mac/MatchVsGames/birdWar
-2018-05-25T09:25:11.913Z - normal: Initializing Cocos2d
-2018-05-25T09:25:12.132Z - normal: Initializing Asset Database
-2018-05-25T09:25:12.164Z - success: protocol uuid registerred
-2018-05-25T09:25:12.165Z - success: protocol db registerred
-2018-05-25T09:25:12.165Z - success: protocol thumbnail registerred
-2018-05-25T09:25:12.165Z - normal: Loading editor/builtin packages
-2018-05-25T09:25:12.183Z - success: anysdk loaded
-2018-05-25T09:25:12.295Z - success: assets loaded
-2018-05-25T09:25:12.298Z - success: builder loaded
-2018-05-25T09:25:12.300Z - success: cocos-analytics loaded
-2018-05-25T09:25:12.305Z - success: console loaded
-2018-05-25T09:25:12.340Z - success: fb-instant-games loaded
-2018-05-25T09:25:12.344Z - success: hierarchy loaded
-2018-05-25T09:25:12.348Z - success: inspector loaded
-2018-05-25T09:25:12.351Z - success: keystore loaded
-2018-05-25T09:25:12.359Z - success: node-library loaded
-2018-05-25T09:25:12.361Z - success: package-asset loaded
-2018-05-25T09:25:12.362Z - success: preferences loaded
-2018-05-25T09:25:12.365Z - success: project-exporter loaded
-2018-05-25T09:25:12.380Z - success: project-importer loaded
-2018-05-25T09:25:12.384Z - success: project-settings loaded
-2018-05-25T09:25:12.387Z - success: ui-kit loaded
-2018-05-25T09:25:12.392Z - success: ui-grid loaded
-2018-05-25T09:25:12.397Z - success: scene loaded
-2018-05-25T09:25:12.398Z - success: sprite-editor loaded
-2018-05-25T09:25:12.401Z - success: store loaded
-2018-05-25T09:25:12.407Z - success: timeline loaded
-2018-05-25T09:25:12.407Z - normal: Loading builtin packages
-2018-05-25T09:25:12.411Z - success: asset-db-debugger loaded
-2018-05-25T09:25:12.412Z - success: color-picker loaded
-2018-05-25T09:25:12.416Z - success: package-manager loaded
-2018-05-25T09:25:12.420Z - success: sdkbox loaded
-2018-05-25T09:25:12.426Z - success: tester loaded
-2018-05-25T09:25:12.430Z - success: ui-kit-preview-extra loaded
-2018-05-25T09:25:12.433Z - success: ui-kit-preview loaded
-2018-05-25T09:25:12.436Z - success: ui-tree loaded
-2018-05-25T09:25:13.507Z - normal: Initializing project /Users/mac/MatchVsGames/birdWar
-2018-05-25T09:25:13.512Z - normal: Loading packages
-2018-05-25T09:25:13.532Z - success: plugin-matchvs loaded
-2018-05-25T09:25:13.532Z - normal: Watching packages
-2018-05-25T09:25:13.609Z - normal: Run Application
-2018-05-25T09:25:15.059Z - success: preview server running at http://localhost:7456
-2018-05-25T09:25:21.951Z - normal: 1.9.0
-2018-05-26T02:06:53.221Z - warn: The Asset used by component "cc.Sprite" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/OtherUI/shuangrenmianban"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "e7d7ec19-7920-46c8-ac8d-78d36fc32465"
-
-2018-05-26T02:15:52.397Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.399Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.400Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.400Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.400Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.400Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.400Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.401Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.401Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.401Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.401Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.402Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.402Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.402Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.402Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.402Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.402Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.402Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:15:52.403Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.813Z - warn: Script attached to "uiVsResultVer" in prefab "uiVsResultVer.prefab" is missing or invalid. Detailed information:
-Node path: "uiVsResultVer"
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Script UUID: "35707462-d56a-421e-abd4-57cddd8fabd2"
-Class ID: "35707Ri1WpCHqvUV83dj6vS"
-
-2018-05-26T02:16:10.892Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.892Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.892Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.892Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.892Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.893Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.893Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.893Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.893Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.893Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.894Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.894Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.894Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.894Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.894Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.895Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.895Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.895Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.895Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:16:10.896Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.208Z - warn: Script attached to "uiVsResultVer" in prefab "uiVsResultVer.prefab" is missing or invalid. Detailed information:
-Node path: "uiVsResultVer"
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Script UUID: "35707462-d56a-421e-abd4-57cddd8fabd2"
-Class ID: "35707Ri1WpCHqvUV83dj6vS"
-
-2018-05-26T02:27:56.528Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.531Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.532Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.539Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.539Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.540Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.542Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.547Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.552Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.552Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.554Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.556Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.557Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.602Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.605Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.653Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.656Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.657Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.657Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:27:56.658Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.026Z - warn: Script attached to "uiVsResultVer" in prefab "uiVsResultVer.prefab" is missing or invalid. Detailed information:
-Node path: "uiVsResultVer"
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Script UUID: "35707462-d56a-421e-abd4-57cddd8fabd2"
-Class ID: "35707Ri1WpCHqvUV83dj6vS"
-
-2018-05-26T02:35:04.530Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.531Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.534Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.534Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.535Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.538Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.539Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.548Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.549Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.551Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.554Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.559Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.560Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.563Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.564Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.564Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.566Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.567Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.569Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
-2018-05-26T02:35:04.571Z - warn: The Asset used in prefab "uiVsResultVer.prefab" is missing. Detailed information:
-Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
-Missing uuid: "1a30fc18-60aa-4039-99e4-97406ea082a5"
-
+2018-05-29T09:49:46.272Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-29T09:49:46.276Z - normal: checking language setting...
+2018-05-29T09:49:46.276Z - normal: Language: zh
+2018-05-29T09:49:46.986Z - success: protocol editor-framework registered
+2018-05-29T09:49:46.986Z - success: protocol app registered
+2018-05-29T09:49:46.986Z - success: protocol theme registered
+2018-05-29T09:49:46.986Z - success: protocol packages registered
+2018-05-29T09:49:46.986Z - success: protocol unpack registerred
+2018-05-29T09:49:46.987Z - success: protocol disable-commonjs registerred
+2018-05-29T09:49:47.377Z - normal: connected!
+2018-05-29T09:49:47.380Z - normal: Check project /Users/mac/MatchVsGames/birdWar
+2018-05-29T09:49:47.382Z - normal: Initializing Cocos2d
+2018-05-29T09:49:47.549Z - normal: Initializing Asset Database
+2018-05-29T09:49:47.580Z - success: protocol uuid registerred
+2018-05-29T09:49:47.580Z - success: protocol db registerred
+2018-05-29T09:49:47.580Z - success: protocol thumbnail registerred
+2018-05-29T09:49:47.580Z - normal: Loading editor/builtin packages
+2018-05-29T09:49:47.598Z - success: anysdk loaded
+2018-05-29T09:49:47.699Z - success: assets loaded
+2018-05-29T09:49:47.702Z - success: builder loaded
+2018-05-29T09:49:47.704Z - success: cocos-analytics loaded
+2018-05-29T09:49:47.708Z - success: console loaded
+2018-05-29T09:49:47.739Z - success: fb-instant-games loaded
+2018-05-29T09:49:47.743Z - success: hierarchy loaded
+2018-05-29T09:49:47.747Z - success: inspector loaded
+2018-05-29T09:49:47.748Z - success: keystore loaded
+2018-05-29T09:49:47.756Z - success: node-library loaded
+2018-05-29T09:49:47.758Z - success: package-asset loaded
+2018-05-29T09:49:47.759Z - success: preferences loaded
+2018-05-29T09:49:47.762Z - success: project-exporter loaded
+2018-05-29T09:49:47.777Z - success: project-importer loaded
+2018-05-29T09:49:47.780Z - success: project-settings loaded
+2018-05-29T09:49:47.783Z - success: ui-kit loaded
+2018-05-29T09:49:47.787Z - success: ui-grid loaded
+2018-05-29T09:49:47.791Z - success: scene loaded
+2018-05-29T09:49:47.792Z - success: sprite-editor loaded
+2018-05-29T09:49:47.796Z - success: store loaded
+2018-05-29T09:49:47.802Z - success: timeline loaded
+2018-05-29T09:49:47.802Z - normal: Loading builtin packages
+2018-05-29T09:49:47.806Z - success: asset-db-debugger loaded
+2018-05-29T09:49:47.807Z - success: color-picker loaded
+2018-05-29T09:49:47.811Z - success: package-manager loaded
+2018-05-29T09:49:47.815Z - success: sdkbox loaded
+2018-05-29T09:49:47.821Z - success: tester loaded
+2018-05-29T09:49:47.825Z - success: ui-kit-preview-extra loaded
+2018-05-29T09:49:47.827Z - success: ui-kit-preview loaded
+2018-05-29T09:49:47.830Z - success: ui-tree loaded
+2018-05-29T09:49:48.663Z - normal: Initializing project /Users/mac/MatchVsGames/birdWar
+2018-05-29T09:49:48.666Z - normal: Loading packages
+2018-05-29T09:49:48.676Z - success: plugin-matchvs loaded
+2018-05-29T09:49:48.676Z - normal: Watching packages
+2018-05-29T09:49:48.714Z - normal: Run Application
+2018-05-29T09:49:49.843Z - success: preview server running at http://localhost:7456
+2018-05-29T09:49:56.422Z - normal: 1.9.0
+2018-05-29T10:04:05.041Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:13533
+2018-05-29T10:04:05.044Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:13536
+2018-05-29T11:15:35.654Z - normal: Introduced global variable while editing: i
+2018-05-29T11:15:35.656Z - normal: Introduced global variable while editing: l
