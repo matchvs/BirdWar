@@ -148,10 +148,10 @@ cc.Class({
     },
 
     onDestroy() {
-        clientEvent.on(clientEvent.eventType.joinRoomResponse, this.joinRoomResponse, this);
-        clientEvent.on(clientEvent.eventType.joinRoomNotify, this.joinRoomNotify, this);
-        clientEvent.on(clientEvent.eventType.leaveRoomResponse, this.leaveRoomResponse, this);
-        clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
-        clientEvent.on(clientEvent.eventType.joinOverResponse, this.joinOverResponse, this);
+        clientEvent.off(clientEvent.eventType.joinRoomResponse, this.joinRoomResponse, this);
+        clientEvent.off(clientEvent.eventType.joinRoomNotify, this.joinRoomNotify, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomResponse, this.leaveRoomResponse, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
+        clientEvent.off(clientEvent.eventType.joinOverResponse, this.joinOverResponse, this);
     }
 });
