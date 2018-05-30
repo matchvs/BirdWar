@@ -11,6 +11,14 @@ cc.Class({
         victoryClip: {
             default: null,
             url: cc.AudioClip
+        },
+        hitClip: {
+            default: null,
+            url: cc.AudioClip
+        },
+        hitByClip: {
+            default: null,
+            url: cc.AudioClip
         }
     },
 
@@ -21,6 +29,7 @@ cc.Class({
         this.countDownLb = this.nodeDict["countDownLb"].getComponent(cc.Label);
         this.node.on(cc.Node.EventType.TOUCH_START, this.fly, this);
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
+        clientEvent.on(clientEvent.eventType.playerDead, this.playerDead, this);
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
 
@@ -38,6 +47,17 @@ cc.Class({
             this.nodeDict["enemy1Icon"].getComponent("playerIcon").setData({ id: GLB.playerUserIds[2] });
             this.nodeDict["enemy2Icon"].getComponent("playerIcon").setData({ id: GLB.playerUserIds[3] });
         }
+    },
+
+    playerDead: function(data) {
+        if (data.murderId === GLB.userInfo.id) {
+            this.nodeDict["hit"].getComponent(cc.Animation).play();
+            cc.audioEngine.play(this.hitClip, false, 1);
+        } else if (data.Id === GLB.userInfo.id) {
+            this.nodeDict["hitBy"].getComponent(cc.Animation).play();
+            cc.audioEngine.play(this.hitByClip, false, 1);
+        }
+
     },
 
     gameOver: function(data) {
@@ -119,5 +139,6 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.off(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
+        clientEvent.off(clientEvent.eventType.playerDead, this.playerDead, this);
     }
 });

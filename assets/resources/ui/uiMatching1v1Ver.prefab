@@ -1376,7 +1376,7 @@
     "_enabled": true,
     "showAnimation": 0,
     "hideAnimation": 0,
-    "isUseMask": true,
+    "isUseMask": false,
     "playerIcons": [
       {
         "__id__": 9

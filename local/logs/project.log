@@ -1,54 +1,99 @@
-2018-05-29T13:33:44.547Z - normal: Load ~/.CocosCreator/settings.json
-2018-05-29T13:33:44.550Z - normal: checking language setting...
-2018-05-29T13:33:44.551Z - normal: Language: zh
-2018-05-29T13:33:45.344Z - success: protocol editor-framework registered
-2018-05-29T13:33:45.344Z - success: protocol app registered
-2018-05-29T13:33:45.344Z - success: protocol theme registered
-2018-05-29T13:33:45.344Z - success: protocol packages registered
-2018-05-29T13:33:45.345Z - success: protocol unpack registerred
-2018-05-29T13:33:45.345Z - success: protocol disable-commonjs registerred
-2018-05-29T13:33:45.701Z - normal: connected!
-2018-05-29T13:33:45.704Z - normal: Check project /Users/mac/MatchVsGames/birdWar
-2018-05-29T13:33:45.705Z - normal: Initializing Cocos2d
-2018-05-29T13:33:45.925Z - normal: Initializing Asset Database
-2018-05-29T13:33:45.959Z - success: protocol uuid registerred
-2018-05-29T13:33:45.959Z - success: protocol db registerred
-2018-05-29T13:33:45.959Z - success: protocol thumbnail registerred
-2018-05-29T13:33:45.960Z - normal: Loading editor/builtin packages
-2018-05-29T13:33:45.977Z - success: anysdk loaded
-2018-05-29T13:33:46.086Z - success: assets loaded
-2018-05-29T13:33:46.090Z - success: builder loaded
-2018-05-29T13:33:46.092Z - success: cocos-analytics loaded
-2018-05-29T13:33:46.096Z - success: console loaded
-2018-05-29T13:33:46.130Z - success: fb-instant-games loaded
-2018-05-29T13:33:46.134Z - success: hierarchy loaded
-2018-05-29T13:33:46.138Z - success: inspector loaded
-2018-05-29T13:33:46.140Z - success: keystore loaded
-2018-05-29T13:33:46.150Z - success: node-library loaded
-2018-05-29T13:33:46.153Z - success: package-asset loaded
-2018-05-29T13:33:46.154Z - success: preferences loaded
-2018-05-29T13:33:46.157Z - success: project-exporter loaded
-2018-05-29T13:33:46.173Z - success: project-importer loaded
-2018-05-29T13:33:46.177Z - success: project-settings loaded
-2018-05-29T13:33:46.180Z - success: ui-kit loaded
-2018-05-29T13:33:46.185Z - success: ui-grid loaded
-2018-05-29T13:33:46.189Z - success: scene loaded
-2018-05-29T13:33:46.190Z - success: sprite-editor loaded
-2018-05-29T13:33:46.194Z - success: store loaded
-2018-05-29T13:33:46.200Z - success: timeline loaded
-2018-05-29T13:33:46.200Z - normal: Loading builtin packages
-2018-05-29T13:33:46.204Z - success: asset-db-debugger loaded
-2018-05-29T13:33:46.205Z - success: color-picker loaded
-2018-05-29T13:33:46.208Z - success: package-manager loaded
-2018-05-29T13:33:46.213Z - success: sdkbox loaded
-2018-05-29T13:33:46.219Z - success: tester loaded
-2018-05-29T13:33:46.222Z - success: ui-kit-preview-extra loaded
-2018-05-29T13:33:46.226Z - success: ui-kit-preview loaded
-2018-05-29T13:33:46.230Z - success: ui-tree loaded
-2018-05-29T13:33:47.133Z - normal: Initializing project /Users/mac/MatchVsGames/birdWar
-2018-05-29T13:33:47.136Z - normal: Loading packages
-2018-05-29T13:33:47.147Z - success: plugin-matchvs loaded
-2018-05-29T13:33:47.147Z - normal: Watching packages
-2018-05-29T13:33:47.187Z - normal: Run Application
-2018-05-29T13:33:48.544Z - success: preview server running at http://localhost:7458
-2018-05-29T13:33:55.696Z - normal: 1.9.0
+2018-05-30T03:31:00.855Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-30T03:31:00.860Z - normal: checking language setting...
+2018-05-30T03:31:00.860Z - normal: Language: zh
+2018-05-30T03:31:01.646Z - success: protocol editor-framework registered
+2018-05-30T03:31:01.646Z - success: protocol app registered
+2018-05-30T03:31:01.646Z - success: protocol theme registered
+2018-05-30T03:31:01.647Z - success: protocol packages registered
+2018-05-30T03:31:01.647Z - success: protocol unpack registerred
+2018-05-30T03:31:01.647Z - success: protocol disable-commonjs registerred
+2018-05-30T03:31:02.086Z - normal: connected!
+2018-05-30T03:31:02.089Z - normal: Check project /Users/mac/MatchVsGames/birdWar
+2018-05-30T03:31:02.091Z - normal: Initializing Cocos2d
+2018-05-30T03:31:02.325Z - normal: Initializing Asset Database
+2018-05-30T03:31:02.360Z - success: protocol uuid registerred
+2018-05-30T03:31:02.360Z - success: protocol db registerred
+2018-05-30T03:31:02.361Z - success: protocol thumbnail registerred
+2018-05-30T03:31:02.361Z - normal: Loading editor/builtin packages
+2018-05-30T03:31:02.381Z - success: anysdk loaded
+2018-05-30T03:31:02.500Z - success: assets loaded
+2018-05-30T03:31:02.504Z - success: builder loaded
+2018-05-30T03:31:02.507Z - success: cocos-analytics loaded
+2018-05-30T03:31:02.513Z - success: console loaded
+2018-05-30T03:31:02.551Z - success: fb-instant-games loaded
+2018-05-30T03:31:02.555Z - success: hierarchy loaded
+2018-05-30T03:31:02.559Z - success: inspector loaded
+2018-05-30T03:31:02.561Z - success: keystore loaded
+2018-05-30T03:31:02.570Z - success: node-library loaded
+2018-05-30T03:31:02.572Z - success: package-asset loaded
+2018-05-30T03:31:02.574Z - success: preferences loaded
+2018-05-30T03:31:02.579Z - success: project-exporter loaded
+2018-05-30T03:31:02.595Z - success: project-importer loaded
+2018-05-30T03:31:02.600Z - success: project-settings loaded
+2018-05-30T03:31:02.604Z - success: ui-kit loaded
+2018-05-30T03:31:02.608Z - success: ui-grid loaded
+2018-05-30T03:31:02.613Z - success: scene loaded
+2018-05-30T03:31:02.615Z - success: sprite-editor loaded
+2018-05-30T03:31:02.619Z - success: store loaded
+2018-05-30T03:31:02.624Z - success: timeline loaded
+2018-05-30T03:31:02.624Z - normal: Loading builtin packages
+2018-05-30T03:31:02.630Z - success: asset-db-debugger loaded
+2018-05-30T03:31:02.631Z - success: color-picker loaded
+2018-05-30T03:31:02.634Z - success: package-manager loaded
+2018-05-30T03:31:02.639Z - success: sdkbox loaded
+2018-05-30T03:31:02.647Z - success: tester loaded
+2018-05-30T03:31:02.651Z - success: ui-kit-preview-extra loaded
+2018-05-30T03:31:02.655Z - success: ui-kit-preview loaded
+2018-05-30T03:31:02.657Z - success: ui-tree loaded
+2018-05-30T03:31:03.576Z - normal: Initializing project /Users/mac/MatchVsGames/birdWar
+2018-05-30T03:31:03.578Z - normal: Loading packages
+2018-05-30T03:31:03.591Z - success: plugin-matchvs loaded
+2018-05-30T03:31:03.591Z - normal: Watching packages
+2018-05-30T03:31:03.631Z - normal: Run Application
+2018-05-30T03:31:04.488Z - success: preview server running at http://localhost:7458
+2018-05-30T03:31:11.655Z - normal: 1.9.0
+2018-05-30T03:36:51.931Z - error: no editing prefab
+    at Object.closeWithoutSave (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-edit-mode.js:1:2666)
+    at Object.close (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-edit-mode.js:1:2266)
+    at Object._pop (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode.js:1:1357)
+    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
+    at Immediate.process (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-05-30T03:38:00.079Z - error: Should not add cc.Sprite to a node which size is already used by its other component.
+    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
+    at cc_Sprite._registSizeProvider (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCSGComponent.js:94:20)
+    at cc_Sprite.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCRendererUnderSG.js:61:14)
+    at cc_Sprite.Sprite.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCSprite.js:629:14)
+    at call__preloadInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/misc.js:1:1), <anonymous>:5:24)
+    at CCClass._invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/component-scheduler.js:233:21)
+    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:65:14)
+    at CCClass.activateNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:225:26)
+    at cc_Node.set [as active] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/base-node.js:278:56)
+2018-05-30T03:38:00.083Z - error: Error: child already added. It can't be added again
+    at call__preloadInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/misc.js:1:1), <anonymous>:8:20)
+    at CCClass._invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/component-scheduler.js:233:21)
+    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:65:14)
+    at CCClass.activateNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:225:26)
+    at cc_Node.set [as active] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/base-node.js:278:56)
+    at cc_DynamicAnimCurve.sample (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/animation/animation-curves.js:212:32)
+    at AnimationState.proto.sample (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/animation/animation-state.js:367:15)
+    at Object._changeCurrentClip (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3114)
+    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
+2018-05-30T03:38:00.086Z - error: Should not add cc.Label to a node which size is already used by its other component.
+    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
+    at cc_Label._registSizeProvider (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCSGComponent.js:94:20)
+    at cc_Label.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCRendererUnderSG.js:61:14)
+    at cc_Label.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCLabel.js:490:14)
+    at cc_Label.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:768:44)
+    at call__preloadInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/misc.js:1:1), <anonymous>:5:24)
+    at CCClass._invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/component-scheduler.js:233:21)
+    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:65:14)
+    at CCClass.activateNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:225:26)
+2018-05-30T05:40:34.138Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:75269
+2018-05-30T05:40:40.621Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:75283
+2018-05-30T05:41:03.095Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:75524
+2018-05-30T06:08:20.548Z - normal: Introduced global variable while editing: i
+2018-05-30T06:08:20.550Z - normal: Introduced global variable while editing: l

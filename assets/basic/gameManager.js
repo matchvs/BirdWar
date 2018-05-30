@@ -38,17 +38,19 @@ cc.Class({
                     loseCamp = Camp.Friend;
                 }
                 clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: loseCamp });
+                setTimeout(function() {
+                    uiFunc.openUI("uiVsResultVer", function(obj) {
+                        var uiVsResult = obj.getComponent("uiVsResult");
+                        data = {
+                            friendIds: this.friendIds,
+                            enemyIds: this.enemyIds,
+                            selfScore: this.friendHearts,
+                            rivalScore: this.enemyHearts
+                        }
+                        uiVsResult.setData(data);
+                    }.bind(this))
+                }.bind(this), 1500);
 
-                uiFunc.openUI("uiVsResultVer", function(obj) {
-                    var uiVsResult = obj.getComponent("uiVsResult");
-                    data = {
-                        friendIds: this.friendIds,
-                        enemyIds: this.enemyIds,
-                        selfScore: this.friendHearts,
-                        rivalScore: this.enemyHearts
-                    }
-                    uiVsResult.setData(data);
-                }.bind(this))
             } else if (GLB.isRoomOwner) {
                 // 下一回合--
                 setTimeout(function() {
@@ -331,7 +333,7 @@ cc.Class({
             if (Game.GameManager.gameState !== GameState.Over) {
                 player = Game.PlayerManager.getPlayerByUserId(cpProto.playerId);
                 if (player) {
-                    player.hurtNotify();
+                    player.hurtNotify(cpProto.murderId);
                 }
 
                 // 检查回合结束--

@@ -31,7 +31,7 @@ cc.Class({
             if (player && !player.isDied && player.camp !== this.hostPlayer.camp) {
                 Game.BulletManager.recycleBullet(this);
                 if (GLB.isRoomOwner) {
-                    player.hurt();
+                    player.hurt(this.hostPlayer.userId);
                 }
             }
         } else if (group === 'item') {

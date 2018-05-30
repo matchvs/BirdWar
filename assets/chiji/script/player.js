@@ -136,15 +136,16 @@ cc.Class({
         }
     },
 
-    hurt: function() {
+    hurt: function(murderId) {
         var msg = {
             action: GLB.PLAYER_HURT_EVENT,
-            playerId: this.userId
+            playerId: this.userId,
+            murderId: murderId
         };
         Game.GameManager.sendEventEx(msg);
     },
 
-    hurtNotify: function() {
+    hurtNotify: function(murderId) {
         if (Game.GameManager.gameState !== GameState.Play) {
             return;
         }
@@ -152,11 +153,11 @@ cc.Class({
         if (this.isShield) {
             this.setShield(false);
         } else {
-            this.dead();
+            this.dead(murderId);
         }
     },
 
-    dead: function() {
+    dead: function(murderId) {
         this.isDied = true;
 
         this.shieldSp.node.active = false;
@@ -171,6 +172,7 @@ cc.Class({
                 }.bind(this), 1000);
             }
         }
+        clientEvent.dispatch(clientEvent.eventType.playerDead, { Id: this.userId, murderId: murderId });
     },
 
     flyNotify: function() {
