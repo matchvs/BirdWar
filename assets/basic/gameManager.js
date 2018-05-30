@@ -48,8 +48,8 @@ cc.Class({
                     data = {
                         friendIds: this.friendIds,
                         enemyIds: this.enemyIds,
-                        selfScore: this.friendHearts,
-                        rivalScore: this.enemyHearts
+                        selfScore: 3 - this.enemyHearts,
+                        rivalScore: 3 - this.friendHearts
                     }
                     uiVsResult.setData(data);
                 }.bind(this))
