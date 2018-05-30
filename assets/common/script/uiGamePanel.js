@@ -53,7 +53,7 @@ cc.Class({
         if (data.murderId === GLB.userInfo.id) {
             this.nodeDict["hit"].getComponent(cc.Animation).play();
             cc.audioEngine.play(this.hitClip, false, 1);
-        } else if (data.Id === GLB.userInfo.id) {
+        } else if (data.Id === GLB.userInfo.id && data.murderId) {
             this.nodeDict["hitBy"].getComponent(cc.Animation).play();
             cc.audioEngine.play(this.hitByClip, false, 1);
         }

@@ -99,7 +99,9 @@
         "scene",
         "timeline"
       ]
-    }
+    },
+    "window-1527669026487": {},
+    "worker": {}
   },
   "panels": {
     "store": {
@@ -109,8 +111,8 @@
       "height": 779
     },
     "builder": {
-      "x": 1068,
-      "y": 60,
+      "x": 806,
+      "y": 23,
       "width": 500,
       "height": 722
     },

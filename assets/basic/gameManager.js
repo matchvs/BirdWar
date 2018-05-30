@@ -12,69 +12,66 @@ cc.Class({
         this.matchVsInit();
         uiFunc.openUI("uiMaskLayout", function() {
         });
-        clientEvent.on(clientEvent.eventType.roundOver, function(data) {
-            this.curRound++;
-            switch (data.loseCamp) {
-                case Camp.Friend:
-                    this.friendHearts -= 1;
-                    break;
-                case Camp.Enemy:
-                    this.enemyHearts -= 1;
-                    break;
-                case Camp.None:
-                    this.enemyHearts -= 1;
-                    this.friendHearts -= 1;
-                    break;
-            }
-            if (this.enemyHearts <= 0 || this.friendHearts <= 0) {
-                // 结算界面--
-                this.gameState = GameState.Over;
-                var loseCamp = Camp.None;
-                if (this.enemyHearts <= 0 && this.friendHearts <= 0) {
-                    loseCamp = Camp.None;
-                } else if (this.enemyHearts <= 0) {
-                    loseCamp = Camp.Enemy;
-                } else {
-                    loseCamp = Camp.Friend;
-                }
-                clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: loseCamp });
-                setTimeout(function() {
-                    uiFunc.openUI("uiVsResultVer", function(obj) {
-                        var uiVsResult = obj.getComponent("uiVsResult");
-                        data = {
-                            friendIds: this.friendIds,
-                            enemyIds: this.enemyIds,
-                            selfScore: this.friendHearts,
-                            rivalScore: this.enemyHearts
-                        }
-                        uiVsResult.setData(data);
-                    }.bind(this))
-                }.bind(this), 1500);
-
-            } else if (GLB.isRoomOwner) {
-                // 下一回合--
-                setTimeout(function() {
-                    this.sendRoundStartMsg();
-                }.bind(this), 3000);
-            }
-        }, this);
-
+        clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
+    },
+
+    roundOver: function(data) {
+        this.curRound++;
+        switch (data.loseCamp) {
+            case Camp.Friend:
+                this.friendHearts -= 1;
+                break;
+            case Camp.Enemy:
+                this.enemyHearts -= 1;
+                break;
+            case Camp.None:
+                this.enemyHearts -= 1;
+                this.friendHearts -= 1;
+                break;
+        }
+        if (this.enemyHearts <= 0 || this.friendHearts <= 0) {
+            // 结算界面--
+            this.gameState = GameState.Over;
+            var loseCamp = Camp.None;
+            if (this.enemyHearts <= 0 && this.friendHearts <= 0) {
+                loseCamp = Camp.None;
+            } else if (this.enemyHearts <= 0) {
+                loseCamp = Camp.Enemy;
+            } else {
+                loseCamp = Camp.Friend;
+            }
+            clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: loseCamp });
+            setTimeout(function() {
+                uiFunc.openUI("uiVsResultVer", function(obj) {
+                    var uiVsResult = obj.getComponent("uiVsResult");
+                    data = {
+                        friendIds: this.friendIds,
+                        enemyIds: this.enemyIds,
+                        selfScore: this.friendHearts,
+                        rivalScore: this.enemyHearts
+                    }
+                    uiVsResult.setData(data);
+                }.bind(this))
+            }.bind(this), 1500);
+
+        } else if (GLB.isRoomOwner) {
+            // 下一回合--
+            setTimeout(function() {
+                this.sendRoundStartMsg();
+            }.bind(this), 3000);
+        }
     },
 
     startGame: function() {
         this.friendHearts = 3;
         this.enemyHearts = 3;
         this.curRound = 1;
+        this.readyCnt = 0;
 
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
-                this.gameState = GameState.Play;
-                if (GLB.isRoomOwner) {
-                    setTimeout(function() {
-                        this.sendRoundStartMsg();
-                    }.bind(this), 500);
-                }
+                this.sendReadyMsg();
             }.bind(this));
         }.bind(this));
     },
@@ -86,6 +83,11 @@ cc.Class({
 
     sendRoundStartMsg: function() {
         var msg = { action: GLB.ROUND_START };
+        this.sendEventEx(msg);
+    },
+
+    sendReadyMsg: function() {
+        var msg = { action: GLB.READY };
         this.sendEventEx(msg);
     },
 
@@ -105,6 +107,7 @@ cc.Class({
         mvs.response.kickPlayerNotify = this.kickPlayerNotify.bind(this);
         mvs.response.registerUserResponse = this.registerUserResponse.bind(this);
         mvs.response.loginResponse = this.loginResponse.bind(this); // 用户登录之后的回调
+        mvs.response.logoutResponse = this.logoutResponse.bind(this); // 用户登录之后的回调
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
 
         var result = mvs.engine.init(mvs.response, GLB.channel, GLB.platform, GLB.gameId);
@@ -121,6 +124,10 @@ cc.Class({
     },
 
     kickPlayerResponse: function(kickPlayerRsp) {
+        if (kickPlayerRsp.status !== 200) {
+            console.log("失败kickPlayerRsp:" + kickPlayerRsp);
+            return;
+        }
         var data = {
             kickPlayerRsp: kickPlayerRsp
         }
@@ -128,6 +135,10 @@ cc.Class({
     },
 
     getRoomListExResponse: function(rsp) {
+        if (rsp.status !== 200) {
+            console.log("失败 rsp:" + rsp);
+            return;
+        }
         var data = {
             rsp: rsp
         }
@@ -135,6 +146,10 @@ cc.Class({
     },
 
     getRoomDetailResponse: function(rsp) {
+        if (rsp.status !== 200) {
+            console.log("失败 rsp:" + rsp);
+            return;
+        }
         var data = {
             rsp: rsp
         }
@@ -142,6 +157,10 @@ cc.Class({
     },
 
     getRoomListResponse: function(status, roomInfos) {
+        if (status !== 200) {
+            console.log("失败 status:" + status);
+            return;
+        }
         var data = {
             status: status,
             roomInfos: roomInfos
@@ -150,6 +169,10 @@ cc.Class({
     },
 
     createRoomResponse: function(rsp) {
+        if (rsp.status !== 200) {
+            console.log("失败 createRoomResponse:" + rsp);
+            return;
+        }
         var data = {
             rsp: rsp
         }
@@ -157,6 +180,10 @@ cc.Class({
     },
 
     joinOverResponse: function(joinOverRsp) {
+        if (joinOverRsp.status !== 200) {
+            console.log("失败 joinOverRsp:" + joinOverRsp);
+            return;
+        }
         var data = {
             joinOverRsp: joinOverRsp
         }
@@ -164,6 +191,10 @@ cc.Class({
     },
 
     joinRoomResponse: function(status, roomUserInfoList, roomInfo) {
+        if (status !== 200) {
+            console.log("失败 joinRoomResponse:" + status);
+            return;
+        }
         var data = {
             status: status,
             roomUserInfoList: roomUserInfoList,
@@ -180,6 +211,10 @@ cc.Class({
     },
 
     leaveRoomResponse: function(leaveRoomRsp) {
+        if (leaveRoomRsp.status !== 200) {
+            console.log("失败 leaveRoomRsp:" + leaveRoomRsp);
+            return;
+        }
         var data = {
             leaveRoomRsp: leaveRoomRsp
         }
@@ -193,7 +228,16 @@ cc.Class({
         clientEvent.dispatch(clientEvent.eventType.leaveRoomNotify, data);
     },
 
+    logoutResponse: function(status) {
+        cc.game.removePersistRootNode(this.node);
+        cc.director.loadScene('lobby');
+    },
+
     errorResponse: function(error, msg) {
+        if (error === 1001) {
+            mvs.engine.logout("");
+
+        }
         console.log("错误信息：" + error);
         console.log("错误信息：" + msg);
     },
@@ -366,6 +410,13 @@ cc.Class({
             clientEvent.dispatch(clientEvent.eventType.roundStart);
         }
 
+        if (info.cpProto.indexOf(GLB.READY) >= 0) {
+            this.readyCnt++;
+            if (GLB.isRoomOwner && this.readyCnt >= GLB.playerUserIds.length) {
+                this.sendRoundStartMsg();
+            }
+        }
+
         if (info.cpProto.indexOf(GLB.TIME_OVER) >= 0) {
             Game.GameManager.gameState = GameState.Over;
             for (var m = 0; m < GLB.playerUserIds.length; m++) {
@@ -383,5 +434,9 @@ cc.Class({
         if (result.result !== 0) {
             console.log(msg.action, result.result);
         }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.roundOver, this.roundOver, this);
     }
 });

@@ -13,6 +13,7 @@ var obj = {
     PLAYER_GET_ITEM_EVENT: "playerGetItem",
     PLAYER_REMOVE_ITEM_EVENT: "playerRemoveItem",
     PLAYER_HURT_EVENT: "playerHurt",
+    READY:"ready",
     ROUND_START: "roundStart",
     ROUND_OVER: "roundOver",
     TIME_OVER: "timeOver",
