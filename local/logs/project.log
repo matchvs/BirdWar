@@ -235,3 +235,15 @@ uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
 2018-05-30T09:19:13.403Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
 2018-05-30T09:19:13.408Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
 2018-05-30T09:19:13.413Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully
+2018-05-30T09:24:44.717Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
+Asset url: "db://assets/lobby.fire"
+Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
+
+2018-05-30T09:24:47.013Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
+Asset url: "db://assets/lobby.fire"
+Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
+
+2018-05-30T09:25:00.669Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
+Asset url: "db://assets/lobby.fire"
+Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
+

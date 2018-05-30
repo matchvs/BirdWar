@@ -17,6 +17,7 @@ cc.Class({
 
     onEnable() {
         GLB.isRoomOwner = false;
+        GLB.MAX_PLAYER_COUNT = 4;
     },
 
     randomRoom: function() {

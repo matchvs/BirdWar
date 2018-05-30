@@ -100,31 +100,7 @@
         "timeline"
       ]
     },
-    "window-1527671395724": {},
-    "window-1527672252954": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 513,
-      "y": 129,
-      "width": 450,
-      "height": 532,
-      "layout": {
-        "type": "dock-v",
-        "children": [
-          {
-            "type": "panel",
-            "active": 0,
-            "children": [
-              "package-asset.import"
-            ]
-          }
-        ]
-      },
-      "panels": [
-        "package-asset.import"
-      ]
-    }
+    "window-1527671395724": {}
   },
   "panels": {
     "store": {

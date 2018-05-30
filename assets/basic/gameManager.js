@@ -10,8 +10,6 @@ cc.Class({
         clientEvent.init();
         dataFunc.loadConfigs();
         this.matchVsInit();
-        uiFunc.openUI("uiMaskLayout", function() {
-        });
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
     },
