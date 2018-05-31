@@ -4,14 +4,6 @@ var uiPanel = require("uiPanel");
 cc.Class({
     extends: uiPanel,
     properties: {
-        loseClip: {
-            default: null,
-            url: cc.AudioClip
-        },
-        victoryClip: {
-            default: null,
-            url: cc.AudioClip
-        },
         hitClip: {
             default: null,
             url: cc.AudioClip
@@ -32,7 +24,7 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.playerDead, this.playerDead, this);
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
-
+        clientEvent.on(clientEvent.eventType.timeOver, this.timeOver, this);
     },
 
     start() {
@@ -61,12 +53,13 @@ cc.Class({
     },
 
     gameOver: function(data) {
-        if (data.loseCamp === Camp.Friend) {
-            cc.audioEngine.play(this.victoryClip, false, 1);
-        } else {
-            cc.audioEngine.play(this.loseClip, false, 1);
-        }
+        this.nodeDict['gameOver'].getComponent(cc.Animation).play();
+        this.nodeDict['gameOver'].getComponent(cc.AudioSource).play();
+    },
 
+    timeOver: function() {
+        this.nodeDict['timeOver'].getComponent(cc.Animation).play();
+        this.nodeDict['timeOver'].getComponent(cc.AudioSource).play();
     },
 
     roundStart: function() {
@@ -75,8 +68,9 @@ cc.Class({
         var curRound = Game.GameManager.curRound;
         this.nodeDict['roundCntLb'].getComponent(cc.Label).string = curRound.toString();
         this.nodeDict['roundStart'].getComponent(cc.Animation).play();
-        this.nodeDict['roundStart'].getComponent(cc.AudioSource).play();
         this.nodeDict['rope'].getComponent(cc.Animation).play();
+        this.nodeDict['readyGo'].getComponent(cc.Animation).play();
+        this.nodeDict['readyGo'].getComponent(cc.AudioSource).play();
     },
 
     countDown: function() {
@@ -140,5 +134,7 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.off(clientEvent.eventType.playerDead, this.playerDead, this);
+        clientEvent.off(clientEvent.eventType.timeOver, this.timeOver, this);
+
     }
 });

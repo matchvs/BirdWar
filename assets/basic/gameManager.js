@@ -54,6 +54,9 @@ cc.Class({
             }.bind(this), 1500);
 
         } else if (GLB.isRoomOwner) {
+            if (data.loseCamp === Camp.None) {
+                clientEvent.dispatch(clientEvent.eventType.timeOver);
+            }
             // 下一回合--
             setTimeout(function() {
                 this.sendRoundStartMsg();
@@ -234,7 +237,8 @@ cc.Class({
     errorResponse: function(error, msg) {
         if (error === 1001) {
             mvs.engine.logout("");
-
+            cc.game.removePersistRootNode(this.node);
+            cc.director.loadScene('lobby');
         }
         console.log("错误信息：" + error);
         console.log("错误信息：" + msg);

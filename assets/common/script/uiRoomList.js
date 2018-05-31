@@ -32,17 +32,13 @@ cc.Class({
             mode: 0,
             canWatch: 0,
             roomProperty: "",
-            full: 0,
-            state: 0,
+            full: 2,
+            state: 1,
             sort: 1,
             order: 0,
             pageNo: 0,
             pageSize: 20
         }
-        // for (var i = 0; i < GLB.PLAYER_COUNTS.length; i++) {
-        //     filter.maxPlayer = GLB.PLAYER_COUNTS[i];
-        //
-        // }
         mvs.engine.getRoomListEx(filter);
     },
 

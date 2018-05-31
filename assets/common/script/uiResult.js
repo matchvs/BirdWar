@@ -4,7 +4,16 @@ var GLB = require("Glb");
 cc.Class({
     extends: uiPanel,
 
-    properties: {},
+    properties: {
+        loseClip: {
+            default: null,
+            url: cc.AudioClip
+        },
+        victoryClip: {
+            default: null,
+            url: cc.AudioClip
+        }
+    },
 
     onLoad() {
         this._super();
@@ -30,6 +39,11 @@ cc.Class({
                 this.player3.setData(data[2]);
                 this.player3.node.active = true;
             }
+        }
+        if (data.loseCamp === Camp.Friend) {
+            cc.audioEngine.play(this.victoryClip, false, 1);
+        } else {
+            cc.audioEngine.play(this.loseClip, false, 1);
         }
     },
 
