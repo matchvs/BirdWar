@@ -4,7 +4,16 @@ var GLB = require("Glb");
 cc.Class({
     extends: uiPanel,
 
-    properties: {},
+    properties: {
+        loseClip: {
+            default: null,
+            url: cc.AudioClip
+        },
+        victoryClip: {
+            default: null,
+            url: cc.AudioClip
+        }
+    },
 
     onLoad() {
         this._super();
@@ -48,7 +57,11 @@ cc.Class({
         var isWin = data.selfScore > data.rivalScore;
         this.nodeDict["lose"].active = !isWin;
         this.nodeDict["win"].active = isWin;
-
+        if (isWin) {
+            cc.audioEngine.play(this.victoryClip, false, 1);
+        } else {
+            cc.audioEngine.play(this.loseClip, false, 1);
+        }
 
         if (data.selfScore || data.rivalScore) {
             this.nodeDict["vs"].active = false;

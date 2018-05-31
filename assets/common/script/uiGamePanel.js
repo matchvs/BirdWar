@@ -52,7 +52,7 @@ cc.Class({
 
     },
 
-    gameOver: function(data) {
+    gameOver: function() {
         this.nodeDict['gameOver'].getComponent(cc.Animation).play();
         this.nodeDict['gameOver'].getComponent(cc.AudioSource).play();
     },
@@ -83,13 +83,13 @@ cc.Class({
             if (times <= 0) {
                 clearInterval(this.countDownInterval);
                 if (GLB.isRoomOwner) {
-                    this.timeOver();
+                    this.timeOverMsg();
                 }
             }
         }.bind(this), 1000);
     },
 
-    timeOver: function() {
+    timeOverMsg: function() {
         var msg = {
             action: GLB.TIME_OVER
         };

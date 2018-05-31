@@ -28,6 +28,11 @@ cc.Class({
                 this.friendHearts -= 1;
                 break;
         }
+
+        if (this.enemyHearts > 0 && this.friendHearts > 0 && data.loseCamp === Camp.None) {
+            clientEvent.dispatch(clientEvent.eventType.timeOver);
+        }
+
         if (this.enemyHearts <= 0 || this.friendHearts <= 0) {
             // 结算界面--
             this.gameState = GameState.Over;
@@ -54,9 +59,6 @@ cc.Class({
             }.bind(this), 1500);
 
         } else if (GLB.isRoomOwner) {
-            if (data.loseCamp === Camp.None) {
-                clientEvent.dispatch(clientEvent.eventType.timeOver);
-            }
             // 下一回合--
             setTimeout(function() {
                 this.sendRoundStartMsg();

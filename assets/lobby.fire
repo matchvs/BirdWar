@@ -186,9 +186,7 @@
     "root": {
       "__id__": 4
     },
-    "asset": {
-      "__uuid__": "93350f4f-647a-44ee-abdc-0d0a454734df"
-    },
+    "asset": null,
     "fileId": "b676MY89dAP7yAtyizu3HF",
     "sync": false
   }

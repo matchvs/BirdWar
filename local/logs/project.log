@@ -191,3 +191,12 @@ Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
     at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:255:38
     at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
     at _combinedTickCallback (internal/process/next_tick.js:73:7)
+2018-05-31T06:28:43.121Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
+Asset url: "db://assets/lobby.fire"
+Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
+
+2018-05-31T06:30:05.207Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
+Asset url: "db://assets/lobby.fire"
+Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
+
+2018-05-31T07:03:12.550Z - normal: 导出 /Users/mac/Desktop/effect.zip 成功.
