@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 445,
+                "height": 357,
                 "type": "panel",
                 "width": 603
               },
@@ -27,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 438,
+                "height": 526,
                 "type": "panel",
                 "width": 603
               }
@@ -100,12 +100,12 @@
         "timeline"
       ]
     },
-    "window-1527750101082": {
+    "window-1527751266264": {
       "main": false,
       "url": "unpack://static/window.html",
       "windowType": "dockable",
-      "x": 441,
-      "y": 174,
+      "x": 667,
+      "y": 147,
       "width": 404,
       "height": 528,
       "layout": {
@@ -165,8 +165,8 @@
       "height": 558
     },
     "package-asset.export": {
-      "x": 441,
-      "y": 174,
+      "x": 667,
+      "y": 147,
       "width": 404,
       "height": 528
     }

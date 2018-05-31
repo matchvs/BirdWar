@@ -9,9 +9,7 @@ cc.Class({
         cc.director.getCollisionManager().enabled = true;
         clientEvent.init();
         dataFunc.loadConfigs();
-        this.matchVsInit();
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
-        mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
     },
 
     roundOver: function(data) {

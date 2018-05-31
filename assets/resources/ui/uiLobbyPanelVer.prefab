@@ -1453,7 +1453,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "key_exist",
+    "_name": "key_exit",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1

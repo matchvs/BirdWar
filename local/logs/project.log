@@ -200,3 +200,41 @@ Asset url: "db://assets/lobby.fire"
 Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
 
 2018-05-31T07:03:12.550Z - normal: 导出 /Users/mac/Desktop/effect.zip 成功.
+2018-05-31T07:09:13.044Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+
+2018-05-31T07:11:12.838Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:186730
+2018-05-31T07:15:04.425Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+
+2018-05-31T07:15:12.499Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+
+2018-05-31T07:15:27.390Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+
+2018-05-31T07:17:57.611Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+
+2018-05-31T07:20:46.233Z - error: Error: ENOENT: no such file or directory, stat '/Users/mac/MatchVsGames/birdWar/assets/matchvs-js'
+    at fs.statSync (fs.js:973:11)
+    at Object.fs.statSync (ELECTRON_ASAR.js:298:16)
+    at Object.statSync (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/polyfills.js:297:22)
+    at _analysisUrl (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:411)
+    at _addFileAndResInfo (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:911)
+    at Editor.assetdb.queryInfoByUuid (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:1925)
+    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-05-31T07:21:49.198Z - normal: 导出 /Users/mac/Desktop/uiexit.zip 成功.
+2018-05-31T07:44:05.769Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.

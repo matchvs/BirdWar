@@ -1,5 +1,6 @@
 var uiPanel = require("uiPanel");
 var mvs = require("Matchvs");
+var mvs = require("Matchvs");
 var GLB = require("Glb");
 cc.Class({
     extends: uiPanel,
@@ -11,8 +12,14 @@ cc.Class({
         this.nodeDict["createRoom"].on("click", this.createRoom, this);
         this.nodeDict["joinRoom"].on("click", this.joinRoom, this);
         this.nodeDict["inviteFriend"].on("click", this.inviteFriend, this);
-
+        this.nodeDict["exit"].on("click", this.exit, this);
         this.nodeDict["name"].getComponent(cc.Label).string = GLB.userInfo.id;
+    },
+
+    exit: function() {
+        mvs.engine.logout("");
+        uiFunc.closeUI(this.node.name);
+        this.node.destroy();
     },
 
     onEnable() {
