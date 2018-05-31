@@ -21,6 +21,8 @@ cc.Class({
         this.enemyBulletPool = new cc.NodePool();
         clientEvent.on(clientEvent.eventType.roundStart, this.scheduleFire, this);
         clientEvent.on(clientEvent.eventType.roundOver, this.clearScheduleFire, this);
+        clientEvent.on(clientEvent.eventType.gameOver, this.clearScheduleFire, this);
+
     },
 
     clearScheduleFire: function() {
@@ -91,5 +93,7 @@ cc.Class({
     onDestroy: function() {
         clientEvent.off(clientEvent.eventType.roundStart, this.scheduleFire, this);
         clientEvent.off(clientEvent.eventType.roundOver, this.clearScheduleFire, this);
+        clientEvent.off(clientEvent.eventType.gameOver, this.clearScheduleFire, this);
+
     }
 });

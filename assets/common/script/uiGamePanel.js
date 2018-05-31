@@ -25,6 +25,12 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.timeOver, this.timeOver, this);
+
+        this.nodeDict["exit"].on("click", this.exit, this);
+    },
+
+    exit() {
+        uiFunc.openUI("uiExit");
     },
 
     start() {
@@ -55,11 +61,13 @@ cc.Class({
     gameOver: function() {
         this.nodeDict['gameOver'].getComponent(cc.Animation).play();
         this.nodeDict['gameOver'].getComponent(cc.AudioSource).play();
+        clearInterval(this.countDownInterval);
     },
 
     timeOver: function() {
         this.nodeDict['timeOver'].getComponent(cc.Animation).play();
         this.nodeDict['timeOver'].getComponent(cc.AudioSource).play();
+        clearInterval(this.countDownInterval);
     },
 
     roundStart: function() {
@@ -79,13 +87,16 @@ cc.Class({
         this.countDownLb.string = times;
         this.countDownInterval = setInterval(function() {
             times--;
-            this.countDownLb.string = times;
-            if (times <= 0) {
+            if (times < 0) {
                 clearInterval(this.countDownInterval);
                 if (GLB.isRoomOwner) {
                     this.timeOverMsg();
                 }
             }
+            if (Game.GameManager.gameState !== GameState.Play) {
+                clearInterval(this.countDownInterval);
+            }
+            this.countDownLb.string = times;
         }.bind(this), 1000);
     },
 

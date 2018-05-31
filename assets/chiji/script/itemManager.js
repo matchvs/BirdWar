@@ -12,6 +12,8 @@ cc.Class({
         Game.ItemManager = this;
         clientEvent.on(clientEvent.eventType.roundStart, this.scheduleSpawnItem, this);
         clientEvent.on(clientEvent.eventType.roundOver, this.clearScheduleSpawn, this);
+        clientEvent.on(clientEvent.eventType.gameOver, this.clearScheduleSpawn, this);
+
     },
 
     clearScheduleSpawn: function() {
@@ -60,5 +62,6 @@ cc.Class({
     onDestroy: function() {
         clientEvent.off(clientEvent.eventType.roundStart, this.scheduleSpawnItem, this);
         clientEvent.off(clientEvent.eventType.roundOver, this.clearScheduleSpawn, this);
+        clientEvent.off(clientEvent.eventType.gameOver, this.clearScheduleSpawn, this);
     }
 });

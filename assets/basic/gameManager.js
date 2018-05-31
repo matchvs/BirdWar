@@ -10,6 +10,49 @@ cc.Class({
         clientEvent.init();
         dataFunc.loadConfigs();
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+    },
+
+    leaveRoom: function(data) {
+        // 离开房间--
+        if (this.gameState === GameState.Play) {
+            for (var i = 0; i < this.friendIds.length; i++) {
+
+            }
+            var friends = this.friendIds.filter(function(x) {
+                return x === data.leaveRoomInfo.userId;
+            });
+
+            if (friends.length > 0) {
+                clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: Camp.Friend });
+                setTimeout(function() {
+                    uiFunc.openUI("uiVsResultVer", function(obj) {
+                        var uiVsResult = obj.getComponent("uiVsResult");
+                        data = {
+                            friendIds: this.friendIds,
+                            enemyIds: this.enemyIds,
+                            selfScore: 0,
+                            rivalScore: 3
+                        }
+                        uiVsResult.setData(data);
+                    }.bind(this))
+                }.bind(this), 1500);
+            } else {
+                clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: Camp.Enemy });
+                setTimeout(function() {
+                    uiFunc.openUI("uiVsResultVer", function(obj) {
+                        var uiVsResult = obj.getComponent("uiVsResult");
+                        data = {
+                            friendIds: this.friendIds,
+                            enemyIds: this.enemyIds,
+                            selfScore: 3,
+                            rivalScore: 0
+                        }
+                        uiVsResult.setData(data);
+                    }.bind(this))
+                }.bind(this), 1500);
+            }
+        }
     },
 
     roundOver: function(data) {
@@ -282,6 +325,7 @@ cc.Class({
     },
 
     lobbyShow: function() {
+        this.gameState = GameState.None;
         if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
             uiFunc.openUI("uiLobbyPanelVer");
         } else {

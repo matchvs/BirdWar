@@ -238,3 +238,22 @@ Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
     at EventEmitter.emit (events.js:204:7)
 2018-05-31T07:21:49.198Z - normal: 导出 /Users/mac/Desktop/uiexit.zip 成功.
 2018-05-31T07:44:05.769Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
+2018-05-31T08:06:53.289Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/birdWar/assets/common/script/uiGamePanel.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/birdWar/assets/common/script/uiGamePanel.js: Unexpected token, expected , (35:4)
+  33 |     }
+  34 | 
+> 35 |     start() {
+     |     ^
+  36 |         if (GLB.MAX_PLAYER_COUNT === 2) {
+  37 |             this.nodeDict["player2Icon"].active = false;
+  38 |             this.nodeDict["enemy2Icon"].active = false;
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-05-31T08:19:50.028Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
