@@ -257,3 +257,283 @@ Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
     at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
     at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
 2018-05-31T08:19:50.028Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
+2018-05-31T09:09:25.443Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/birdWar/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "birdWar",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/birdWar",
+  "projectName": "birdWar",
+  "debugBuildWorker": false
+}
+2018-05-31T09:09:25.448Z - normal: Building /Users/mac/MatchVsGames/birdWar
+2018-05-31T09:09:25.448Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/web-mobile
+2018-05-31T09:09:26.086Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/web-mobile/**/*
+2018-05-31T09:09:56.606Z - normal: Compiled project javascript file successfully
+2018-05-31T09:09:56.607Z - normal: Start building assets
+2018-05-31T09:09:56.607Z - normal: Start spawn build-worker
+2018-05-31T09:09:57.530Z - normal: Finish spawn build-worker
+2018-05-31T09:09:57.530Z - normal: Start init build-worker
+2018-05-31T09:10:00.111Z - normal: 1.9.0
+2018-05-31T09:10:00.648Z - normal: Finish init build-worker
+2018-05-31T09:10:00.648Z - normal: Start build-assets in worker
+2018-05-31T09:10:01.959Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-05-31T09:10:03.056Z - normal: Finish build-assets in worker
+2018-05-31T09:10:03.064Z - normal: Finish building assets
+2018-05-31T09:10:03.152Z - normal: Start building raw assets
+2018-05-31T09:10:03.154Z - normal: Start building plugin scripts
+2018-05-31T09:10:03.385Z - normal: Finish building raw assets
+2018-05-31T09:10:03.406Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-05-31T09:10:03.437Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-05-31T09:10:03.467Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully
+2018-05-31T09:12:13.054Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/birdWar/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "birdWar",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/birdWar",
+  "projectName": "birdWar",
+  "debugBuildWorker": false
+}
+2018-05-31T09:12:13.058Z - normal: Building /Users/mac/MatchVsGames/birdWar
+2018-05-31T09:12:13.059Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/web-mobile
+2018-05-31T09:12:13.060Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/web-mobile/**/*
+2018-05-31T09:13:03.190Z - normal: Compiled project javascript file successfully
+2018-05-31T09:13:03.193Z - normal: Start building assets
+2018-05-31T09:13:03.194Z - normal: Start spawn build-worker
+2018-05-31T09:13:04.219Z - normal: Finish spawn build-worker
+2018-05-31T09:13:04.219Z - normal: Start init build-worker
+2018-05-31T09:13:07.122Z - normal: 1.9.0
+2018-05-31T09:13:07.658Z - normal: Finish init build-worker
+2018-05-31T09:13:07.658Z - normal: Start build-assets in worker
+2018-05-31T09:13:08.727Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-05-31T09:13:09.650Z - normal: Finish build-assets in worker
+2018-05-31T09:13:09.656Z - normal: Finish building assets
+2018-05-31T09:13:09.742Z - normal: Start building raw assets
+2018-05-31T09:13:09.743Z - normal: Start building plugin scripts
+2018-05-31T09:13:09.947Z - normal: Finish building raw assets
+2018-05-31T09:13:09.961Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-05-31T09:13:09.971Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-05-31T09:13:09.982Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully
+2018-05-31T09:20:48.842Z - error: Error: ENOENT: no such file or directory, stat '/Users/mac/MatchVsGames/birdWar/assets/matchvs-js'
+    at fs.statSync (fs.js:973:11)
+    at Object.fs.statSync (ELECTRON_ASAR.js:298:16)
+    at Object.statSync (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/polyfills.js:297:22)
+    at _analysisUrl (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:411)
+    at _addFileAndResInfo (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:911)
+    at Editor.assetdb.queryInfoByUuid (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:1925)
+    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-05-31T09:29:00.460Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
+2018-05-31T09:36:45.332Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
+2018-06-01T03:19:44.212Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:1:348
+    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:19:25)
+    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:41:13
+2018-06-01T03:21:25.752Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:1:348
+    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:17:25)
+    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:37:13
+2018-06-01T03:50:51.559Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/birdWar/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "birdWar",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/birdWar",
+  "projectName": "birdWar",
+  "debugBuildWorker": false
+}
+2018-06-01T03:50:51.566Z - normal: Building /Users/mac/MatchVsGames/birdWar
+2018-06-01T03:50:51.566Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/web-mobile
+2018-06-01T03:50:51.567Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/web-mobile/**/*
+2018-06-01T03:51:20.083Z - normal: Compiled project javascript file successfully
+2018-06-01T03:51:20.084Z - normal: Start building assets
+2018-06-01T03:51:20.084Z - normal: Start spawn build-worker
+2018-06-01T03:51:22.274Z - normal: Finish spawn build-worker
+2018-06-01T03:51:22.274Z - normal: Start init build-worker
+2018-06-01T03:51:27.784Z - normal: 1.9.0
+2018-06-01T03:51:28.540Z - normal: Finish init build-worker
+2018-06-01T03:51:28.540Z - normal: Start build-assets in worker
+2018-06-01T03:51:30.676Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-01T03:51:32.304Z - normal: Finish build-assets in worker
+2018-06-01T03:51:32.310Z - normal: Finish building assets
+2018-06-01T03:51:32.401Z - normal: Start building raw assets
+2018-06-01T03:51:32.402Z - normal: Start building plugin scripts
+2018-06-01T03:51:32.699Z - normal: Finish building raw assets
+2018-06-01T03:51:32.715Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-01T03:51:32.724Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-06-01T03:51:32.737Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully

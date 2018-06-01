@@ -16,9 +16,6 @@ cc.Class({
     leaveRoom: function(data) {
         // 离开房间--
         if (this.gameState === GameState.Play) {
-            for (var i = 0; i < this.friendIds.length; i++) {
-
-            }
             var friends = this.friendIds.filter(function(x) {
                 return x === data.leaveRoomInfo.userId;
             });
@@ -31,8 +28,8 @@ cc.Class({
                         data = {
                             friendIds: this.friendIds,
                             enemyIds: this.enemyIds,
-                            selfScore: 0,
-                            rivalScore: 3
+                            selfScore: 3 - this.enemyHearts,
+                            rivalScore: 3 - this.friendHearts
                         }
                         uiVsResult.setData(data);
                     }.bind(this))
@@ -45,8 +42,8 @@ cc.Class({
                         data = {
                             friendIds: this.friendIds,
                             enemyIds: this.enemyIds,
-                            selfScore: 3,
-                            rivalScore: 0
+                            selfScore: 3 - this.enemyHearts,
+                            rivalScore: 3 - this.friendHearts
                         }
                         uiVsResult.setData(data);
                     }.bind(this))
@@ -279,9 +276,12 @@ cc.Class({
 
     errorResponse: function(error, msg) {
         if (error === 1001) {
-            mvs.engine.logout("");
-            cc.game.removePersistRootNode(this.node);
-            cc.director.loadScene('lobby');
+            uiFunc.openUI("uiTip");
+            setTimeout(function() {
+                mvs.engine.logout("");
+                cc.game.removePersistRootNode(this.node);
+                cc.director.loadScene('lobby');
+            }.bind(this), 2500);
         }
         console.log("错误信息：" + error);
         console.log("错误信息：" + msg);

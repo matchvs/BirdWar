@@ -89,17 +89,27 @@ cc.Class({
                 break;
             }
         }
-        if (this.ownerId !== data.leaveRoomInfo.owner) {
-            this.ownerId = data.leaveRoomInfo.owner;
-            // 刷新--
-            for (var i = 0; i < this.players.length; i++) {
-                if (this.players[i].userId !== 0) {
-                    this.players[i].setData(this.players[i].userId, this.ownerId);
-                }
+        this.ownerId = data.leaveRoomInfo.owner;
+        for (var i = 0; i < this.players.length; i++) {
+            if (this.players[i].userId !== 0) {
+                this.players[i].setData(this.players[i].userId, this.ownerId);
             }
-            if (this.ownerId === GLB.userInfo.id) {
-                GLB.isRoomOwner = true;
-            }
+        }
+        if (this.ownerId === GLB.userInfo.id) {
+            GLB.isRoomOwner = true;
+        }
+        this.refreshStartBtn();
+    },
+
+    refreshStartBtn() {
+        var spNode = this.nodeDict["startGame"];
+        var btn = this.nodeDict["startGame"].getComponent(cc.Button);
+        if (GLB.isRoomOwner) {
+            spNode.color = cc.Color.WHITE;
+            btn.enabled = true;
+        }else{
+            spNode.color = cc.Color.BLACK;
+            btn.enabled = false;
         }
     },
 
@@ -143,6 +153,7 @@ cc.Class({
         this.ownerId = rsp.owner;
         this.players[0].setData(this.ownerId, this.ownerId);
         GLB.isRoomOwner = true;
+        this.refreshStartBtn();
     },
 
     joinRoomInit(roomUserInfoList, roomInfo) {
@@ -156,6 +167,7 @@ cc.Class({
         for (var j = 0; j < roomUserInfoList.length; j++) {
             this.players[j].setData(roomUserInfoList[j].userId, this.ownerId);
         }
+        this.refreshStartBtn();
     },
 
     onDestroy() {

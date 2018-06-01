@@ -6,7 +6,7 @@
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 2,
-      "y": 24,
+      "y": 23,
       "width": 1910,
       "height": 977,
       "layout": {
@@ -100,12 +100,12 @@
         "timeline"
       ]
     },
-    "window-1527754750231": {
+    "window-1527759379296": {
       "main": false,
       "url": "unpack://static/window.html",
       "windowType": "dockable",
-      "x": 667,
-      "y": 147,
+      "x": 641,
+      "y": 141,
       "width": 404,
       "height": 528,
       "layout": {
@@ -125,7 +125,8 @@
       "panels": [
         "package-asset.export"
       ]
-    }
+    },
+    "window-1527825029327": {}
   },
   "panels": {
     "store": {
@@ -135,7 +136,7 @@
       "height": 779
     },
     "builder": {
-      "x": 806,
+      "x": 1098,
       "y": 23,
       "width": 500,
       "height": 722
@@ -165,8 +166,8 @@
       "height": 558
     },
     "package-asset.export": {
-      "x": 667,
-      "y": 147,
+      "x": 641,
+      "y": 141,
       "width": 404,
       "height": 528
     }
