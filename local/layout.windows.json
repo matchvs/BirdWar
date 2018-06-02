@@ -5,9 +5,9 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 2,
+      "x": 0,
       "y": 23,
-      "width": 1910,
+      "width": 1920,
       "height": 977,
       "layout": {
         "children": [
@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 657,
+                    "height": 601,
                     "type": "panel",
                     "width": 799
                   },
@@ -54,22 +54,22 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 657,
+                    "height": 601,
                     "type": "panel",
                     "width": 295
                   }
                 ],
-                "height": 657,
+                "height": 601,
                 "type": "dock-h",
                 "width": 1097
               },
               {
-                "active": 0,
+                "active": 1,
                 "children": [
                   "console",
                   "timeline"
                 ],
-                "height": 226,
+                "height": 282,
                 "type": "panel",
                 "width": 1097
               }
@@ -100,33 +100,8 @@
         "timeline"
       ]
     },
-    "window-1527759379296": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 641,
-      "y": 141,
-      "width": 404,
-      "height": 528,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "package-asset.export"
-            ],
-            "height": 506,
-            "type": "panel",
-            "width": 404
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "package-asset.export"
-      ]
-    },
-    "window-1527825029327": {}
+    "window-1527935911067": {},
+    "worker": {}
   },
   "panels": {
     "store": {
@@ -136,8 +111,8 @@
       "height": 779
     },
     "builder": {
-      "x": 1098,
-      "y": 23,
+      "x": 904,
+      "y": 27,
       "width": 500,
       "height": 722
     },
@@ -160,8 +135,8 @@
       "height": 422
     },
     "package-asset.import": {
-      "x": 746,
-      "y": 103,
+      "x": 500,
+      "y": 161,
       "width": 454,
       "height": 558
     },

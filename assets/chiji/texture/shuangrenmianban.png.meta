@@ -1,14 +1,14 @@
 {
   "ver": "1.0.0",
-  "uuid": "ac9c56bf-63b6-465a-a657-18e3f98cb3a8",
+  "uuid": "6067daf6-f08d-40b5-8509-dcad77c2c7d9",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
     "shuangrenmianban": {
       "ver": "1.0.3",
-      "uuid": "5e14d2a8-df91-43be-815a-7fc86ffaa649",
-      "rawTextureUuid": "ac9c56bf-63b6-465a-a657-18e3f98cb3a8",
+      "uuid": "e050322e-3036-484b-b438-8148b340281a",
+      "rawTextureUuid": "6067daf6-f08d-40b5-8509-dcad77c2c7d9",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

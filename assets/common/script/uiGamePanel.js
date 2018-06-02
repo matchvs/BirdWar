@@ -25,8 +25,25 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.timeOver, this.timeOver, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
 
         this.nodeDict["exit"].on("click", this.exit, this);
+        this.playerIcons = [];
+        this.playerIcons.push(this.nodeDict["player1Icon"].getComponent("playerIcon"));
+        this.playerIcons.push(this.nodeDict["player2Icon"].getComponent("playerIcon"));
+        this.playerIcons.push(this.nodeDict["enemy1Icon"].getComponent("playerIcon"));
+        this.playerIcons.push(this.nodeDict["enemy2Icon"].getComponent("playerIcon"));
+    },
+
+    leaveRoom(data) {
+        uiFunc.openUI("uiTip", function(obj) {
+            var uiTip = obj.getComponent("uiTip");
+            if (uiTip) {
+                if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
+                    uiTip.setData("对手离开了游戏");
+                }
+            }
+        }.bind(this));
     },
 
     exit() {
@@ -55,7 +72,11 @@ cc.Class({
             this.nodeDict["hitBy"].getComponent(cc.Animation).play();
             cc.audioEngine.play(this.hitByClip, false, 1);
         }
-
+        for (var i = 0; i < this.playerIcons.length; i++) {
+            if (this.playerIcons[i].playerId === data.Id) {
+                this.playerIcons[i].deadAnim();
+            }
+        }
     },
 
     gameOver: function() {
@@ -72,6 +93,9 @@ cc.Class({
 
     roundStart: function() {
         // 回合画面表现--
+        for (var i = 0; i < this.playerIcons.length; i++) {
+            this.playerIcons[i].reset();
+        }
         this.countDown();
         var curRound = Game.GameManager.curRound;
         this.nodeDict['roundCntLb'].getComponent(cc.Label).string = curRound.toString();
@@ -92,11 +116,14 @@ cc.Class({
                 if (GLB.isRoomOwner) {
                     this.timeOverMsg();
                 }
-            }
-            if (Game.GameManager.gameState !== GameState.Play) {
+            } else if (Game.GameManager.gameState !== GameState.Play) {
                 clearInterval(this.countDownInterval);
+            } else {
+                this.countDownLb.string = times;
             }
-            this.countDownLb.string = times;
+            if (times === 10) {
+                this.nodeDict["clock"].getComponent(cc.Animation).play();
+            }
         }.bind(this), 1000);
     },
 
@@ -146,6 +173,7 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.off(clientEvent.eventType.playerDead, this.playerDead, this);
         clientEvent.off(clientEvent.eventType.timeOver, this.timeOver, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
 
     }
 });

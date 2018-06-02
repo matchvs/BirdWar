@@ -12,15 +12,13 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        // playerName: {
-        //     default: null,
-        //     type: cc.Label
-        //
-        // },
-
         playerSprite: {
             default: null,
             type: cc.Sprite
+        },
+        playerIconAnim: {
+            default: null,
+            type: cc.Animation
         }
     },
     setData: function(userInfo) {
@@ -32,12 +30,18 @@ cc.Class({
     init: function() {
         this.userInfo = null;
         this.playerSprite.node.active = false;
-        // this.playerName.string = "null";
+    },
+
+    reset: function() {
+        this.playerIconAnim.node.active = false;
+    },
+
+    deadAnim: function() {
+        this.playerIconAnim.node.active = true;
+        this.playerIconAnim.play();
     },
 
     onLoad() {
         this.init();
     }
-
-    // update (dt) {},
 });

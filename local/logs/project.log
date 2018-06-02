@@ -1,263 +1,62 @@
-2018-05-31T04:03:32.406Z - normal: Load ~/.CocosCreator/settings.json
-2018-05-31T04:03:32.410Z - normal: checking language setting...
-2018-05-31T04:03:32.410Z - normal: Language: zh
-2018-05-31T04:03:33.220Z - success: protocol editor-framework registered
-2018-05-31T04:03:33.220Z - success: protocol app registered
-2018-05-31T04:03:33.220Z - success: protocol theme registered
-2018-05-31T04:03:33.220Z - success: protocol packages registered
-2018-05-31T04:03:33.220Z - success: protocol unpack registerred
-2018-05-31T04:03:33.221Z - success: protocol disable-commonjs registerred
-2018-05-31T04:03:33.593Z - normal: connected!
-2018-05-31T04:03:33.597Z - normal: Check project /Users/mac/MatchVsGames/birdWar
-2018-05-31T04:03:33.599Z - normal: Initializing Cocos2d
-2018-05-31T04:03:33.851Z - normal: Initializing Asset Database
-2018-05-31T04:03:33.896Z - success: protocol uuid registerred
-2018-05-31T04:03:33.896Z - success: protocol db registerred
-2018-05-31T04:03:33.896Z - success: protocol thumbnail registerred
-2018-05-31T04:03:33.896Z - normal: Loading editor/builtin packages
-2018-05-31T04:03:33.933Z - success: anysdk loaded
-2018-05-31T04:03:34.078Z - success: assets loaded
-2018-05-31T04:03:34.084Z - success: builder loaded
-2018-05-31T04:03:34.087Z - success: cocos-analytics loaded
-2018-05-31T04:03:34.093Z - success: console loaded
-2018-05-31T04:03:34.133Z - success: fb-instant-games loaded
-2018-05-31T04:03:34.137Z - success: hierarchy loaded
-2018-05-31T04:03:34.143Z - success: inspector loaded
-2018-05-31T04:03:34.147Z - success: keystore loaded
-2018-05-31T04:03:34.160Z - success: node-library loaded
-2018-05-31T04:03:34.166Z - success: package-asset loaded
-2018-05-31T04:03:34.168Z - success: preferences loaded
-2018-05-31T04:03:34.177Z - success: project-exporter loaded
-2018-05-31T04:03:34.198Z - success: project-importer loaded
-2018-05-31T04:03:34.202Z - success: project-settings loaded
-2018-05-31T04:03:34.210Z - success: ui-kit loaded
-2018-05-31T04:03:34.217Z - success: ui-grid loaded
-2018-05-31T04:03:34.229Z - success: scene loaded
-2018-05-31T04:03:34.232Z - success: sprite-editor loaded
-2018-05-31T04:03:34.237Z - success: store loaded
-2018-05-31T04:03:34.245Z - success: timeline loaded
-2018-05-31T04:03:34.245Z - normal: Loading builtin packages
-2018-05-31T04:03:34.251Z - success: asset-db-debugger loaded
-2018-05-31T04:03:34.252Z - success: color-picker loaded
-2018-05-31T04:03:34.260Z - success: package-manager loaded
-2018-05-31T04:03:34.268Z - success: sdkbox loaded
-2018-05-31T04:03:34.278Z - success: tester loaded
-2018-05-31T04:03:34.284Z - success: ui-kit-preview-extra loaded
-2018-05-31T04:03:34.288Z - success: ui-kit-preview loaded
-2018-05-31T04:03:34.293Z - success: ui-tree loaded
-2018-05-31T04:03:35.374Z - normal: Initializing project /Users/mac/MatchVsGames/birdWar
-2018-05-31T04:03:35.377Z - normal: Loading packages
-2018-05-31T04:03:35.394Z - success: plugin-matchvs loaded
-2018-05-31T04:03:35.394Z - normal: Watching packages
-2018-05-31T04:03:35.438Z - normal: Run Application
-2018-05-31T04:03:37.185Z - success: preview server running at http://localhost:7457
-2018-05-31T04:03:46.302Z - normal: 1.9.0
-2018-05-31T04:03:47.678Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
-Asset url: "db://assets/lobby.fire"
-Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
-
-2018-05-31T05:43:07.012Z - error: Error: [AssetLibrary] loading JSON or dependencies failed: Can not get asset url by uuid "f97d69e0-0609-4769-98f1-8917ea633cec", the asset may be deleted.
-    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:92:25)
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:255:38
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)
-    at process._tickCallback (internal/process/next_tick.js:104:9)
-2018-05-31T05:43:14.809Z - failed: load script [/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js] failed : ReferenceError: kf is not defined
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:7:26)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:78:13
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:85:11)
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:88:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
-2018-05-31T05:43:15.148Z - failed: load script [/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js] failed : ReferenceError: kf is not defined
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:7:26)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:78:13
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:85:11)
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:88:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
-2018-05-31T05:43:19.554Z - warn: Script attached to "panel" in prefab "timeOverPanel.prefab" is missing or invalid. Detailed information:
-Node path: "panel"
-Asset url: "db://assets/timeOverPanel.prefab"
-Script UUID: "f1e3c184-e5ff-4b14-98e4-57979bf426bd"
-Class ID: "f1e3cGE5f9LFJjkV5eb9Ca9"
-
-2018-05-31T05:44:57.530Z - warn: Script attached to "panel" in prefab "timeOverPanel.prefab" is missing or invalid. Detailed information:
-Node path: "panel"
-Asset url: "db://assets/timeOverPanel.prefab"
-Script UUID: "f1e3c184-e5ff-4b14-98e4-57979bf426bd"
-Class ID: "f1e3cGE5f9LFJjkV5eb9Ca9"
-
-2018-05-31T05:53:53.717Z - normal: Introduced global variable while editing: i
-2018-05-31T05:53:53.720Z - normal: Introduced global variable while editing: l
-2018-05-31T05:53:53.971Z - failed: load script [/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js] failed : ReferenceError: kf is not defined
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:7:26)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:78:13
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:85:11)
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/resources/panel/timeOverPanel/timeOverPanelUIEvent.js:88:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
-2018-05-31T05:58:51.882Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
-Asset url: "db://assets/lobby.fire"
-Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
-
-2018-05-31T05:59:48.542Z - error: Should not add cc.Sprite to a node which size is already used by its other component.
-    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
-    at cc_Sprite._registSizeProvider (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCSGComponent.js:94:20)
-    at cc_Sprite.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCRendererUnderSG.js:61:14)
-    at cc_Sprite.Sprite.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCSprite.js:629:14)
-    at call__preloadInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/misc.js:1:1), <anonymous>:5:24)
-    at CCClass._invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/component-scheduler.js:233:21)
-    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:65:14)
-    at CCClass.activateNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:225:26)
-    at cc_Node.set [as active] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/base-node.js:278:56)
-2018-05-31T05:59:48.545Z - error: Error: child already added. It can't be added again
-    at call__preloadInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/misc.js:1:1), <anonymous>:8:20)
-    at CCClass._invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/component-scheduler.js:233:21)
-    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:65:14)
-    at CCClass.activateNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:225:26)
-    at cc_Node.set [as active] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/base-node.js:278:56)
-    at cc_DynamicAnimCurve.sample (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/animation/animation-curves.js:212:32)
-    at AnimationState.proto.sample (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/animation/animation-state.js:367:15)
-    at Object._changeCurrentClip (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3114)
-    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
-2018-05-31T05:59:48.550Z - error: Should not add cc.Label to a node which size is already used by its other component.
-    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
-    at cc_Label._registSizeProvider (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCSGComponent.js:94:20)
-    at cc_Label.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCRendererUnderSG.js:61:14)
-    at cc_Label.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCLabel.js:490:14)
-    at cc_Label.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:768:44)
-    at call__preloadInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/misc.js:1:1), <anonymous>:5:24)
-    at CCClass._invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/component-scheduler.js:233:21)
-    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:65:14)
-    at CCClass.activateNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:225:26)
-2018-05-31T06:00:00.675Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
-Asset url: "db://assets/lobby.fire"
-Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
-
-2018-05-31T06:01:22.169Z - error: Error: Can not revert prefab, the file id of "key_timeOver" in prefab asset is duplicated with "key_gameOver", please recreate the prefab again by click [节点 - 还原成普通节点] and [节点 - 关联节点到预制] in the menu.
-    at t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:5471)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:6248
-    at visitNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:197)
-    at visitNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:246)
-    at Object.PrefabUtils._doRevertPrefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:6009)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:7221
-    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:255:38
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)
-2018-05-31T06:01:22.360Z - error: Error: Can not revert prefab, the file id of "key_timeOver" in prefab asset is duplicated with "key_gameOver", please recreate the prefab again by click [节点 - 还原成普通节点] and [节点 - 关联节点到预制] in the menu.
-    at t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:5471)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:6248
-    at visitNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:197)
-    at visitNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:246)
-    at Object.PrefabUtils._doRevertPrefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:6009)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:7221
-    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:255:38
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)
-2018-05-31T06:01:23.246Z - error: Error: Can not revert prefab, the file id of "key_timeOver" in prefab asset is duplicated with "key_gameOver", please recreate the prefab again by click [节点 - 还原成普通节点] and [节点 - 关联节点到预制] in the menu.
-    at t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:5471)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:6248
-    at visitNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:197)
-    at visitNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:246)
-    at Object.PrefabUtils._doRevertPrefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:6009)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:7221
-    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:255:38
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)
-2018-05-31T06:01:23.936Z - error: Error: Can not revert prefab, the file id of "key_timeOver" in prefab asset is duplicated with "key_gameOver", please recreate the prefab again by click [节点 - 还原成普通节点] and [节点 - 关联节点到预制] in the menu.
-    at t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:5471)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:6248
-    at visitNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:197)
-    at visitNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:246)
-    at Object.PrefabUtils._doRevertPrefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:6009)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-utils.js:1:7221
-    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:255:38
-    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)
-2018-05-31T06:28:43.121Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
-Asset url: "db://assets/lobby.fire"
-Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
-
-2018-05-31T06:30:05.207Z - warn: The Asset used in scene "lobby.fire" is missing. Detailed information:
-Asset url: "db://assets/lobby.fire"
-Missing uuid: "93350f4f-647a-44ee-abdc-0d0a454734df"
-
-2018-05-31T07:03:12.550Z - normal: 导出 /Users/mac/Desktop/effect.zip 成功.
-2018-05-31T07:09:13.044Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
-Node path: "uiMatching1v1/play-bg"
-Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
-Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-
-2018-05-31T07:11:12.838Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:186730
-2018-05-31T07:15:04.425Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
-Node path: "uiMatching1v1/play-bg"
-Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
-Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-
-2018-05-31T07:15:12.499Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
-Node path: "uiMatching1v1/play-bg"
-Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
-Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-
-2018-05-31T07:15:27.390Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
-Node path: "uiMatching1v1/play-bg"
-Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
-Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-
-2018-05-31T07:17:57.611Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
-Node path: "uiMatching1v1/play-bg"
-Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
-Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-
-2018-05-31T07:20:46.233Z - error: Error: ENOENT: no such file or directory, stat '/Users/mac/MatchVsGames/birdWar/assets/matchvs-js'
-    at fs.statSync (fs.js:973:11)
-    at Object.fs.statSync (ELECTRON_ASAR.js:298:16)
-    at Object.statSync (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/polyfills.js:297:22)
-    at _analysisUrl (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:411)
-    at _addFileAndResInfo (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:911)
-    at Editor.assetdb.queryInfoByUuid (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:1925)
-    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4493)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2018-05-31T07:21:49.198Z - normal: 导出 /Users/mac/Desktop/uiexit.zip 成功.
-2018-05-31T07:44:05.769Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
-2018-05-31T08:06:53.289Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/birdWar/assets/common/script/uiGamePanel.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/birdWar/assets/common/script/uiGamePanel.js: Unexpected token, expected , (35:4)
-  33 |     }
-  34 | 
-> 35 |     start() {
-     |     ^
-  36 |         if (GLB.MAX_PLAYER_COUNT === 2) {
-  37 |             this.nodeDict["player2Icon"].active = false;
-  38 |             this.nodeDict["enemy2Icon"].active = false;
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
-    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-2018-05-31T08:19:50.028Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
-2018-05-31T09:09:25.443Z - normal: Start building with options : {
+2018-06-02T08:48:10.684Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-02T08:48:10.688Z - normal: checking language setting...
+2018-06-02T08:48:10.688Z - normal: Language: zh
+2018-06-02T08:48:11.444Z - success: protocol editor-framework registered
+2018-06-02T08:48:11.444Z - success: protocol app registered
+2018-06-02T08:48:11.444Z - success: protocol theme registered
+2018-06-02T08:48:11.444Z - success: protocol packages registered
+2018-06-02T08:48:11.444Z - success: protocol unpack registerred
+2018-06-02T08:48:11.445Z - success: protocol disable-commonjs registerred
+2018-06-02T08:48:11.781Z - normal: connected!
+2018-06-02T08:48:11.784Z - normal: Check project /Users/mac/MatchVsGames/birdWar
+2018-06-02T08:48:11.786Z - normal: Initializing Cocos2d
+2018-06-02T08:48:12.022Z - normal: Initializing Asset Database
+2018-06-02T08:48:12.062Z - success: protocol uuid registerred
+2018-06-02T08:48:12.062Z - success: protocol db registerred
+2018-06-02T08:48:12.062Z - success: protocol thumbnail registerred
+2018-06-02T08:48:12.062Z - normal: Loading editor/builtin packages
+2018-06-02T08:48:12.083Z - success: anysdk loaded
+2018-06-02T08:48:12.207Z - success: assets loaded
+2018-06-02T08:48:12.212Z - success: builder loaded
+2018-06-02T08:48:12.214Z - success: cocos-analytics loaded
+2018-06-02T08:48:12.218Z - success: console loaded
+2018-06-02T08:48:12.258Z - success: fb-instant-games loaded
+2018-06-02T08:48:12.262Z - success: hierarchy loaded
+2018-06-02T08:48:12.268Z - success: inspector loaded
+2018-06-02T08:48:12.270Z - success: keystore loaded
+2018-06-02T08:48:12.280Z - success: node-library loaded
+2018-06-02T08:48:12.282Z - success: package-asset loaded
+2018-06-02T08:48:12.284Z - success: preferences loaded
+2018-06-02T08:48:12.287Z - success: project-exporter loaded
+2018-06-02T08:48:12.305Z - success: project-importer loaded
+2018-06-02T08:48:12.309Z - success: project-settings loaded
+2018-06-02T08:48:12.313Z - success: ui-kit loaded
+2018-06-02T08:48:12.318Z - success: ui-grid loaded
+2018-06-02T08:48:12.322Z - success: scene loaded
+2018-06-02T08:48:12.324Z - success: sprite-editor loaded
+2018-06-02T08:48:12.328Z - success: store loaded
+2018-06-02T08:48:12.334Z - success: timeline loaded
+2018-06-02T08:48:12.334Z - normal: Loading builtin packages
+2018-06-02T08:48:12.338Z - success: asset-db-debugger loaded
+2018-06-02T08:48:12.339Z - success: color-picker loaded
+2018-06-02T08:48:12.343Z - success: package-manager loaded
+2018-06-02T08:48:12.348Z - success: sdkbox loaded
+2018-06-02T08:48:12.354Z - success: tester loaded
+2018-06-02T08:48:12.359Z - success: ui-kit-preview-extra loaded
+2018-06-02T08:48:12.363Z - success: ui-kit-preview loaded
+2018-06-02T08:48:12.366Z - success: ui-tree loaded
+2018-06-02T08:48:13.394Z - normal: Initializing project /Users/mac/MatchVsGames/birdWar
+2018-06-02T08:48:13.397Z - normal: Loading packages
+2018-06-02T08:48:13.409Z - success: plugin-matchvs loaded
+2018-06-02T08:48:13.410Z - normal: Watching packages
+2018-06-02T08:48:13.454Z - normal: Run Application
+2018-06-02T08:48:14.429Z - success: preview server running at http://localhost:7457
+2018-06-02T08:48:21.862Z - normal: 1.9.0
+2018-06-02T10:16:49.739Z - normal: Introduced global variable while editing: i
+2018-06-02T10:16:49.740Z - normal: Introduced global variable while editing: l
+2018-06-02T10:27:04.362Z - normal: Introduced global variable while editing: i
+2018-06-02T10:27:04.364Z - normal: Introduced global variable while editing: l
+2018-06-02T10:38:38.037Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
@@ -316,224 +115,30 @@ Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
   "projectName": "birdWar",
   "debugBuildWorker": false
 }
-2018-05-31T09:09:25.448Z - normal: Building /Users/mac/MatchVsGames/birdWar
-2018-05-31T09:09:25.448Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/web-mobile
-2018-05-31T09:09:26.086Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/web-mobile/**/*
-2018-05-31T09:09:56.606Z - normal: Compiled project javascript file successfully
-2018-05-31T09:09:56.607Z - normal: Start building assets
-2018-05-31T09:09:56.607Z - normal: Start spawn build-worker
-2018-05-31T09:09:57.530Z - normal: Finish spawn build-worker
-2018-05-31T09:09:57.530Z - normal: Start init build-worker
-2018-05-31T09:10:00.111Z - normal: 1.9.0
-2018-05-31T09:10:00.648Z - normal: Finish init build-worker
-2018-05-31T09:10:00.648Z - normal: Start build-assets in worker
-2018-05-31T09:10:01.959Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+2018-06-02T10:38:38.040Z - normal: Building /Users/mac/MatchVsGames/birdWar
+2018-06-02T10:38:38.041Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/web-mobile
+2018-06-02T10:38:38.474Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/web-mobile/**/*
+2018-06-02T10:38:52.811Z - normal: Compiled project javascript file successfully
+2018-06-02T10:38:52.812Z - normal: Start building assets
+2018-06-02T10:38:52.812Z - normal: Start spawn build-worker
+2018-06-02T10:38:53.780Z - normal: Finish spawn build-worker
+2018-06-02T10:38:53.780Z - normal: Start init build-worker
+2018-06-02T10:38:56.681Z - normal: 1.9.0
+2018-06-02T10:38:57.048Z - normal: Finish init build-worker
+2018-06-02T10:38:57.048Z - normal: Start build-assets in worker
+2018-06-02T10:38:58.121Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
 Node path: "uiMatching1v1/play-bg"
 Used in Component: "cc.Sprite"
 uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-05-31T09:10:03.056Z - normal: Finish build-assets in worker
-2018-05-31T09:10:03.064Z - normal: Finish building assets
-2018-05-31T09:10:03.152Z - normal: Start building raw assets
-2018-05-31T09:10:03.154Z - normal: Start building plugin scripts
-2018-05-31T09:10:03.385Z - normal: Finish building raw assets
-2018-05-31T09:10:03.406Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-05-31T09:10:03.437Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
-2018-05-31T09:10:03.467Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully
-2018-05-31T09:12:13.054Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/birdWar/build/web-mobile",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "birdWar",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/birdWar",
-  "projectName": "birdWar",
-  "debugBuildWorker": false
-}
-2018-05-31T09:12:13.058Z - normal: Building /Users/mac/MatchVsGames/birdWar
-2018-05-31T09:12:13.059Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/web-mobile
-2018-05-31T09:12:13.060Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/web-mobile/**/*
-2018-05-31T09:13:03.190Z - normal: Compiled project javascript file successfully
-2018-05-31T09:13:03.193Z - normal: Start building assets
-2018-05-31T09:13:03.194Z - normal: Start spawn build-worker
-2018-05-31T09:13:04.219Z - normal: Finish spawn build-worker
-2018-05-31T09:13:04.219Z - normal: Start init build-worker
-2018-05-31T09:13:07.122Z - normal: 1.9.0
-2018-05-31T09:13:07.658Z - normal: Finish init build-worker
-2018-05-31T09:13:07.658Z - normal: Start build-assets in worker
-2018-05-31T09:13:08.727Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching1v1/play-bg"
+2018-06-02T10:38:58.123Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
 Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-05-31T09:13:09.650Z - normal: Finish build-assets in worker
-2018-05-31T09:13:09.656Z - normal: Finish building assets
-2018-05-31T09:13:09.742Z - normal: Start building raw assets
-2018-05-31T09:13:09.743Z - normal: Start building plugin scripts
-2018-05-31T09:13:09.947Z - normal: Finish building raw assets
-2018-05-31T09:13:09.961Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-05-31T09:13:09.971Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
-2018-05-31T09:13:09.982Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully
-2018-05-31T09:20:48.842Z - error: Error: ENOENT: no such file or directory, stat '/Users/mac/MatchVsGames/birdWar/assets/matchvs-js'
-    at fs.statSync (fs.js:973:11)
-    at Object.fs.statSync (ELECTRON_ASAR.js:298:16)
-    at Object.statSync (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/polyfills.js:297:22)
-    at _analysisUrl (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:411)
-    at _addFileAndResInfo (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:911)
-    at Editor.assetdb.queryInfoByUuid (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/package-asset/parse/export.js:1:1925)
-    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4493)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2018-05-31T09:29:00.460Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
-2018-05-31T09:36:45.332Z - normal: 导出 /Users/mac/Desktop/uilogin.zip 成功.
-2018-06-01T03:19:44.212Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:1:348
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:19:25)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:41:13
-2018-06-01T03:21:25.752Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:1:348
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:17:25)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/Matchvs.js:37:13
-2018-06-01T03:50:51.559Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/birdWar/build/web-mobile",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "birdWar",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/birdWar",
-  "projectName": "birdWar",
-  "debugBuildWorker": false
-}
-2018-06-01T03:50:51.566Z - normal: Building /Users/mac/MatchVsGames/birdWar
-2018-06-01T03:50:51.566Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/web-mobile
-2018-06-01T03:50:51.567Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/web-mobile/**/*
-2018-06-01T03:51:20.083Z - normal: Compiled project javascript file successfully
-2018-06-01T03:51:20.084Z - normal: Start building assets
-2018-06-01T03:51:20.084Z - normal: Start spawn build-worker
-2018-06-01T03:51:22.274Z - normal: Finish spawn build-worker
-2018-06-01T03:51:22.274Z - normal: Start init build-worker
-2018-06-01T03:51:27.784Z - normal: 1.9.0
-2018-06-01T03:51:28.540Z - normal: Finish init build-worker
-2018-06-01T03:51:28.540Z - normal: Start build-assets in worker
-2018-06-01T03:51:30.676Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching1v1/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-01T03:51:32.304Z - normal: Finish build-assets in worker
-2018-06-01T03:51:32.310Z - normal: Finish building assets
-2018-06-01T03:51:32.401Z - normal: Start building raw assets
-2018-06-01T03:51:32.402Z - normal: Start building plugin scripts
-2018-06-01T03:51:32.699Z - normal: Finish building raw assets
-2018-06-01T03:51:32.715Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-01T03:51:32.724Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
-2018-06-01T03:51:32.737Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-06-02T10:38:59.018Z - normal: Finish build-assets in worker
+2018-06-02T10:38:59.022Z - normal: Finish building assets
+2018-06-02T10:38:59.100Z - normal: Start building raw assets
+2018-06-02T10:38:59.101Z - normal: Start building plugin scripts
+2018-06-02T10:38:59.254Z - normal: Finish building raw assets
+2018-06-02T10:38:59.264Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-02T10:38:59.279Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-06-02T10:38:59.287Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully
