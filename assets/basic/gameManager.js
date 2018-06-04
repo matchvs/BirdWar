@@ -15,39 +15,49 @@ cc.Class({
 
     leaveRoom: function(data) {
         // 离开房间--
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomNotifyMed, data);
         if (this.gameState === GameState.Play) {
+            if (data.leaveRoomInfo.owner === GLB.userInfo.id) {
+                GLB.isRoomOwner = true;
+            }
             var friends = this.friendIds.filter(function(x) {
                 return x === data.leaveRoomInfo.userId;
             });
 
             if (friends.length > 0) {
-                clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: Camp.Friend });
-                setTimeout(function() {
-                    uiFunc.openUI("uiVsResultVer", function(obj) {
-                        var uiVsResult = obj.getComponent("uiVsResult");
-                        data = {
-                            friendIds: this.friendIds,
-                            enemyIds: this.enemyIds,
-                            selfScore: 3 - this.enemyHearts,
-                            rivalScore: 3 - this.friendHearts
-                        }
-                        uiVsResult.setData(data);
-                    }.bind(this))
-                }.bind(this), 1500);
+                this.friendCnt--;
+                if (this.friendCnt === 0) {
+                    clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: Camp.Friend });
+                    setTimeout(function() {
+                        uiFunc.openUI("uiVsResultVer", function(obj) {
+                            var uiVsResult = obj.getComponent("uiVsResult");
+                            data = {
+                                friendIds: this.friendIds,
+                                enemyIds: this.enemyIds,
+                                selfScore: 3 - this.enemyHearts,
+                                rivalScore: 3 - this.friendHearts
+                            }
+                            uiVsResult.setData(data);
+                        }.bind(this))
+                    }.bind(this), 1500);
+                }
             } else {
-                clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: Camp.Enemy });
-                setTimeout(function() {
-                    uiFunc.openUI("uiVsResultVer", function(obj) {
-                        var uiVsResult = obj.getComponent("uiVsResult");
-                        data = {
-                            friendIds: this.friendIds,
-                            enemyIds: this.enemyIds,
-                            selfScore: 3 - this.enemyHearts,
-                            rivalScore: 3 - this.friendHearts
-                        }
-                        uiVsResult.setData(data);
-                    }.bind(this))
-                }.bind(this), 1500);
+                this.enemyCnt--;
+                if (this.enemyCnt === 0) {
+                    clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: Camp.Enemy });
+                    setTimeout(function() {
+                        uiFunc.openUI("uiVsResultVer", function(obj) {
+                            var uiVsResult = obj.getComponent("uiVsResult");
+                            data = {
+                                friendIds: this.friendIds,
+                                enemyIds: this.enemyIds,
+                                selfScore: 3 - this.enemyHearts,
+                                rivalScore: 3 - this.friendHearts
+                            }
+                            uiVsResult.setData(data);
+                        }.bind(this))
+                    }.bind(this), 1500);
+                }
             }
         }
     },
@@ -109,6 +119,8 @@ cc.Class({
         this.enemyHearts = 3;
         this.curRound = 1;
         this.readyCnt = 0;
+        this.friendCnt = this.friendIds.length;
+        this.enemyCnt = this.enemyIds.length;
 
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {

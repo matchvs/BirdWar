@@ -107,7 +107,7 @@ cc.Class({
         if (GLB.isRoomOwner) {
             spNode.color = cc.Color.WHITE;
             btn.enabled = true;
-        }else{
+        } else {
             spNode.color = cc.Color.BLACK;
             btn.enabled = false;
         }
@@ -119,6 +119,12 @@ cc.Class({
 
     startGame: function() {
         if (!GLB.isRoomOwner) {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("等待房主开始游戏");
+                }
+            }.bind(this));
             return;
         }
         var userIds = [];
@@ -145,6 +151,13 @@ cc.Class({
                 userIds: userIds
             };
             Game.GameManager.sendEventEx(msg);
+        } else {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("房间人数不足");
+                }
+            }.bind(this));
         }
     },
 

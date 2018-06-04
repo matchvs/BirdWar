@@ -25,7 +25,7 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.timeOver, this.timeOver, this);
-        clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomNotifyMed, this.leaveRoom, this);
 
         this.nodeDict["exit"].on("click", this.exit, this);
         this.playerIcons = [];
@@ -36,14 +36,21 @@ cc.Class({
     },
 
     leaveRoom(data) {
-        uiFunc.openUI("uiTip", function(obj) {
-            var uiTip = obj.getComponent("uiTip");
-            if (uiTip) {
-                if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
-                    uiTip.setData("对手离开了游戏");
+        if (Game.GameManager.gameState !== GameState.Over) {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    var friends = Game.GameManager.friendIds.filter(function(x) {
+                        return x === data.leaveRoomInfo.userId;
+                    });
+                    if (friends.length > 0) {
+                        uiTip.setData("队友离开了游戏");
+                    } else {
+                        uiTip.setData("对手离开了游戏");
+                    }
                 }
-            }
-        }.bind(this));
+            }.bind(this));
+        }
     },
 
     exit() {
@@ -173,7 +180,7 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.off(clientEvent.eventType.playerDead, this.playerDead, this);
         clientEvent.off(clientEvent.eventType.timeOver, this.timeOver, this);
-        clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomNotifyMed, this.leaveRoom, this);
 
     }
 });

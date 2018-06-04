@@ -16,6 +16,7 @@ cc.Class({
 
     onLoad() {
         Game.BulletManager = this;
+        this.bulletId = 456489135745;
         // 子弹池--
         this.friendBulletPool = new cc.NodePool();
         this.enemyBulletPool = new cc.NodePool();
@@ -36,7 +37,7 @@ cc.Class({
             console.log("fire")
             clearInterval(this.scheduleFireID);
             this.scheduleFireID = setInterval(function() {
-                if(Game.GameManager.gameState === GameState.Over){
+                if (Game.GameManager.gameState === GameState.Over) {
                     clearInterval(this.scheduleFireID);
                     return;
                 }
@@ -76,7 +77,8 @@ cc.Class({
             if (bulletObj) {
                 var bulletScript = bulletObj.getComponent('bullet');
                 if (bulletScript) {
-                    bulletScript.init(hostPlayer, i + 1, bulletCnt, bulletPointY);
+                    bulletScript.init(hostPlayer, i + 1, bulletCnt, bulletPointY, this.bulletId);
+                    this.bulletId++;
                 }
             }
         }

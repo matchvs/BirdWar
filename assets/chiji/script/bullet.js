@@ -7,7 +7,8 @@ cc.Class({
         speed: 0
     },
 
-    init: function(hostPlayer, index, total, bulletPointY) {
+    init: function(hostPlayer, index, total, bulletPointY, bulletId) {
+        this.bulletId = bulletId
         var offset = (index - ((total + 1) / 2)) * 40;
         this.hostPlayer = hostPlayer;
         this.node.parent = hostPlayer.node.parent;
@@ -43,6 +44,7 @@ cc.Class({
                 }
                 item.playGetClip();
             }
+            other.node.active = false;
             other.node.destroy();
         }
     },
