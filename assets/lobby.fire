@@ -255,7 +255,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
-    "_srcBlendFactor": 770,
+    "_srcBlendFactor": 768,
     "_dstBlendFactor": 771,
     "_atlas": null
   },
@@ -308,8 +308,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 534,
-      "height": 124
+      "width": 524,
+      "height": 114
     },
     "_rotationX": 0,
     "_rotationY": 0,

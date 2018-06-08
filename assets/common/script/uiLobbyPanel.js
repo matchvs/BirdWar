@@ -1,6 +1,5 @@
 var uiPanel = require("uiPanel");
 var mvs = require("Matchvs");
-var mvs = require("Matchvs");
 var GLB = require("Glb");
 cc.Class({
     extends: uiPanel,
