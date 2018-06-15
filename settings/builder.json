@@ -27,7 +27,7 @@
   "renderMode": "0",
   "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
   "title": "birdWar",
-  "webOrientation": "auto",
+  "webOrientation": "portrait",
   "wechatgame": {
     "appid": "wx6ac3f5090a6b99c5",
     "orientation": "portrait"

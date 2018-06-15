@@ -10,6 +10,7 @@ cc.Class({
         this.playerCntLb = this.nodeDict["playerCnt"].getComponent(cc.Label);
         this.playerCnt = GLB.PLAYER_COUNTS[0];
         this.playerCntLb.string = this.playerCnt;
+        this.refreshBtnState();
         this.nodeDict["quit"].on("click", this.quit, this);
         this.nodeDict["addNode"].on("click", this.addPlayerCount, this);
         this.nodeDict["subNode"].on("click", this.subPlayerCount, this);
@@ -29,6 +30,7 @@ cc.Class({
         }
 
         this.playerCntLb.string = this.playerCnt;
+        this.refreshBtnState();
     },
 
     subPlayerCount: function() {
@@ -41,6 +43,21 @@ cc.Class({
             }
         }
         this.playerCntLb.string = this.playerCnt;
+        this.refreshBtnState();
+    },
+
+    refreshBtnState() {
+        if (this.playerCnt === GLB.PLAYER_COUNTS[0]) {
+            this.nodeDict["subNode"].getComponent(cc.Button).interactable = false;
+        } else {
+            this.nodeDict["subNode"].getComponent(cc.Button).interactable = true;
+        }
+
+        if (this.playerCnt === GLB.PLAYER_COUNTS[GLB.PLAYER_COUNTS.length - 1]) {
+            this.nodeDict["addNode"].getComponent(cc.Button).interactable = false;
+        } else {
+            this.nodeDict["addNode"].getComponent(cc.Button).interactable = true;
+        }
     },
 
     quit: function() {

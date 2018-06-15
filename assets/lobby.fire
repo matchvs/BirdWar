@@ -828,8 +828,8 @@
       "width": 750,
       "height": 1344
     },
-    "_fitWidth": false,
-    "_fitHeight": true
+    "_fitWidth": true,
+    "_fitHeight": false
   },
   {
     "__type__": "cc.Node",
