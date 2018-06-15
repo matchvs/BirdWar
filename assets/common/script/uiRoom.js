@@ -90,13 +90,13 @@ cc.Class({
             }
         }
         this.ownerId = data.leaveRoomInfo.owner;
+        if (this.ownerId === GLB.userInfo.id) {
+            GLB.isRoomOwner = true;
+        }
         for (var i = 0; i < this.players.length; i++) {
             if (this.players[i].userId !== 0) {
                 this.players[i].setData(this.players[i].userId, this.ownerId);
             }
-        }
-        if (this.ownerId === GLB.userInfo.id) {
-            GLB.isRoomOwner = true;
         }
         this.refreshStartBtn();
     },
