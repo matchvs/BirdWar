@@ -20,7 +20,7 @@
                 ],
                 "height": 357,
                 "type": "panel",
-                "width": 574
+                "width": 692
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 526,
                 "type": "panel",
-                "width": 574
+                "width": 692
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 574
+            "width": 692
           },
           {
             "children": [
@@ -45,38 +45,38 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 617,
+                    "height": 592,
                     "type": "panel",
-                    "width": 749
+                    "width": 540
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 617,
+                    "height": 592,
                     "type": "panel",
-                    "width": 278
+                    "width": 369
                   }
                 ],
-                "height": 617,
+                "height": 592,
                 "type": "dock-h",
-                "width": 1030
+                "width": 912
               },
               {
-                "active": 1,
+                "active": 0,
                 "children": [
                   "console",
                   "timeline"
                 ],
-                "height": 266,
+                "height": 291,
                 "type": "panel",
-                "width": 1030
+                "width": 912
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 1030
+            "width": 912
           },
           {
             "active": 0,
@@ -99,8 +99,7 @@
         "assets",
         "scene"
       ]
-    },
-    "window-1529046702588": {}
+    }
   },
   "panels": {
     "store": {
