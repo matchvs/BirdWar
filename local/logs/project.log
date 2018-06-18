@@ -1,200 +1,67 @@
-2018-06-15T07:02:30.552Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-15T07:02:30.555Z - normal: checking language setting...
-2018-06-15T07:02:30.555Z - normal: Language: zh
-2018-06-15T07:02:31.312Z - success: protocol editor-framework registered
-2018-06-15T07:02:31.312Z - success: protocol app registered
-2018-06-15T07:02:31.312Z - success: protocol theme registered
-2018-06-15T07:02:31.312Z - success: protocol packages registered
-2018-06-15T07:02:31.313Z - success: protocol unpack registerred
-2018-06-15T07:02:31.313Z - success: protocol disable-commonjs registerred
-2018-06-15T07:02:31.648Z - normal: connected!
-2018-06-15T07:02:31.652Z - normal: Check project /Users/mac/MatchVsGames/birdWar
-2018-06-15T07:02:31.653Z - normal: Initializing Cocos2d
-2018-06-15T07:02:31.871Z - normal: Initializing Asset Database
-2018-06-15T07:02:31.903Z - success: protocol uuid registerred
-2018-06-15T07:02:31.903Z - success: protocol db registerred
-2018-06-15T07:02:31.903Z - success: protocol thumbnail registerred
-2018-06-15T07:02:31.903Z - normal: Loading editor/builtin packages
-2018-06-15T07:02:31.920Z - success: anysdk loaded
-2018-06-15T07:02:32.029Z - success: assets loaded
-2018-06-15T07:02:32.033Z - success: builder loaded
-2018-06-15T07:02:32.035Z - success: cocos-analytics loaded
-2018-06-15T07:02:32.039Z - success: console loaded
-2018-06-15T07:02:32.070Z - success: fb-instant-games loaded
-2018-06-15T07:02:32.074Z - success: hierarchy loaded
-2018-06-15T07:02:32.078Z - success: inspector loaded
-2018-06-15T07:02:32.080Z - success: keystore loaded
-2018-06-15T07:02:32.084Z - success: node-library loaded
-2018-06-15T07:02:32.086Z - success: package-asset loaded
-2018-06-15T07:02:32.088Z - success: preferences loaded
-2018-06-15T07:02:32.091Z - success: project-exporter loaded
-2018-06-15T07:02:32.107Z - success: project-importer loaded
-2018-06-15T07:02:32.110Z - success: project-settings loaded
-2018-06-15T07:02:32.114Z - success: ui-kit loaded
-2018-06-15T07:02:32.120Z - success: ui-grid loaded
-2018-06-15T07:02:32.123Z - success: scene loaded
-2018-06-15T07:02:32.124Z - success: sprite-editor loaded
-2018-06-15T07:02:32.128Z - success: store loaded
-2018-06-15T07:02:32.134Z - success: timeline loaded
-2018-06-15T07:02:32.134Z - normal: Loading builtin packages
-2018-06-15T07:02:32.138Z - success: asset-db-debugger loaded
-2018-06-15T07:02:32.139Z - success: color-picker loaded
-2018-06-15T07:02:32.143Z - success: package-manager loaded
-2018-06-15T07:02:32.144Z - success: qqplay-adapter loaded
-2018-06-15T07:02:32.150Z - success: sdkbox loaded
-2018-06-15T07:02:32.157Z - success: tester loaded
-2018-06-15T07:02:32.160Z - success: ui-kit-preview-extra loaded
-2018-06-15T07:02:32.164Z - success: ui-kit-preview loaded
-2018-06-15T07:02:32.167Z - success: ui-tree loaded
-2018-06-15T07:02:32.168Z - success: weapp-adapter loaded
-2018-06-15T07:02:33.078Z - normal: Initializing project /Users/mac/MatchVsGames/birdWar
-2018-06-15T07:02:33.081Z - normal: Loading packages
-2018-06-15T07:02:33.096Z - success: plugin-matchvs loaded
-2018-06-15T07:02:33.096Z - normal: Watching packages
-2018-06-15T07:02:33.215Z - normal: Run Application
-2018-06-15T07:02:34.220Z - success: preview server running at http://localhost:7458
-2018-06-15T07:02:40.704Z - normal: 1.9.2
-2018-06-15T07:04:09.452Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:2603
-2018-06-15T07:04:09.458Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:2605
-2018-06-15T07:04:09.459Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:2606
-2018-06-15T08:35:35.042Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/birdWar/build/web-mobile",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "birdWar",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/birdWar",
-  "projectName": "birdWar",
-  "debugBuildWorker": false
-}
-2018-06-15T08:35:35.046Z - normal: Building /Users/mac/MatchVsGames/birdWar
-2018-06-15T08:35:35.046Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/web-mobile
-2018-06-15T08:35:35.356Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/web-mobile/**/*
-2018-06-15T08:35:47.619Z - normal: Compiled project javascript file successfully
-2018-06-15T08:35:47.620Z - normal: Start building assets
-2018-06-15T08:35:47.620Z - normal: Start spawn build-worker
-2018-06-15T08:35:48.398Z - normal: Finish spawn build-worker
-2018-06-15T08:35:48.398Z - normal: Start init build-worker
-2018-06-15T08:35:51.067Z - normal: 1.9.2
-2018-06-15T08:35:51.432Z - normal: Finish init build-worker
-2018-06-15T08:35:51.432Z - normal: Start build-assets in worker
-2018-06-15T08:35:52.231Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching1v1/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-15T08:35:52.232Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
-2018-06-15T08:35:53.072Z - normal: Finish build-assets in worker
-2018-06-15T08:35:53.077Z - normal: Finish building assets
-2018-06-15T08:35:53.119Z - normal: Start building raw assets
-2018-06-15T08:35:53.120Z - normal: Start building plugin scripts
-2018-06-15T08:35:53.271Z - normal: Finish building raw assets
-2018-06-15T08:35:53.283Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-15T08:35:53.293Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
-2018-06-15T08:35:53.303Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/web-mobile" successfully
-2018-06-16T03:06:52.507Z - failed: load script [/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js] failed : ReferenceError: dcodeIO is not defined
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:7:16)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:13:13
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:20:11)
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:23:3)
+2018-06-16T06:28:16.808Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-16T06:28:16.813Z - normal: checking language setting...
+2018-06-16T06:28:16.813Z - normal: Language: zh
+2018-06-16T06:28:18.599Z - success: protocol editor-framework registered
+2018-06-16T06:28:18.599Z - success: protocol app registered
+2018-06-16T06:28:18.599Z - success: protocol theme registered
+2018-06-16T06:28:18.599Z - success: protocol packages registered
+2018-06-16T06:28:18.600Z - success: protocol unpack registerred
+2018-06-16T06:28:18.600Z - success: protocol disable-commonjs registerred
+2018-06-16T06:28:18.944Z - normal: connected!
+2018-06-16T06:28:18.950Z - normal: Check project /Users/chenhao/matchvs/birdWar
+2018-06-16T06:28:18.967Z - normal: Initializing Cocos2d
+2018-06-16T06:28:19.437Z - normal: Initializing Asset Database
+2018-06-16T06:28:19.508Z - success: protocol uuid registerred
+2018-06-16T06:28:19.508Z - success: protocol db registerred
+2018-06-16T06:28:19.508Z - success: protocol thumbnail registerred
+2018-06-16T06:28:19.508Z - normal: Loading editor/builtin packages
+2018-06-16T06:28:19.536Z - success: anysdk loaded
+2018-06-16T06:28:19.755Z - success: assets loaded
+2018-06-16T06:28:19.761Z - success: builder loaded
+2018-06-16T06:28:19.765Z - success: cocos-analytics loaded
+2018-06-16T06:28:19.772Z - success: console loaded
+2018-06-16T06:28:19.812Z - success: fb-instant-games loaded
+2018-06-16T06:28:19.818Z - success: hierarchy loaded
+2018-06-16T06:28:19.827Z - success: inspector loaded
+2018-06-16T06:28:19.830Z - success: keystore loaded
+2018-06-16T06:28:19.845Z - success: node-library loaded
+2018-06-16T06:28:19.849Z - success: package-asset loaded
+2018-06-16T06:28:19.853Z - success: preferences loaded
+2018-06-16T06:28:19.859Z - success: project-exporter loaded
+2018-06-16T06:28:19.880Z - success: project-importer loaded
+2018-06-16T06:28:19.885Z - success: project-settings loaded
+2018-06-16T06:28:19.890Z - success: ui-kit loaded
+2018-06-16T06:28:19.897Z - success: ui-grid loaded
+2018-06-16T06:28:19.904Z - success: scene loaded
+2018-06-16T06:28:19.907Z - success: sprite-editor loaded
+2018-06-16T06:28:19.914Z - success: store loaded
+2018-06-16T06:28:19.924Z - success: timeline loaded
+2018-06-16T06:28:19.924Z - normal: Loading builtin packages
+2018-06-16T06:28:19.931Z - success: asset-db-debugger loaded
+2018-06-16T06:28:19.933Z - success: color-picker loaded
+2018-06-16T06:28:19.941Z - success: package-manager loaded
+2018-06-16T06:28:19.949Z - success: sdkbox loaded
+2018-06-16T06:28:19.957Z - success: tester loaded
+2018-06-16T06:28:19.963Z - success: ui-kit-preview-extra loaded
+2018-06-16T06:28:19.969Z - success: ui-kit-preview loaded
+2018-06-16T06:28:19.973Z - success: ui-tree loaded
+2018-06-16T06:28:21.899Z - normal: Initializing project /Users/chenhao/matchvs/birdWar
+2018-06-16T06:28:21.904Z - normal: Loading packages
+2018-06-16T06:28:21.921Z - success: plugin-matchvs loaded
+2018-06-16T06:28:21.921Z - normal: Watching packages
+2018-06-16T06:28:21.973Z - normal: Run Application
+2018-06-16T06:28:49.125Z - success: preview server running at http://localhost:7456
+2018-06-16T06:29:02.997Z - normal: 1.9.1
+2018-06-16T06:53:24.521Z - failed: load script [/Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js] failed : ReferenceError: kf is not defined
+    at __define (/Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js:1789:1)
+    at /Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js:1798:13
+    at Object.<anonymous> (/Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js:1805:11)
+    at Object.<anonymous> (/Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js:1808:3)
     at Module._compile (module.js:571:32)
     at Object.Module._extensions..js (module.js:580:10)
     at Module.load (module.js:488:32)
     at tryModuleLoad (module.js:447:12)
     at Function.Module._load (module.js:439:3)
     at Module.require (module.js:498:17)
-2018-06-16T03:15:13.058Z - failed: load script [/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js] failed : ReferenceError: dcodeIO is not defined
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:7:16)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:13:13
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:20:11)
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:23:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
-2018-06-16T03:15:37.417Z - failed: load script [/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js] failed : ReferenceError: dcodeIO is not defined
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:7:16)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:13:13
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:20:11)
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/messenger/msgType.js:23:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
-2018-06-16T03:38:36.250Z - failed: load script [/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/ProtoBuf.js] failed : TypeError: Cannot read property 'dcodeIO' of undefined
-    at Object.defineProperty.value (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/ProtoBuf.js:35:53)
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/ProtoBuf.js:36:3)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/ProtoBuf.js:9415:13
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/ProtoBuf.js:9422:11)
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/ProtoBuf.js:9425:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-2018-06-16T03:38:36.276Z - failed: load script [/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/msgType.js] failed : ReferenceError: dcodeIO is not defined
-    at __define (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/msgType.js:7:16)
-    at /Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/msgType.js:13:13
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/msgType.js:20:11)
-    at Object.<anonymous> (/Users/mac/MatchVsGames/birdWar/temp/quick-scripts/assets/basic/network/msgType.js:23:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
+2018-06-17T08:32:34.847Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:279819
+2018-06-18T02:48:57.745Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:541432

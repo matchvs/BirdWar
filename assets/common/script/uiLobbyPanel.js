@@ -13,6 +13,11 @@ cc.Class({
         this.nodeDict["inviteFriend"].on("click", this.inviteFriend, this);
         this.nodeDict["exit"].on("click", this.exit, this);
         this.nodeDict["name"].getComponent(cc.Label).string = GLB.userInfo.id;
+        this.nodeDict["rank"].on("click", this.rank, this);
+    },
+
+    rank: function() {
+
     },
 
     exit: function() {

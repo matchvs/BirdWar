@@ -22,6 +22,7 @@ cc.Class({
         this.rival = this.nodeDict["rival"].getComponent("resultPlayerIcon");
         this.rival.node.active = false;
         this.nodeDict["quit"].on("click", this.quit, this);
+        this.setData();
     },
 
     quit: function() {
@@ -38,6 +39,7 @@ cc.Class({
     },
 
     setData(data) {
+        /*
         for (var i = 0; i < data.friendIds.length; i++) {
             var ins = cc.instantiate(this.player.node);
             ins.active = true;
@@ -73,66 +75,28 @@ cc.Class({
             this.nodeDict["vs"].active = true;
             this.nodeDict["score"].active = false;
         }
+        */
 
-        if (isWin) {
+        if (true) {
             // 发送胜局记录--
-            var ip = "localhost";
-            var port = "3010";
-            this.connect(ip, port, function() {
-                this.ip = ip;
-                this.port = port;
-                this.loginServer();
-            }.bind(this));
+            this.loginServer();
         }
-    },
-
-    connect: function(ip, port, callback) {
-        var socketUrl = port !== 0 ? "ws://" + ip + ":" + port : "ws://" + ip;
-        if (this.web_socket) {
-            this.web_socket.close();
-        }
-        this.web_socket = new WebSocket(socketUrl);
-        this.web_socket.binaryType = "arraybuffer";
-        cc.log("try to connect ws ", socketUrl);
-        this.web_socket.onmessage = function(event) {
-            callback();
-        }.bind(this);
-
-        this.web_socket.onopen = function(event) {
-            cc.log("onopen------------");
-            callback();
-        }.bind(this);
-
-        this.web_socket.onclose = function(event) {
-            cc.log("onclose------------");
-            this.web_socket = null;
-            callback();
-        }.bind(this);
-
-        this.web_socket.onerror = function(event) {
-            cc.log("onerror------------");
-            callback();
-        }.bind(this);
-
-        return this;
     },
 
     loginServer: function() {
-        this.network.send("connector.entryHandler.netTest", {});
+        var network = kf.require("basic.network");
+        network.chooseNetworkMode();
+        var ip = "localhost";
+        var port = "3010";
+        network.connect(ip, port, function() {
+            network.send("connector.entryHandler.login", {
+                "account": GLB.userInfo.id,
+                "channel": "0",
+                "userName": "name",
+                "headIcon": "head",
+                "game": "game0",
+                "osType": typeof cc.sys.os === "undefined" ? "undefined" : cc.sys.os
+            });
+        });
     },
-
-    send: function(msg, ignoreSession) {
-        msg["sequence"] = [];
-        msg["session"] = this.session;
-        this.protobuf = require("msgType");
-        var C2GS = this.protobuf["C2GS"];
-        var c2gsMsg = new C2GS(msg);
-        var encodeData = c2gsMsg["encode"]();
-        var arrayBuffer = encodeData["toArrayBuffer"]();
-
-        var err = this.web_socket.send(arrayBuffer);
-        if (err) {
-            console.log("err:" + err);
-        }
-    }
 });
