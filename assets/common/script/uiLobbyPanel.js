@@ -17,7 +17,30 @@ cc.Class({
     },
 
     rank: function() {
-
+        var network = kf.require("basic.network");
+        network.chooseNetworkMode();
+        var ip = "localhost";
+        var port = "3010";
+        if (!network.isConnected()) {
+            network.connect(ip, port, function() {
+                    network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": "name",
+                        "headIcon": "icon"
+                    });
+                    network.send("connector.rankHandler.getRankData", {
+                        "account": GLB.userInfo.id + "",
+                        "game": "game0"
+                    });
+                }
+            );
+        } else {
+            network.send("connector.rankHandler.getRankData", {
+                "account": GLB.userInfo.id + "",
+                "game": "game0"
+            });
+        }
     },
 
     exit: function() {

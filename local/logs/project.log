@@ -65,3 +65,22 @@
     at Module.require (module.js:498:17)
 2018-06-17T08:32:34.847Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:279819
 2018-06-18T02:48:57.745Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:541432
+2018-06-18T05:39:33.206Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:677387
+2018-06-18T07:32:19.555Z - failed: [db-task][sync-changes] Failed to import asset /Users/chenhao/matchvs/birdWar/assets/basic/gameManager.js, message: Compile error: SyntaxError: /Users/chenhao/matchvs/birdWar/assets/basic/gameManager.js: Unexpected token, expected , (528:4)
+  526 |     }
+  527 | 
+> 528 |     onDestroy() {
+      |     ^
+  529 |         clientEvent.off(clientEvent.eventType.roundOver, this.roundOver, this);
+  530 |     }
+  531 | });
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)

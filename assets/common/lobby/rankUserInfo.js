@@ -22,7 +22,7 @@ cc.Class({
         if (this.rankCntLb) {
             this.rankCntLb.string = data.rank;
         }
-        this.userNameLb.string = data.name;
+        this.userNameLb.string = data.userName;
         // this.userIcon.string = data.headIcon;
         this.userScoreLb.string = data.score;
     }

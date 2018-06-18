@@ -11,6 +11,7 @@ cc.Class({
         dataFunc.loadConfigs();
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        this.getRankDataListener();
     },
 
     leaveRoom: function(data) {
@@ -27,7 +28,7 @@ cc.Class({
             if (friends.length > 0) {
                 this.friendCnt--;
                 if (this.friendCnt === 0) {
-                    clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: Camp.Friend });
+                    clientEvent.dispatch(clientEvent.eventType.gameOver, {loseCamp: Camp.Friend});
                     setTimeout(function() {
                         uiFunc.openUI("uiVsResultVer", function(obj) {
                             var uiVsResult = obj.getComponent("uiVsResult");
@@ -44,7 +45,7 @@ cc.Class({
             } else {
                 this.enemyCnt--;
                 if (this.enemyCnt === 0) {
-                    clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: Camp.Enemy });
+                    clientEvent.dispatch(clientEvent.eventType.gameOver, {loseCamp: Camp.Enemy});
                     setTimeout(function() {
                         uiFunc.openUI("uiVsResultVer", function(obj) {
                             var uiVsResult = obj.getComponent("uiVsResult");
@@ -92,7 +93,7 @@ cc.Class({
             } else {
                 loseCamp = Camp.Friend;
             }
-            clientEvent.dispatch(clientEvent.eventType.gameOver, { loseCamp: loseCamp });
+            clientEvent.dispatch(clientEvent.eventType.gameOver, {loseCamp: loseCamp});
             setTimeout(function() {
                 uiFunc.openUI("uiVsResultVer", function(obj) {
                     var uiVsResult = obj.getComponent("uiVsResult");
@@ -130,17 +131,17 @@ cc.Class({
     },
 
     sendRoundOverMsg: function(loseCamp) {
-        var msg = { action: GLB.ROUND_OVER, loseCamp: loseCamp };
+        var msg = {action: GLB.ROUND_OVER, loseCamp: loseCamp};
         this.sendEventEx(msg);
     },
 
     sendRoundStartMsg: function() {
-        var msg = { action: GLB.ROUND_START };
+        var msg = {action: GLB.ROUND_START};
         this.sendEventEx(msg);
     },
 
     sendReadyMsg: function() {
-        var msg = { action: GLB.READY };
+        var msg = {action: GLB.READY};
         this.sendEventEx(msg);
     },
 
@@ -464,7 +465,7 @@ cc.Class({
                     loseCamp1 = Camp.Friend;
                 }
             }
-            clientEvent.dispatch(clientEvent.eventType.roundOver, { loseCamp: loseCamp1 });
+            clientEvent.dispatch(clientEvent.eventType.roundOver, {loseCamp: loseCamp1});
         }
 
         if (info.cpProto.indexOf(GLB.ROUND_START) >= 0) {
@@ -487,7 +488,7 @@ cc.Class({
                     player.dead();
                 }
             }
-            clientEvent.dispatch(clientEvent.eventType.roundOver, { loseCamp: Camp.None });
+            clientEvent.dispatch(clientEvent.eventType.roundOver, {loseCamp: Camp.None});
         }
     },
 
@@ -495,6 +496,43 @@ cc.Class({
         var result = mvs.engine.sendEventEx(0, JSON.stringify(msg), 0, GLB.playerUserIds);
         if (result.result !== 0) {
             console.log(msg.action, result.result);
+        }
+    },
+
+    getRankDataListener: function() {
+        var network = kf.require("basic.network");
+        network.on("connector.rankHandler.getRankData", function(recvMsg) {
+            uiFunc.openUI("uiRankPanelVer", function(obj) {
+                var uiRankPanel = obj.getComponent("uiRankPanel");
+                uiRankPanel.setData(recvMsg.rankArray);
+            });
+        }.bind(this));
+    },
+
+    loginServer: function() {
+        var network = kf.require("basic.network");
+        network.chooseNetworkMode();
+        var ip = "localhost";
+        var port = "3010";
+        if (!network.isConnected()) {
+            network.connect(ip, port, function() {
+                    network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": "name",
+                        "headIcon": "head"
+                    });
+                    network.send("connector.rankHandler.updateScore", {
+                        "account": GLB.userInfo.id + "",
+                        "game": "game0"
+                    });
+                }
+            );
+        } else {
+            network.send("connector.rankHandler.updateScore", {
+                "account": GLB.userInfo.id + "",
+                "game": "game0"
+            });
         }
     },
 

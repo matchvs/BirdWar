@@ -5,7 +5,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
+      "x": -2,
       "y": 23,
       "width": 1366,
       "height": 677,
@@ -98,19 +98,6 @@
         "assets",
         "scene",
         "timeline"
-      ]
-    },
-    "window-1529130474945": {
-      "main": false,
-      "url": "packages://store/panel/index.html",
-      "windowType": "simple",
-      "x": 172,
-      "y": 23,
-      "width": 933,
-      "height": 677,
-      "layout": null,
-      "panels": [
-        "store"
       ]
     }
   },

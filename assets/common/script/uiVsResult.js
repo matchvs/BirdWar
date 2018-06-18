@@ -22,7 +22,6 @@ cc.Class({
         this.rival = this.nodeDict["rival"].getComponent("resultPlayerIcon");
         this.rival.node.active = false;
         this.nodeDict["quit"].on("click", this.quit, this);
-        this.setData();
     },
 
     quit: function() {
@@ -39,7 +38,6 @@ cc.Class({
     },
 
     setData(data) {
-        /*
         for (var i = 0; i < data.friendIds.length; i++) {
             var ins = cc.instantiate(this.player.node);
             ins.active = true;
@@ -75,28 +73,10 @@ cc.Class({
             this.nodeDict["vs"].active = true;
             this.nodeDict["score"].active = false;
         }
-        */
 
-        if (true) {
+        if (isWin) {
             // 发送胜局记录--
-            this.loginServer();
+            Game.GameManager.loginServer();
         }
-    },
-
-    loginServer: function() {
-        var network = kf.require("basic.network");
-        network.chooseNetworkMode();
-        var ip = "localhost";
-        var port = "3010";
-        network.connect(ip, port, function() {
-            network.send("connector.entryHandler.login", {
-                "account": GLB.userInfo.id,
-                "channel": "0",
-                "userName": "name",
-                "headIcon": "head",
-                "game": "game0",
-                "osType": typeof cc.sys.os === "undefined" ? "undefined" : cc.sys.os
-            });
-        });
-    },
+    }
 });
