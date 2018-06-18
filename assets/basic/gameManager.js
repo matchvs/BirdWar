@@ -522,10 +522,13 @@ cc.Class({
                         "userName": "name",
                         "headIcon": "head"
                     });
-                    network.send("connector.rankHandler.updateScore", {
-                        "account": GLB.userInfo.id + "",
-                        "game": "game0"
-                    });
+                    setTimeout(function() {
+                        network.send("connector.rankHandler.updateScore", {
+                            "account": GLB.userInfo.id + "",
+                            "game": "game0"
+                        });
+                    }, 500);
+
                 }
             );
         } else {
