@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a14f5535-62f4-43b9-ae6d-284ce16e43ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/messenger/clientEvent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/messenger/clientEvent.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/messenger/eventListener.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/messenger/eventListener.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/lobby.fire" beforeDir="false" afterPath="$PROJECT_DIR$/assets/lobby.fire" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiVsResult.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uiVsResult.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiVsResult.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+            <state relative-caret-position="250">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="504" column="41" selection-start-line="504" selection-start-column="27" selection-end-line="504" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -100,6 +102,7 @@
       <find>network.init</find>
       <find>getRankDataListener</find>
       <find>kf.addModule</find>
+      <find>ankDataListener</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,7 +221,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29814000" />
+    <option name="totallyTimeSpent" value="31061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
@@ -485,7 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js" />
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -523,8 +525,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiVsResult.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        <state relative-caret-position="250">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="504" column="41" selection-start-line="504" selection-start-column="27" selection-end-line="504" selection-end-column="41" />
         </state>
       </provider>
     </entry>
