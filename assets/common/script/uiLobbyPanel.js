@@ -17,26 +17,26 @@ cc.Class({
     },
 
     rank: function() {
-        var network = kf.require("basic.network");
-        network.chooseNetworkMode();
-        var ip = "123.207.6.72";
-        var port = "3010";
-        if (!network.isConnected()) {
-            network.connect(ip, port, function() {
-                    network.send("connector.entryHandler.login", {
+        if (!Game.GameManager.network.isConnected()) {
+            var ip = "123.207.6.72";
+            var port = "3010";
+            Game.GameManager.network.connect(ip, port, function() {
+                    Game.GameManager.network.send("connector.entryHandler.login", {
                         "account": GLB.userInfo.id + "",
                         "channel": "0",
                         "userName": "name",
                         "headIcon": "icon"
                     });
-                    network.send("connector.rankHandler.getRankData", {
-                        "account": GLB.userInfo.id + "",
-                        "game": "game0"
-                    });
+                    setTimeout(function() {
+                        Game.GameManager.network.send("connector.rankHandler.getRankData", {
+                            "account": GLB.userInfo.id + "",
+                            "game": "game0"
+                        });
+                    }, 500);
                 }
             );
         } else {
-            network.send("connector.rankHandler.getRankData", {
+            Game.GameManager.network.send("connector.rankHandler.getRankData", {
                 "account": GLB.userInfo.id + "",
                 "game": "game0"
             });

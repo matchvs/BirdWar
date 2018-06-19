@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a14f5535-62f4-43b9-ae6d-284ce16e43ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/gameManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lobby.fire" beforeDir="false" afterPath="$PROJECT_DIR$/assets/lobby.fire" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,74 +18,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="uiCreateRoom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/TzUIFramework/assets/common/script/uiCreateRoom.js">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="390">
+              <caret line="362" column="29" selection-start-line="362" selection-start-column="29" selection-end-line="362" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiGamePanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/common/script/uiGamePanel.js">
+      <file leaf-file-name="uiResult.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/uiResult.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+            <state relative-caret-position="484">
+              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiVsResult.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/common/script/uiVsResult.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="504" column="41" selection-start-line="504" selection-start-column="27" selection-end-line="504" selection-end-column="41" />
+            <state relative-caret-position="9709">
+              <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/TzUIFramework/assets/basic/messenger/clientEvent.js">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="440">
+              <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/chiji/script/player.js">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../duckHunt/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="448">
+              <caret line="438" column="29" selection-start-line="438" selection-start-column="29" selection-end-line="438" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bullet.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/chiji/script/bullet.js">
+      <file leaf-file-name="network.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/basic/network/basic/network.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+            <state relative-caret-position="399">
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bulletManager.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/chiji/script/bulletManager.js">
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiLobbyPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+            <state relative-caret-position="243">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/uiLobbyPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiLobbyPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -93,16 +115,16 @@
       <find>kf</find>
       <find>qqNetwork</find>
       <find>pomelo.init</find>
-      <find>network</find>
       <find>loginServer</find>
       <find>init</find>
       <find>channel</find>
       <find>connector.entryHandler.login</find>
       <find>socket</find>
       <find>network.init</find>
-      <find>getRankDataListener</find>
       <find>kf.addModule</find>
       <find>ankDataListener</find>
+      <find>getRankDataListener</find>
+      <find>network</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,9 +139,18 @@
         <option value="$PROJECT_DIR$/assets/common/script/uiRankPanel.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiVsResult.js" />
         <option value="$PROJECT_DIR$/assets/common/lobby/rankUserInfo.js" />
-        <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
-        <option value="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
         <option value="$PROJECT_DIR$/assets/basicT/gameManager.js" />
+        <option value="$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiVsResult.js" />
+        <option value="$PROJECT_DIR$/../duckHunt/assets/common/script/uiResult.js" />
+        <option value="$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiVsResult.js" />
+        <option value="$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/../duckHunt/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
+        <option value="$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiLobbyPanel.js" />
+        <option value="$PROJECT_DIR$/../duckHunt/assets/common/script/uiLobbyPanel.js" />
+        <option value="$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiLobbyPanel.js" />
       </list>
     </option>
   </component>
@@ -221,7 +252,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31061000" />
+    <option name="totallyTimeSpent" value="36658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
@@ -264,69 +295,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/lobby/resultPlayerIcon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/script/uiExit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/TianziyouGames/FatMan/assets/scripts/ninja/Ninja.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/uiGamePanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/chiji/script/item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/basic/messenger/clientEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/lobby/playerIcon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/imports/63/6368c2f5-5b36-4fa6-ad8b-73efad28bc80.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/chiji/script/playerManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2033">
@@ -470,28 +438,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/network/basic/clientEvent.js" />
     <entry file="file://$PROJECT_DIR$/assets/basic/network/basic/commonFunction.js" />
-    <entry file="file://$PROJECT_DIR$/assets/basic/network/basic/network.js" />
     <entry file="file://$PROJECT_DIR$/assets/basic/network/basic/networkForBasic.js" />
     <entry file="file://$PROJECT_DIR$/assets/basic/network/basic/networkForPomelo.js" />
     <entry file="file://$PROJECT_DIR$/assets/basic/network/aalibs/pomeloBuild.js" />
-    <entry file="file://$PROJECT_DIR$/assets/common/script/uiRankPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/lobby/rankUserInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -523,17 +476,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiRankPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiVsResult.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="673">
+          <caret line="76" selection-start-line="76" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiVsResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiVsResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/uiResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/basic/network/basic/network.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="362" column="29" selection-start-line="362" selection-start-column="29" selection-end-line="362" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="504" column="41" selection-start-line="504" selection-start-column="27" selection-end-line="504" selection-end-column="41" />
+        <state relative-caret-position="9709">
+          <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../duckHunt/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="438" column="29" selection-start-line="438" selection-start-column="29" selection-end-line="438" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiLobbyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/uiLobbyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiLobbyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>

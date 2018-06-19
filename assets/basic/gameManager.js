@@ -11,6 +11,8 @@ cc.Class({
         dataFunc.loadConfigs();
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        this.network = kf.require("basic.network");
+        this.network.chooseNetworkMode();
         this.getRankDataListener();
     },
 
@@ -500,8 +502,7 @@ cc.Class({
     },
 
     getRankDataListener: function() {
-        var network = kf.require("basic.network");
-        network.on("connector.rankHandler.getRankData", function(recvMsg) {
+        this.network.on("connector.rankHandler.getRankData", function(recvMsg) {
             uiFunc.openUI("uiRankPanelVer", function(obj) {
                 var uiRankPanel = obj.getComponent("uiRankPanel");
                 uiRankPanel.setData(recvMsg.rankArray);
@@ -510,31 +511,29 @@ cc.Class({
     },
 
     loginServer: function() {
-        var network = kf.require("basic.network");
-        network.chooseNetworkMode();
-        var ip = "localhost";
+        var ip = "123.207.6.72";
         var port = "3010";
-        if (!network.isConnected()) {
-            network.connect(ip, port, function() {
-                    network.send("connector.entryHandler.login", {
+        if (!this.network.isConnected()) {
+            this.network.connect(ip, port, function() {
+                    this.network.send("connector.entryHandler.login", {
                         "account": GLB.userInfo.id + "",
                         "channel": "0",
                         "userName": "name",
                         "headIcon": "head"
-                    });
+                    }.bind(this));
                     setTimeout(function() {
-                        network.send("connector.rankHandler.updateScore", {
+                        this.network.send("connector.rankHandler.updateScore", {
                             "account": GLB.userInfo.id + "",
-                            "game": "game0"
+                            "game": "game1"
                         });
-                    }, 500);
+                    }.bind(this), 500);
 
                 }
             );
         } else {
-            network.send("connector.rankHandler.updateScore", {
+            this.network.send("connector.rankHandler.updateScore", {
                 "account": GLB.userInfo.id + "",
-                "game": "game0"
+                "game": "game1"
             });
         }
     },
