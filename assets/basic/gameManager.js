@@ -9,6 +9,7 @@ cc.Class({
         cc.director.getCollisionManager().enabled = true;
         clientEvent.init();
         dataFunc.loadConfigs();
+        cc.view.enableAutoFullScreen(false);
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
         this.network = kf.require("basic.network");
