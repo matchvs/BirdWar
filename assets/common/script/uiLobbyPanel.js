@@ -19,7 +19,7 @@ cc.Class({
     rank: function() {
         var network = kf.require("basic.network");
         network.chooseNetworkMode();
-        var ip = "localhost";
+        var ip = "123.207.6.72";
         var port = "3010";
         if (!network.isConnected()) {
             network.connect(ip, port, function() {
