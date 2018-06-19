@@ -1,86 +1,56 @@
-2018-06-16T06:28:16.808Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-16T06:28:16.813Z - normal: checking language setting...
-2018-06-16T06:28:16.813Z - normal: Language: zh
-2018-06-16T06:28:18.599Z - success: protocol editor-framework registered
-2018-06-16T06:28:18.599Z - success: protocol app registered
-2018-06-16T06:28:18.599Z - success: protocol theme registered
-2018-06-16T06:28:18.599Z - success: protocol packages registered
-2018-06-16T06:28:18.600Z - success: protocol unpack registerred
-2018-06-16T06:28:18.600Z - success: protocol disable-commonjs registerred
-2018-06-16T06:28:18.944Z - normal: connected!
-2018-06-16T06:28:18.950Z - normal: Check project /Users/chenhao/matchvs/birdWar
-2018-06-16T06:28:18.967Z - normal: Initializing Cocos2d
-2018-06-16T06:28:19.437Z - normal: Initializing Asset Database
-2018-06-16T06:28:19.508Z - success: protocol uuid registerred
-2018-06-16T06:28:19.508Z - success: protocol db registerred
-2018-06-16T06:28:19.508Z - success: protocol thumbnail registerred
-2018-06-16T06:28:19.508Z - normal: Loading editor/builtin packages
-2018-06-16T06:28:19.536Z - success: anysdk loaded
-2018-06-16T06:28:19.755Z - success: assets loaded
-2018-06-16T06:28:19.761Z - success: builder loaded
-2018-06-16T06:28:19.765Z - success: cocos-analytics loaded
-2018-06-16T06:28:19.772Z - success: console loaded
-2018-06-16T06:28:19.812Z - success: fb-instant-games loaded
-2018-06-16T06:28:19.818Z - success: hierarchy loaded
-2018-06-16T06:28:19.827Z - success: inspector loaded
-2018-06-16T06:28:19.830Z - success: keystore loaded
-2018-06-16T06:28:19.845Z - success: node-library loaded
-2018-06-16T06:28:19.849Z - success: package-asset loaded
-2018-06-16T06:28:19.853Z - success: preferences loaded
-2018-06-16T06:28:19.859Z - success: project-exporter loaded
-2018-06-16T06:28:19.880Z - success: project-importer loaded
-2018-06-16T06:28:19.885Z - success: project-settings loaded
-2018-06-16T06:28:19.890Z - success: ui-kit loaded
-2018-06-16T06:28:19.897Z - success: ui-grid loaded
-2018-06-16T06:28:19.904Z - success: scene loaded
-2018-06-16T06:28:19.907Z - success: sprite-editor loaded
-2018-06-16T06:28:19.914Z - success: store loaded
-2018-06-16T06:28:19.924Z - success: timeline loaded
-2018-06-16T06:28:19.924Z - normal: Loading builtin packages
-2018-06-16T06:28:19.931Z - success: asset-db-debugger loaded
-2018-06-16T06:28:19.933Z - success: color-picker loaded
-2018-06-16T06:28:19.941Z - success: package-manager loaded
-2018-06-16T06:28:19.949Z - success: sdkbox loaded
-2018-06-16T06:28:19.957Z - success: tester loaded
-2018-06-16T06:28:19.963Z - success: ui-kit-preview-extra loaded
-2018-06-16T06:28:19.969Z - success: ui-kit-preview loaded
-2018-06-16T06:28:19.973Z - success: ui-tree loaded
-2018-06-16T06:28:21.899Z - normal: Initializing project /Users/chenhao/matchvs/birdWar
-2018-06-16T06:28:21.904Z - normal: Loading packages
-2018-06-16T06:28:21.921Z - success: plugin-matchvs loaded
-2018-06-16T06:28:21.921Z - normal: Watching packages
-2018-06-16T06:28:21.973Z - normal: Run Application
-2018-06-16T06:28:49.125Z - success: preview server running at http://localhost:7456
-2018-06-16T06:29:02.997Z - normal: 1.9.1
-2018-06-16T06:53:24.521Z - failed: load script [/Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js] failed : ReferenceError: kf is not defined
-    at __define (/Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js:1789:1)
-    at /Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js:1798:13
-    at Object.<anonymous> (/Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js:1805:11)
-    at Object.<anonymous> (/Users/chenhao/matchvs/birdWar/temp/quick-scripts/assets/basic/network/pomeloBuild.js:1808:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
-2018-06-17T08:32:34.847Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:279819
-2018-06-18T02:48:57.745Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:541432
-2018-06-18T05:39:33.206Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:677387
-2018-06-18T07:32:19.555Z - failed: [db-task][sync-changes] Failed to import asset /Users/chenhao/matchvs/birdWar/assets/basic/gameManager.js, message: Compile error: SyntaxError: /Users/chenhao/matchvs/birdWar/assets/basic/gameManager.js: Unexpected token, expected , (528:4)
-  526 |     }
-  527 | 
-> 528 |     onDestroy() {
-      |     ^
-  529 |         clientEvent.off(clientEvent.eventType.roundOver, this.roundOver, this);
-  530 |     }
-  531 | });
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
-    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-06-19T07:43:17.071Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-19T07:43:17.074Z - normal: checking language setting...
+2018-06-19T07:43:17.075Z - normal: Language: zh
+2018-06-19T07:43:17.695Z - success: protocol editor-framework registered
+2018-06-19T07:43:17.695Z - success: protocol app registered
+2018-06-19T07:43:17.696Z - success: protocol theme registered
+2018-06-19T07:43:17.696Z - success: protocol packages registered
+2018-06-19T07:43:17.696Z - success: protocol unpack registerred
+2018-06-19T07:43:17.697Z - success: protocol disable-commonjs registerred
+2018-06-19T07:43:18.107Z - normal: connected!
+2018-06-19T07:43:18.108Z - normal: Check project /Users/mac/MatchVsGames/birdWar
+2018-06-19T07:43:18.110Z - normal: Initializing Cocos2d
+2018-06-19T07:43:18.285Z - normal: Initializing Asset Database
+2018-06-19T07:43:18.317Z - success: protocol uuid registerred
+2018-06-19T07:43:18.317Z - success: protocol db registerred
+2018-06-19T07:43:18.317Z - success: protocol thumbnail registerred
+2018-06-19T07:43:18.318Z - normal: Loading editor/builtin packages
+2018-06-19T07:43:18.338Z - success: anysdk loaded
+2018-06-19T07:43:18.460Z - success: assets loaded
+2018-06-19T07:43:18.469Z - success: builder loaded
+2018-06-19T07:43:18.472Z - success: cocos-analytics loaded
+2018-06-19T07:43:18.478Z - success: console loaded
+2018-06-19T07:43:18.551Z - success: fb-instant-games loaded
+2018-06-19T07:43:18.559Z - success: hierarchy loaded
+2018-06-19T07:43:18.567Z - success: inspector loaded
+2018-06-19T07:43:18.572Z - success: keystore loaded
+2018-06-19T07:43:18.576Z - success: node-library loaded
+2018-06-19T07:43:18.578Z - success: package-asset loaded
+2018-06-19T07:43:18.582Z - success: preferences loaded
+2018-06-19T07:43:18.588Z - success: project-exporter loaded
+2018-06-19T07:43:18.608Z - success: project-importer loaded
+2018-06-19T07:43:18.615Z - success: project-settings loaded
+2018-06-19T07:43:18.621Z - success: ui-kit loaded
+2018-06-19T07:43:18.626Z - success: ui-grid loaded
+2018-06-19T07:43:18.632Z - success: scene loaded
+2018-06-19T07:43:18.636Z - success: sprite-editor loaded
+2018-06-19T07:43:18.640Z - success: store loaded
+2018-06-19T07:43:18.651Z - success: timeline loaded
+2018-06-19T07:43:18.651Z - normal: Loading builtin packages
+2018-06-19T07:43:18.656Z - success: asset-db-debugger loaded
+2018-06-19T07:43:18.657Z - success: color-picker loaded
+2018-06-19T07:43:18.661Z - success: package-manager loaded
+2018-06-19T07:43:18.663Z - success: qqplay-adapter loaded
+2018-06-19T07:43:18.672Z - success: sdkbox loaded
+2018-06-19T07:43:18.684Z - success: tester loaded
+2018-06-19T07:43:18.691Z - success: ui-kit-preview-extra loaded
+2018-06-19T07:43:18.700Z - success: ui-kit-preview loaded
+2018-06-19T07:43:18.706Z - success: ui-tree loaded
+2018-06-19T07:43:18.707Z - success: weapp-adapter loaded
+2018-06-19T07:43:19.708Z - normal: Initializing project /Users/mac/MatchVsGames/birdWar
+2018-06-19T07:43:19.710Z - normal: Loading packages
+2018-06-19T07:43:19.722Z - success: plugin-matchvs loaded
+2018-06-19T07:43:19.722Z - normal: Watching packages
+2018-06-19T07:43:19.862Z - normal: Run Application
+2018-06-19T07:43:20.461Z - success: preview server running at http://localhost:7459
+2018-06-19T07:43:27.891Z - normal: 1.9.2
