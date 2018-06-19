@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14f5535-62f4-43b9-ae6d-284ce16e43ee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/gameManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/lobby.fire" beforeDir="false" afterPath="$PROJECT_DIR$/assets/lobby.fire" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +16,8 @@
       <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="362" column="29" selection-start-line="362" selection-start-column="29" selection-end-line="362" selection-end-column="29" />
+            <state relative-caret-position="656">
+              <caret line="380" column="28" lean-forward="true" selection-start-line="380" selection-start-column="28" selection-end-line="380" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -39,8 +34,8 @@
       <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9709">
-              <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
+            <state relative-caret-position="620">
+              <caret line="530" column="28" lean-forward="true" selection-start-line="530" selection-start-column="28" selection-end-line="530" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -48,17 +43,17 @@
       <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+            <state relative-caret-position="616">
+              <caret line="400" column="28" selection-start-line="400" selection-start-column="28" selection-end-line="400" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../duckHunt/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="438" column="29" selection-start-line="438" selection-start-column="29" selection-end-line="438" selection-end-column="29" />
+            <state relative-caret-position="691">
+              <caret line="455" column="28" lean-forward="true" selection-start-line="455" selection-start-column="28" selection-end-line="455" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -99,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiLobbyPanel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -143,14 +138,14 @@
         <option value="$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiVsResult.js" />
         <option value="$PROJECT_DIR$/../duckHunt/assets/common/script/uiResult.js" />
         <option value="$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiVsResult.js" />
-        <option value="$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js" />
-        <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
-        <option value="$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js" />
-        <option value="$PROJECT_DIR$/../duckHunt/assets/basic/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
         <option value="$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiLobbyPanel.js" />
         <option value="$PROJECT_DIR$/../duckHunt/assets/common/script/uiLobbyPanel.js" />
         <option value="$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiLobbyPanel.js" />
+        <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/../duckHunt/assets/basic/gameManager.js" />
       </list>
     </option>
   </component>
@@ -252,7 +247,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36658000" />
+    <option name="totallyTimeSpent" value="37310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
@@ -518,34 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="362" column="29" selection-start-line="362" selection-start-column="29" selection-end-line="362" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9709">
-          <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../duckHunt/assets/basic/gameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="438" column="29" selection-start-line="438" selection-start-column="29" selection-end-line="438" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -553,9 +520,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiLobbyPanel.js">
+    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="250">
           <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
@@ -567,10 +534,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiLobbyPanel.js">
+    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="243">
           <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="530" column="28" lean-forward="true" selection-start-line="530" selection-start-column="28" selection-end-line="530" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="380" column="28" lean-forward="true" selection-start-line="380" selection-start-column="28" selection-end-line="380" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="400" column="28" selection-start-line="400" selection-start-column="28" selection-end-line="400" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../duckHunt/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="455" column="28" lean-forward="true" selection-start-line="455" selection-start-column="28" selection-end-line="455" selection-end-column="28" />
         </state>
       </provider>
     </entry>
