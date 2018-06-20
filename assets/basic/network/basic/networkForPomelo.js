@@ -248,7 +248,6 @@ kf.addModule("basic.networkForPomelo", function() {
                 this.checkNetLoadingStatus();
                 return;
             }
-
             var keys = Object.keys(this.routerManager);
             var index = keys.indexOf(router);
             if (index > -1) {

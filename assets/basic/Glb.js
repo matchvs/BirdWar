@@ -13,10 +13,12 @@ var obj = {
     PLAYER_GET_ITEM_EVENT: "playerGetItem",
     PLAYER_REMOVE_ITEM_EVENT: "playerRemoveItem",
     PLAYER_HURT_EVENT: "playerHurt",
-    READY:"ready",
+    READY: "ready",
     ROUND_START: "roundStart",
     ROUND_OVER: "roundOver",
     TIME_OVER: "timeOver",
+    IP: "123.207.6.72",
+    PORT: "3010",
 
     channel: 'MatchVS',
     platform: 'alpha',
@@ -28,7 +30,7 @@ var obj = {
 
     gameType: 2,
     matchType: 1,
-    tagsInfo: { "title": "A" },
+    tagsInfo: {"title": "A"},
     userInfo: null,
     playerUserIds: [],
     playerSet: new Set(),

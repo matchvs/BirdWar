@@ -25,6 +25,8 @@ cc.Class({
 
     setData: function(id) {
         this.nameLb.string = id;
+
+
     }
 
 });

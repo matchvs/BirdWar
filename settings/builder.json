@@ -9,7 +9,7 @@
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "jailbreakPlatform": false,
-  "md5Cache": false,
+  "md5Cache": true,
   "mergeStartScene": false,
   "oauthLoginServer": "",
   "optimizeHotUpdate": false,
@@ -29,7 +29,8 @@
   "title": "birdWar",
   "webOrientation": "portrait",
   "wechatgame": {
-    "appid": "wx6ac3f5090a6b99c5",
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/birdwar",
+    "appid": "wx793199d0ca521154",
     "orientation": "portrait"
   },
   "xxteaKey": "a15e5bec-8ac1-4f",

@@ -15,6 +15,23 @@ cc.Class({
         this.network = kf.require("basic.network");
         this.network.chooseNetworkMode();
         this.getRankDataListener();
+        wx.login({
+            success: function() {
+                wx.getUserInfo({
+                    fail: function(res) {
+                        // iOS 和 Android 对于拒绝授权的回调 errMsg 没有统一，需要做一下兼容处理
+                        if (res.errMsg.indexOf('auth deny') > -1 || res.errMsg.indexOf('auth denied') > -1) {
+                            // 处理用户拒绝授权的情况
+                        }
+                    },
+                    success: function(res) {
+                        Game.GameManager.nickName = res.userInfo.nickName;
+                        Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
+                        console.log('success', Game.GameManager.nickName);
+                    }
+                });
+            }
+        })
     },
 
     leaveRoom: function(data) {
@@ -512,16 +529,14 @@ cc.Class({
     },
 
     loginServer: function() {
-        var ip = "123.207.6.72";
-        var port = "3010";
         if (!this.network.isConnected()) {
-            this.network.connect(ip, port, function() {
+            this.network.connect(GLB.IP, GLB.PORT, function() {
                     this.network.send("connector.entryHandler.login", {
                         "account": GLB.userInfo.id + "",
                         "channel": "0",
-                        "userName": "name",
-                        "headIcon": "head"
-                    }.bind(this));
+                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                    });
                     setTimeout(function() {
                         this.network.send("connector.rankHandler.updateScore", {
                             "account": GLB.userInfo.id + "",
