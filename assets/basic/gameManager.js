@@ -15,6 +15,8 @@ cc.Class({
         this.network = kf.require("basic.network");
         this.network.chooseNetworkMode();
         this.getRankDataListener();
+        this.findPlayerByAccountListener();
+        /*
         wx.login({
             success: function() {
                 wx.getUserInfo({
@@ -32,6 +34,7 @@ cc.Class({
                 });
             }
         })
+        */
     },
 
     leaveRoom: function(data) {
@@ -526,6 +529,12 @@ cc.Class({
                 uiRankPanel.setData(recvMsg.rankArray);
             });
         }.bind(this));
+    },
+
+    findPlayerByAccountListener: function() {
+        this.network.on("connector.entryHandler.findPlayerByAccount", function(recvMsg) {
+            clientEvent.dispatch(clientEvent.eventType.playerAccountGet, recvMsg);
+        });
     },
 
     loginServer: function() {

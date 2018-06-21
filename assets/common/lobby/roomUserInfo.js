@@ -34,6 +34,10 @@ cc.Class({
         }
     },
 
+    onLoad() {
+        clientEvent.on(clientEvent.eventType.playerAccountGet, this.userInfoSet);
+    },
+
     init: function() {
         this.defaultNode.active = true;
         this.otherTag.active = false;
@@ -70,9 +74,41 @@ cc.Class({
         } else {
             this.kick.active = true;
         }
+        this.userInfoReq();
+    },
+
+    userInfoReq: function() {
+        if (!Game.GameManager.network.isConnected()) {
+            Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
+                    Game.GameManager.network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                    });
+                    setTimeout(function() {
+                        Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
+                            "account": this.userId + "",
+                        });
+                    }, 200);
+                }
+            );
+        } else {
+            Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
+                "account": this.userId + "",
+            });
+        }
+    },
+
+    userInfoSet: function(recvMsg) {
+        console.log("recvMsg:" + recvMsg);
     },
 
     kickPlayer: function() {
         mvs.engine.kickPlayer(this.userId, "kick");
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.playerAccountGet, this.userInfoSet);
     }
 });
