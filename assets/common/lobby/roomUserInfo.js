@@ -31,11 +31,11 @@ cc.Class({
         kick: {
             default: null,
             type: cc.Node
+        },
+        userIcon: {
+            default: null,
+            type: cc.Sprite
         }
-    },
-
-    onLoad() {
-        clientEvent.on(clientEvent.eventType.playerAccountGet, this.userInfoSet);
     },
 
     init: function() {
@@ -48,6 +48,7 @@ cc.Class({
         this.kick.active = false;
         this.kick.on("click", this.kickPlayer, this);
         this.userId = 0;
+        clientEvent.on(clientEvent.eventType.playerAccountGet, this.userInfoSet, this);
     },
 
     setData: function(userId, ownerId) {
@@ -74,41 +75,29 @@ cc.Class({
         } else {
             this.kick.active = true;
         }
-        this.userInfoReq();
-    },
-
-    userInfoReq: function() {
-        if (!Game.GameManager.network.isConnected()) {
-            Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
-                    Game.GameManager.network.send("connector.entryHandler.login", {
-                        "account": GLB.userInfo.id + "",
-                        "channel": "0",
-                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
-                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
-                    });
-                    setTimeout(function() {
-                        Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
-                            "account": this.userId + "",
-                        });
-                    }, 200);
-                }
-            );
-        } else {
-            Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
-                "account": this.userId + "",
-            });
-        }
+        Game.GameManager.userInfoReq(this.userId);
     },
 
     userInfoSet: function(recvMsg) {
         console.log("recvMsg:" + recvMsg);
+        if (recvMsg.account == this.userId) {
+            console.log("set user info");
+            console.log(recvMsg);
+            this.userName.string = recvMsg.userName;
+            if (recvMsg.headIcon && recvMsg.headIcon !== "-") {
+                cc.loader.load({url: recvMsg.headIcon, type: 'png'}, function(err, texture) {
+                    var spriteFrame = new cc.SpriteFrame(texture, cc.Rect(0, 0, texture.width, texture.height));
+                    this.userIcon.spriteFrame = spriteFrame;
+                }.bind(this));
+            }
+        }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.playerAccountGet, this.userInfoSet, this);
     },
 
     kickPlayer: function() {
         mvs.engine.kickPlayer(this.userId, "kick");
-    },
-
-    onDestroy() {
-        clientEvent.off(clientEvent.eventType.playerAccountGet, this.userInfoSet);
     }
 });

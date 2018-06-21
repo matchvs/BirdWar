@@ -16,7 +16,6 @@ cc.Class({
         this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();
-        /*
         wx.login({
             success: function() {
                 wx.getUserInfo({
@@ -34,7 +33,6 @@ cc.Class({
                 });
             }
         })
-        */
     },
 
     leaveRoom: function(data) {
@@ -549,7 +547,7 @@ cc.Class({
                     setTimeout(function() {
                         this.network.send("connector.rankHandler.updateScore", {
                             "account": GLB.userInfo.id + "",
-                            "game": "game1"
+                            "game": "game0"
                         });
                     }.bind(this), 500);
 
@@ -558,7 +556,30 @@ cc.Class({
         } else {
             this.network.send("connector.rankHandler.updateScore", {
                 "account": GLB.userInfo.id + "",
-                "game": "game1"
+                "game": "game0"
+            });
+        }
+    },
+
+    userInfoReq: function(userId) {
+        if (!Game.GameManager.network.isConnected()) {
+            Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
+                    Game.GameManager.network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                    });
+                    setTimeout(function() {
+                        Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
+                            "account": userId + "",
+                        });
+                    }, 200);
+                }
+            );
+        } else {
+            Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
+                "account": userId + "",
             });
         }
     },

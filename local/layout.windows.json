@@ -47,7 +47,7 @@
                     ],
                     "height": 616,
                     "type": "panel",
-                    "width": 614.984375
+                    "width": 621.984375
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 616,
                     "type": "panel",
-                    "width": 354
+                    "width": 323
                   }
                 ],
                 "height": 616,
                 "type": "dock-h",
-                "width": 972
+                "width": 948
               },
               {
                 "active": 0,
@@ -71,22 +71,22 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 972
+                "width": 948
               }
             ],
             "height": 885,
             "type": "dock-v",
-            "width": 972
+            "width": 948
           },
           {
-            "active": 0,
+            "active": 1,
             "children": [
               "inspector",
               "builder"
             ],
             "height": 885,
             "type": "panel",
-            "width": 329
+            "width": 353
           }
         ],
         "type": "dock-h"
@@ -113,6 +113,32 @@
       "layout": null,
       "panels": [
         "store"
+      ]
+    },
+    "window-1529569783634": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 602,
+      "y": 221,
+      "width": 404,
+      "height": 528,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "package-asset.export"
+            ],
+            "height": 506,
+            "type": "panel",
+            "width": 404
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "package-asset.export"
       ]
     }
   },
@@ -154,8 +180,8 @@
       "height": 532
     },
     "package-asset.export": {
-      "x": 641,
-      "y": 141,
+      "x": 602,
+      "y": 221,
       "width": 404,
       "height": 528
     }
