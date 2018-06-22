@@ -323,10 +323,10 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 5
+      "__id__": 1
     },
     "asset": {
-      "__uuid__": "c8448d1c-60b1-4928-a25f-02e26ba4f4fb"
+      "__uuid__": "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
     },
     "fileId": "9fW6wqIbFBNrVxQA6t0xbQ",
     "sync": false
@@ -348,10 +348,10 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 5
+      "__id__": 1
     },
     "asset": {
-      "__uuid__": "c8448d1c-60b1-4928-a25f-02e26ba4f4fb"
+      "__uuid__": "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
     },
     "fileId": "30du4ZnbpMrIImG1tGSe3x",
     "sync": false

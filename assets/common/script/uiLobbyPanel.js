@@ -138,5 +138,6 @@ cc.Class({
     },
 
     inviteFriend: function() {
+        wx.shareAppMessage();
     }
 });

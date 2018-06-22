@@ -79,7 +79,7 @@
             "width": 948
           },
           {
-            "active": 1,
+            "active": 0,
             "children": [
               "inspector",
               "builder"
@@ -100,45 +100,6 @@
         "hierarchy",
         "assets",
         "scene"
-      ]
-    },
-    "window-1529492619221": {
-      "main": false,
-      "url": "packages://store/panel/index.html",
-      "windowType": "simple",
-      "x": 564,
-      "y": 23,
-      "width": 1101,
-      "height": 711,
-      "layout": null,
-      "panels": [
-        "store"
-      ]
-    },
-    "window-1529569783634": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 602,
-      "y": 221,
-      "width": 404,
-      "height": 528,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "package-asset.export"
-            ],
-            "height": 506,
-            "type": "panel",
-            "width": 404
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "package-asset.export"
       ]
     }
   },

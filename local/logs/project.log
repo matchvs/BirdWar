@@ -55,3 +55,229 @@
 2018-06-21T08:40:09.308Z - normal: Run Application
 2018-06-21T08:40:10.325Z - success: preview server running at http://localhost:7456
 2018-06-21T08:40:17.889Z - normal: 1.9.2
+2018-06-21T14:01:26.522Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "c8448d1c-60b1-4928-a25f-02e26ba4f4fb"
+
+2018-06-21T14:01:26.526Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "c8448d1c-60b1-4928-a25f-02e26ba4f4fb"
+
+2018-06-21T14:02:07.195Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "c8448d1c-60b1-4928-a25f-02e26ba4f4fb"
+
+2018-06-21T14:02:07.201Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "c8448d1c-60b1-4928-a25f-02e26ba4f4fb"
+
+2018-06-21T14:02:14.604Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/birdWar/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "birdWar",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/birdwar",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/birdWar",
+  "projectName": "birdWar",
+  "debugBuildWorker": false
+}
+2018-06-21T14:02:14.624Z - normal: Building /Users/mac/MatchVsGames/birdWar
+2018-06-21T14:02:14.624Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/wechatgame
+2018-06-21T14:02:15.091Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/wechatgame/**/*
+2018-06-21T14:02:37.790Z - normal: Compiled project javascript file successfully
+2018-06-21T14:02:37.791Z - normal: Start building assets
+2018-06-21T14:02:37.792Z - normal: Start spawn build-worker
+2018-06-21T14:02:39.372Z - normal: Finish spawn build-worker
+2018-06-21T14:02:39.372Z - normal: Start init build-worker
+2018-06-21T14:02:43.836Z - normal: 1.9.2
+2018-06-21T14:02:44.589Z - normal: Finish init build-worker
+2018-06-21T14:02:44.589Z - normal: Start build-assets in worker
+2018-06-21T14:02:46.336Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-21T14:02:46.338Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-06-21T14:02:47.957Z - normal: Finish build-assets in worker
+2018-06-21T14:02:47.971Z - normal: Finish building assets
+2018-06-21T14:02:48.025Z - normal: Start building raw assets
+2018-06-21T14:02:48.026Z - normal: Start building plugin scripts
+2018-06-21T14:02:51.659Z - normal: Finish building plugin scripts
+2018-06-21T14:02:52.053Z - normal: Finish building raw assets
+2018-06-21T14:02:52.062Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:02:54.154Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/wechatgame" successfully
+2018-06-21T14:03:07.476Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-21T14:03:07.479Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-21T14:03:08.319Z - normal: Initializing...
+
+2018-06-21T14:03:08.332Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-21T14:03:08.416Z - normal: IDE server has started, listening on http://127.0.0.1:54584
+
+2018-06-21T14:03:08.417Z - normal: initialization finished
+
+2018-06-21T14:03:08.658Z - normal: open IDE success
+
+2018-06-21T14:04:46.536Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-21T14:04:46.539Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-21T14:04:48.154Z - normal: Initializing...
+
+2018-06-21T14:04:48.177Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-21T14:04:48.253Z - normal: IDE server has started, listening on http://127.0.0.1:54584
+
+2018-06-21T14:04:48.253Z - normal: initialization finished
+
+2018-06-21T14:04:48.431Z - normal: open IDE success
+
+2018-06-21T14:05:09.584Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/birdWar/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "birdWar",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/birdwar",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/birdWar",
+  "projectName": "birdWar",
+  "debugBuildWorker": false
+}
+2018-06-21T14:05:09.602Z - normal: Building /Users/mac/MatchVsGames/birdWar
+2018-06-21T14:05:09.602Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/wechatgame
+2018-06-21T14:05:09.605Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/wechatgame/**/*
+2018-06-21T14:05:33.579Z - normal: Compiled project javascript file successfully
+2018-06-21T14:05:33.579Z - normal: Start building assets
+2018-06-21T14:05:33.579Z - normal: Start spawn build-worker
+2018-06-21T14:05:35.151Z - normal: Finish spawn build-worker
+2018-06-21T14:05:35.151Z - normal: Start init build-worker
+2018-06-21T14:05:39.940Z - normal: 1.9.2
+2018-06-21T14:05:40.709Z - normal: Finish init build-worker
+2018-06-21T14:05:40.710Z - normal: Start build-assets in worker
+2018-06-21T14:05:43.186Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-21T14:05:43.212Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-06-21T14:05:46.285Z - normal: Finish build-assets in worker
+2018-06-21T14:05:46.318Z - normal: Finish building assets
+2018-06-21T14:05:46.370Z - normal: Start building raw assets
+2018-06-21T14:05:46.371Z - normal: Start building plugin scripts
+2018-06-21T14:05:50.223Z - normal: Finish building plugin scripts
+2018-06-21T14:05:50.522Z - normal: Finish building raw assets
+2018-06-21T14:05:50.526Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:05:53.380Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/wechatgame" successfully
+2018-06-21T14:08:29.505Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-21T14:08:29.507Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-21T14:08:30.675Z - normal: Initializing...
+
+2018-06-21T14:08:30.685Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-21T14:08:30.752Z - normal: IDE server has started, listening on http://127.0.0.1:54584
+
+2018-06-21T14:08:30.792Z - normal: initialization finished
+
+2018-06-21T14:08:31.019Z - normal: open IDE success
+
