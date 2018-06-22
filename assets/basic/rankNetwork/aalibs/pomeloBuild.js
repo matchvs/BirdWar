@@ -1808,9 +1808,4 @@ pomeloBuild.create = function () {
     return pomeloBuildObj;
 };
 
-kf.addModule("aalibs.pomeloBuild", function() {
-    return pomeloBuild;
-});
-
-// module.exports = pomeloBuild;
-
+window.pomeloBuild = pomeloBuild;
