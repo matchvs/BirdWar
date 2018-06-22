@@ -54,3 +54,102 @@
 2018-06-22T03:32:13.925Z - normal: Run Application
 2018-06-22T03:32:15.328Z - success: preview server running at http://localhost:7456
 2018-06-22T03:32:22.620Z - normal: 1.9.2
+2018-06-22T03:42:12.354Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/birdWar/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/birdWar/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "birdWar",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/birdwar",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/birdWar",
+  "projectName": "birdWar",
+  "debugBuildWorker": false
+}
+2018-06-22T03:42:12.357Z - normal: Building /Users/mac/MatchVsGames/birdWar
+2018-06-22T03:42:12.357Z - normal: Destination /Users/mac/MatchVsGames/birdWar/build/wechatgame
+2018-06-22T03:42:12.690Z - normal: Delete /Users/mac/MatchVsGames/birdWar/build/wechatgame/**/*
+2018-06-22T03:42:34.706Z - normal: Compiled project javascript file successfully
+2018-06-22T03:42:34.707Z - normal: Start building assets
+2018-06-22T03:42:34.707Z - normal: Start spawn build-worker
+2018-06-22T03:42:36.398Z - normal: Finish spawn build-worker
+2018-06-22T03:42:36.398Z - normal: Start init build-worker
+2018-06-22T03:42:41.265Z - normal: 1.9.2
+2018-06-22T03:42:41.991Z - normal: Finish init build-worker
+2018-06-22T03:42:41.996Z - normal: Start build-assets in worker
+2018-06-22T03:42:44.642Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-22T03:42:44.646Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-06-22T03:42:47.151Z - normal: Finish build-assets in worker
+2018-06-22T03:42:47.190Z - normal: Finish building assets
+2018-06-22T03:42:47.233Z - normal: Start building raw assets
+2018-06-22T03:42:47.235Z - normal: Start building plugin scripts
+2018-06-22T03:42:51.632Z - normal: Finish building plugin scripts
+2018-06-22T03:42:51.925Z - normal: Finish building raw assets
+2018-06-22T03:42:51.968Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T03:42:55.143Z - normal: Built to "/Users/mac/MatchVsGames/birdWar/build/wechatgame" successfully
+2018-06-22T03:43:01.368Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-22T03:43:01.369Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-22T03:43:03.501Z - normal: Initializing...
+
+2018-06-22T03:43:03.596Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-22T03:43:03.799Z - normal: IDE server has started, listening on http://127.0.0.1:54584
+
+2018-06-22T03:43:03.800Z - normal: initialization finished
+
+2018-06-22T03:43:04.248Z - normal: open IDE success
+

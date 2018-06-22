@@ -4,12 +4,8 @@
     <list default="true" id="a14f5535-62f4-43b9-ae6d-284ce16e43ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/gameManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/aalibs/pomeloBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/rankNetwork/aalibs/pomeloBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/basic/network.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/rankNetwork/basic/network.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/basic/networkForPomelo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/basic/networkForPomelo.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/network.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/rankNetwork/network.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="534" column="22" lean-forward="true" selection-start-line="534" selection-start-column="22" selection-end-line="534" selection-end-column="22" />
+            <state relative-caret-position="646">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -56,23 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="network.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/basic/network.js">
+      <file leaf-file-name="pomeloBuild.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/pomeloBuild.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="-33607">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pomeloBuild.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/aalibs/pomeloBuild.js">
+      <file leaf-file-name="ProtoBuf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/ProtoBuf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34390">
-              <caret line="1810" column="18" selection-start-line="1810" selection-start-column="7" selection-end-line="1810" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="571">
+              <caret line="299" column="13" lean-forward="true" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/network.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1984">
+              <caret line="123" column="74" selection-start-line="123" selection-start-column="74" selection-end-line="123" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -111,12 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>constants</find>
-      <find>chooseNetworkMode</find>
-      <find>alphagateway.matchvs.com</find>
-      <find>ws</find>
-      <find>socketTask.</find>
-      <find>WebSocket.E.r.onmessage</find>
       <find>lobbyS</find>
       <find>https://data.tianziyou.com/matchvsGamesRes/doubleshoot/res/raw-assets/resources/texture/background.2a8bc</find>
       <find>setData</find>
@@ -141,6 +137,12 @@
       <find>clientEvent</find>
       <find>getRankDataListener</find>
       <find>this.netListener</find>
+      <find>checkNetLoadingStatus</find>
+      <find>create</find>
+      <find>maxReconnect</find>
+      <find>serverList</find>
+      <find>serverIndex</find>
+      <find>reset</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,8 +197,9 @@
         <option value="$PROJECT_DIR$/assets/common/script/uiVsResult.js" />
         <option value="$PROJECT_DIR$/assets/basic/rankNetwork/aalibs/pomeloBuild.js" />
         <option value="$PROJECT_DIR$/assets/basic/rankNetwork/basic/networkForPomelo.js" />
-        <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/basic/rankNetwork/basic/network.js" />
+        <option value="$PROJECT_DIR$/assets/basic/rankNetwork/network.js" />
+        <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
       </list>
     </option>
   </component>
@@ -207,10 +210,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-75" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="977" />
+    <option name="height" value="979" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -304,15 +306,15 @@
       <workItem from="1529132608861" duration="4207000" />
       <workItem from="1529138617550" duration="107000" />
       <workItem from="1529138735437" duration="22851000" />
-      <workItem from="1529590526877" duration="3280000" />
+      <workItem from="1529590526877" duration="3910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78232000" />
+    <option name="totallyTimeSpent" value="78862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-75" y="23" width="1920" height="977" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
@@ -367,27 +369,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/common/lobby/playerIcon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/script/uiMatching1v1Ver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/uiMatching.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiMatching1v1Ver.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -712,17 +693,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
+    <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/basic/network.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="534" column="22" lean-forward="true" selection-start-line="534" selection-start-column="22" selection-end-line="534" selection-end-column="22" />
+        <state relative-caret-position="250">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/basic/network.js">
+    <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/network.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="-1984">
+          <caret line="123" column="74" selection-start-line="123" selection-start-column="74" selection-end-line="123" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/pomeloBuild.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33607">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/ProtoBuf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="299" column="13" lean-forward="true" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -1,10 +1,5 @@
 window.network = {
     initNetwork: function() {
-        this.serverIndex = 1;
-        // 断线重连次数
-        this.maxReconnect = 7;
-        this.serverList = null;
-
         this.pomeloBuildObj = pomeloBuild.create();
         this.pomelo = this.pomeloBuildObj.pomelo;
 
@@ -17,9 +12,7 @@ window.network = {
 
         // 只能被network用，其他人不能用
         this.netListener = eventListener.create("one");
-
         this.reset();
-
         this._registerNetEvent();
     },
 
@@ -29,8 +22,6 @@ window.network = {
         // 路由管理器（暂名）重置，重置后立马刷新一次netLoading的显示
         this.routerManager = {};
     },
-
-
     /**
      内部使用的注册网络回调函数
      */
@@ -87,10 +78,7 @@ window.network = {
     },
 
     disconnect: function() {
-        // this.isDisconnectBySelf = true;
         if (this.isConnected()) {
-            // 还未确定网络架构
-            cc.log("disconnect");
             this.pomelo["disconnect"]();
         }
     },
@@ -134,7 +122,6 @@ window.network = {
 
         if (msgOrigin["body"]["code"] === 500) {
             cc.error("server data error, can't find the route:" + router);
-
             // pomelo异常处理都返回500，仍然需要做分发处理
             // return;
         }
@@ -153,19 +140,6 @@ window.network = {
         this.curMsgName = msgOrigin["route"];
 
         this.netListener.dispatch(msgOrigin["route"], msgOrigin["body"]);
-    },
-
-    // 可以new一个网络出来
-    create: function() {
-        var ret = new Network();
-
-        // create 方法目前是战斗那边调用, 用于创建一个只用于战斗的连接。加入一个类型，用于判断是否处理网络中断的事件。
-        // onLoad 里的接口需要用到 netType，因此把 netType 的赋值移上来
-        ret.netType = 'fight';
-
-        ret.onLoad();
-
-        return ret;
     },
 
     setNetLoadingStatus: function(flag) {
@@ -197,8 +171,6 @@ window.network = {
                 var deltaTime = currentTime - routerTime;
                 if (deltaTime > this.netLoadingCheckInterval) {
                     // 存在路由的请求时间超出了阈值，显示 netLoading
-                    // clientEvent.dispatch("showPanel", "netLoadingPanel");
-
                     // 有路由显示的话，就不再检查其他的路由
                     return;
                 }
