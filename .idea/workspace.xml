@@ -2,11 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14f5535-62f4-43b9-ae6d-284ce16e43ee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiLobbyPanelVer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uiLobbyPanelVer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/gameManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aadapter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aadapter/aengineAdapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aadapter/aengineAdapter.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs/ProtoBuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs/ProtoBuf.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs/codeParse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs/codeParse.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs/pomeloBuild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs/pomeloBuild.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs/xxtea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/aalibs/xxtea.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/clientEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/clientEvent.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/commonFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/commonFunction.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/configuration.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/eventListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/eventListener.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/hearbeat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/hearbeat.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/lang.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/msgType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/msgType.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/network.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/network.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/networkForBasic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/networkForBasic.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/networkForPomelo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/networkForPomelo.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/panelCenter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/panelCenter.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/pool.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/reconnect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/reconnect.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/network/basic/socket.js.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,29 +56,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="roomUserInfo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/lobby/roomUserInfo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
-              <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="playerIcon.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/lobby/playerIcon.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+            <state relative-caret-position="168">
+              <caret line="114" column="69" lean-forward="true" selection-start-line="114" selection-start-column="69" selection-end-line="114" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -183,7 +222,6 @@
         <option value="$PROJECT_DIR$/../shaolinTemple/assets/basic/messenger/clientEventSelf.js" />
         <option value="$PROJECT_DIR$/../oneTwoStep/assets/basic/messenger/clientEventSelf.js" />
         <option value="$PROJECT_DIR$/../duckHunt/assets/basic/messenger/clientEventSelf.js" />
-        <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/common/lobby/roomUserInfo.js" />
         <option value="$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js" />
         <option value="$PROJECT_DIR$/../oneTwoStep/assets/basic/gameManager.js" />
@@ -197,6 +235,7 @@
         <option value="$PROJECT_DIR$/../duckHunt/assets/common/lobby/playerIcon.js" />
         <option value="$PROJECT_DIR$/assets/common/lobby/resultPlayerIcon.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiVsResult.js" />
+        <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
       </list>
     </option>
   </component>
@@ -206,7 +245,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="817" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
@@ -242,43 +282,6 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="messenger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="birdWar" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="birdWar" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="aadapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="birdWar" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="aalibs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="birdWar" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="birdWar" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="chiji" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
@@ -340,15 +343,15 @@
       <workItem from="1529132608861" duration="4207000" />
       <workItem from="1529138617550" duration="107000" />
       <workItem from="1529138735437" duration="22851000" />
-      <workItem from="1529590526877" duration="293000" />
+      <workItem from="1529590526877" duration="307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75245000" />
+    <option name="totallyTimeSpent" value="75259000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="977" extended-state="1" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
@@ -650,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="561" column="6" selection-start-line="561" selection-start-column="6" selection-end-line="561" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/basic/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="641">
@@ -747,14 +743,21 @@
     <entry file="file://$PROJECT_DIR$/assets/common/lobby/playerIcon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+        <state relative-caret-position="168">
+          <caret line="114" column="69" lean-forward="true" selection-start-line="114" selection-start-column="69" selection-end-line="114" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
         </state>
       </provider>
     </entry>

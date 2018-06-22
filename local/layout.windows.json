@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 355,
+                "height": 226,
                 "type": "panel",
-                "width": 607
+                "width": 666
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 527,
+                "height": 656,
                 "type": "panel",
-                "width": 607
+                "width": 666
               }
             ],
             "height": 885,
             "type": "dock-v",
-            "width": 607
+            "width": 666
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 616,
                     "type": "panel",
-                    "width": 621.984375
+                    "width": 426
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 616,
                     "type": "panel",
-                    "width": 323
+                    "width": 222
                   }
                 ],
                 "height": 616,
                 "type": "dock-h",
-                "width": 948
+                "width": 651
               },
               {
                 "active": 0,
@@ -71,12 +71,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 948
+                "width": 651
               }
             ],
             "height": 885,
             "type": "dock-v",
-            "width": 948
+            "width": 651
           },
           {
             "active": 0,
@@ -86,7 +86,7 @@
             ],
             "height": 885,
             "type": "panel",
-            "width": 353
+            "width": 591
           }
         ],
         "type": "dock-h"
