@@ -1,11 +1,6 @@
 
 kf.addModule("basic.networkForPomelo", function() {
-    var eventListener = kf.require("basic.eventListener");
     var pomeloBuild = kf.require("aalibs.pomeloBuild");
-    var clientEvent = kf.require("basic.clientEvent");
-    // var lang = kf.require("basic.lang");
-    // var constants = kf.require("shared.constants");
-
     var network = {
         initNetwork: function() {
             this.serverIndex = 1;
@@ -50,7 +45,7 @@ kf.addModule("basic.networkForPomelo", function() {
             }.bind(this));
 
             this.pomelo["on"]("heartbeat recv", function () {
-                clientEvent.dispatchEvent("updateNetworkState", "heartBeatRet");
+                clientEvent.dispatch("updateNetworkState", "heartBeatRet");
             }.bind(this));
 
             this.pomelo["on"]("close", function() {
@@ -178,9 +173,9 @@ kf.addModule("basic.networkForPomelo", function() {
 
         setNetLoadingStatus: function(flag) {
             if (flag) {
-                // clientEvent.dispatchEvent("showPanel", "netLoadingPanel");
+                // clientEvent.dispatch("showPanel", "netLoadingPanel");
             } else {
-                clientEvent.dispatchEvent('hidePanel', "netLoadingPanel");
+                clientEvent.dispatch('hidePanel', "netLoadingPanel");
             }
         },
 
@@ -194,7 +189,7 @@ kf.addModule("basic.networkForPomelo", function() {
             var keys = Object.keys(this.routerManager);
             var keysLength = keys.length;
             if (keysLength <= 0) {
-                clientEvent.dispatchEvent('hidePanel', "netLoadingPanel");
+                clientEvent.dispatch('hidePanel', "netLoadingPanel");
                 return;
             }
 
@@ -205,7 +200,7 @@ kf.addModule("basic.networkForPomelo", function() {
                     var deltaTime = currentTime - routerTime;
                     if (deltaTime > this.netLoadingCheckInterval) {
                         // 存在路由的请求时间超出了阈值，显示 netLoading
-                        // clientEvent.dispatchEvent("showPanel", "netLoadingPanel");
+                        // clientEvent.dispatch("showPanel", "netLoadingPanel");
 
                         // 有路由显示的话，就不再检查其他的路由
                         return;
