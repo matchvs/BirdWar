@@ -3,9 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="a14f5535-62f4-43b9-ae6d-284ce16e43ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/gameManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/network.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/rankNetwork/network.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/DataFunc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/DataFunc.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/Glb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/Glb.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/Globals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/Globals.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/Matchvs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/Matchvs.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/MatchvsEngine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/MatchvsEngine.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/UIFunc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/UIFunc.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/gameManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/gameManager.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/messenger.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/messenger/clientEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/messenger/clientEvent.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/messenger/eventListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/messenger/eventListener.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/ProtoBuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/ProtoBuf.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/msgType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/msgType.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/network.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/network.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/pomeloBuild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/rankNetwork/pomeloBuild.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/uiPanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/uiPanel.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/hierarchy.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/hierarchy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,52 +60,34 @@
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="114" column="69" lean-forward="true" selection-start-line="114" selection-start-column="69" selection-end-line="114" selection-end-column="69" />
+              <caret line="114" column="69" selection-start-line="114" selection-start-column="69" selection-end-line="114" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/script/gameManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
+        <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="285">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventListenerSelf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/basic/messenger/eventListenerSelf.js">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" selection-start-line="2" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pomeloBuild.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/pomeloBuild.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33607">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProtoBuf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/ProtoBuf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="299" column="13" lean-forward="true" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="network.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/basic/rankNetwork/network.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1984">
-              <caret line="123" column="74" selection-start-line="123" selection-start-column="74" selection-end-line="123" selection-end-column="74" />
+            <state relative-caret-position="266">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -96,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1273">
               <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playerIcon.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/lobby/playerIcon.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -135,7 +139,6 @@
       <find>netListener</find>
       <find>initNetwork</find>
       <find>clientEvent</find>
-      <find>getRankDataListener</find>
       <find>this.netListener</find>
       <find>checkNetLoadingStatus</find>
       <find>create</find>
@@ -143,6 +146,7 @@
       <find>serverList</find>
       <find>serverIndex</find>
       <find>reset</find>
+      <find>getRankDataListener</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/basic/network/basic/clientEvent.js" />
         <option value="$PROJECT_DIR$/assets/basic/network/basic/commonFunction.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiRankPanel.js" />
         <option value="$PROJECT_DIR$/assets/basicT/gameManager.js" />
@@ -200,6 +203,9 @@
         <option value="$PROJECT_DIR$/assets/basic/rankNetwork/basic/network.js" />
         <option value="$PROJECT_DIR$/assets/basic/rankNetwork/network.js" />
         <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/../oneTwoStep/assets/common/script/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/../shaolinTemple/assets/common/script/gameManager.js" />
+        <option value="$PROJECT_DIR$/../duckHunt/assets/common/script/basic/gameManager.js" />
       </list>
     </option>
   </component>
@@ -209,7 +215,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="979" />
@@ -232,19 +238,6 @@
               <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
               <item name="birdWar" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="birdWar" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="birdWar" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="messenger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="birdWar" type="b2602c69:ProjectViewProjectNode" />
@@ -306,15 +299,15 @@
       <workItem from="1529132608861" duration="4207000" />
       <workItem from="1529138617550" duration="107000" />
       <workItem from="1529138735437" duration="22851000" />
-      <workItem from="1529590526877" duration="3910000" />
+      <workItem from="1529590526877" duration="4741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78862000" />
+    <option name="totallyTimeSpent" value="79693000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="979" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
@@ -369,34 +362,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiMatching1v1Ver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/birdWar/src/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret column="15697" selection-start-column="15697" selection-end-column="15697" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/demo-wechat-subdomain-master/wx-open-data-project/assets/lanuch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/uiLobbyPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="641">
@@ -662,7 +627,7 @@
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="114" column="69" lean-forward="true" selection-start-line="114" selection-start-column="69" selection-end-line="114" selection-end-column="69" />
+          <caret line="114" column="69" selection-start-line="114" selection-start-column="69" selection-end-line="114" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -725,6 +690,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oneTwoStep/assets/common/script/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shaolinTemple/assets/common/script/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../duckHunt/assets/common/script/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
