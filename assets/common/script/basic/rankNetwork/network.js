@@ -68,6 +68,7 @@ window.network = {
         };
 
         this.isKicked = false;
+        netConfig.wsStr = "wss://";
 
         // 解决微信上点击会崩溃的bug,网络连接不能在放在ui层,所以用timeout包装一层
         setTimeout(function() {

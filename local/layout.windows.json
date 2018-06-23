@@ -20,7 +20,7 @@
                 ],
                 "height": 226,
                 "type": "panel",
-                "width": 575
+                "width": 469
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 656,
                 "type": "panel",
-                "width": 575
+                "width": 469
               }
             ],
             "height": 885,
             "type": "dock-v",
-            "width": 575
+            "width": 469
           },
           {
             "children": [
@@ -45,23 +45,23 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 494.984375,
+                    "height": 522,
                     "type": "panel",
-                    "width": 507
+                    "width": 606
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 494.984375,
+                    "height": 522,
                     "type": "panel",
-                    "width": 265
+                    "width": 318
                   }
                 ],
-                "height": 494.984375,
+                "height": 522,
                 "type": "dock-h",
-                "width": 775
+                "width": 927
               },
               {
                 "active": 0,
@@ -69,24 +69,24 @@
                   "console",
                   "timeline"
                 ],
-                "height": 387,
+                "height": 360,
                 "type": "panel",
-                "width": 775
+                "width": 927
               }
             ],
             "height": 885,
             "type": "dock-v",
-            "width": 775
+            "width": 927
           },
           {
-            "active": 0,
+            "active": 1,
             "children": [
               "inspector",
               "builder"
             ],
             "height": 885,
             "type": "panel",
-            "width": 558
+            "width": 512
           }
         ],
         "type": "dock-h"
@@ -101,7 +101,8 @@
         "assets",
         "scene"
       ]
-    }
+    },
+    "worker": {}
   },
   "panels": {
     "store": {

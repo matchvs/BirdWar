@@ -17,7 +17,7 @@ var obj = {
     ROUND_START: "roundStart",
     ROUND_OVER: "roundOver",
     TIME_OVER: "timeOver",
-    IP: "123.207.6.72",
+    IP: "wxrank.matchvs.com",
     PORT: "3010",
 
     channel: 'MatchVS',
