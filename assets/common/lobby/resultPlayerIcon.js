@@ -30,8 +30,8 @@ cc.Class({
     },
 
     userInfoSet: function(recvMsg) {
-        this.nameLb.string = recvMsg.userName;
         if (recvMsg.account == this.playerId) {
+            this.nameLb.string = recvMsg.userName;
             if (recvMsg.headIcon && recvMsg.headIcon !== "-") {
                 cc.loader.load({url: recvMsg.headIcon, type: 'png'}, function(err, texture) {
                     var spriteFrame = new cc.SpriteFrame(texture, cc.Rect(0, 0, texture.width, texture.height));

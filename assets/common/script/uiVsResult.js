@@ -1,5 +1,5 @@
 var uiPanel = require("uiPanel");
-//var mvs = require("Matchvs");
+var mvs = require("Matchvs");
 cc.Class({
     extends: uiPanel,
 
@@ -53,7 +53,7 @@ cc.Class({
             script.setData(data.enemyIds[i]);
         }
 
-        var isWin = data.selfScore > data.rivalScore;
+        var isWin = data.selfScore >= data.rivalScore;
         this.nodeDict["lose"].active = !isWin;
         this.nodeDict["win"].active = isWin;
         if (isWin) {

@@ -23,7 +23,7 @@ cc.Class({
         this.getRoomList();
         this.roomRqId = setInterval(function() {
             this.getRoomList();
-        }.bind(this), 5000);
+        }.bind(this), 20000);
     },
 
     getRoomList: function() {
@@ -91,7 +91,8 @@ cc.Class({
             }
         } else {
             for (var j = 0; j < this.rooms.length; j++) {
-                if (this.rooms[j].roomId === parseInt(this.editBox.string)) {
+                var roomScript = this.rooms[j].getComponent('roomInfo');
+                if (roomScript.roomIdLb.string == this.editBox.string) {
                     this.rooms[j].active = true;
                 } else {
                     this.rooms[j].active = false;
