@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "xiaojilogo",
+    "texture": "ecac5b4a-160c-41dc-a768-3bfc6a97eade",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      456,
+      290
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      456,
+      290
+    ]
+  }
+}

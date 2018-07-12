@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "huang1",
+    "texture": "cc686dc4-bce5-4d34-9675-2ce210ae4629",
+    "atlas": "",
+    "rect": [
+      0,
+      17,
+      132,
+      92
+    ],
+    "offset": [
+      -6.5,
+      4.5
+    ],
+    "originalSize": [
+      145,
+      135
+    ]
+  }
+}

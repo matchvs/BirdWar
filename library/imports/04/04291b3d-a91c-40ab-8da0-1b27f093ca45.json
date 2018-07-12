@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sr-con-bg3",
+    "texture": "d8791bdf-03dd-4bea-99c2-1114604af0c3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      591,
+      502
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      591,
+      502
+    ]
+  }
+}

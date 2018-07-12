@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shaoji",
+    "texture": "89f5e261-da9f-498b-ab79-a41ce707f1d0",
+    "atlas": "",
+    "rect": [
+      0,
+      33,
+      135,
+      98
+    ],
+    "offset": [
+      -5,
+      -14.5
+    ],
+    "originalSize": [
+      145,
+      135
+    ]
+  }
+}

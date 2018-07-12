@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.LabelAtlas",
+  "_name": "roundNum",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "fntDataStr": "",
+  "spriteFrame": {
+    "__uuid__": "ac37f9e6-a469-46f1-a03e-c29cdd0a0e6f"
+  },
+  "fontSize": 44.88,
+  "_fntConfig": {
+    "commonHeight": 51,
+    "fontSize": 44,
+    "atlasName": "huiheshuzi",
+    "fontDefDictionary": {
+      "49": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 53,
+          "height": 51
+        },
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 53
+      },
+      "50": {
+        "rect": {
+          "x": 53,
+          "y": 0,
+          "width": 53,
+          "height": 51
+        },
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 53
+      },
+      "51": {
+        "rect": {
+          "x": 106,
+          "y": 0,
+          "width": 53,
+          "height": 51
+        },
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 53
+      },
+      "52": {
+        "rect": {
+          "x": 159,
+          "y": 0,
+          "width": 53,
+          "height": 51
+        },
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 53
+      },
+      "53": {
+        "rect": {
+          "x": 212,
+          "y": 0,
+          "width": 53,
+          "height": 51
+        },
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 53
+      }
+    },
+    "kerningDict": {}
+  }
+}

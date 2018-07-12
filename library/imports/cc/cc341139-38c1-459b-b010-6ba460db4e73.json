@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gameov",
+    "texture": "4347a015-0363-4a65-88a1-5280707ade98",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      371,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      371,
+      64
+    ]
+  }
+}

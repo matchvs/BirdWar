@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cel-bg",
+    "texture": "07865449-314f-4d72-ac29-1768c9637d87",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      260,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      260,
+      50
+    ]
+  }
+}

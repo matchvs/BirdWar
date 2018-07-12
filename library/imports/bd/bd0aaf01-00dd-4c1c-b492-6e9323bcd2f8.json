@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tianhuaban",
+    "texture": "aa91257f-42d7-4c09-9224-dd469c9ea98f",
+    "atlas": "",
+    "rect": [
+      0,
+      32,
+      720,
+      52
+    ],
+    "offset": [
+      0,
+      -15
+    ],
+    "originalSize": [
+      720,
+      86
+    ]
+  }
+}

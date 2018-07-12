@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sr-con-logo",
+    "texture": "6dc29853-c804-4ea0-a4ed-4ddf2917db75",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      256,
+      188
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      188
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shuangrenmianban",
+    "texture": "6067daf6-f08d-40b5-8509-dcad77c2c7d9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      720,
+      162
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      720,
+      162
+    ]
+  }
+}

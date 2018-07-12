@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sr-sign-user-",
+    "texture": "574f2895-17e0-40c8-9860-151d01c3e8b1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      287,
+      333
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      287,
+      333
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "packedTextures": [
+    {
+      "path": "/Users/mac/TzUIFramework/temp/TexturePacker/chiji/texture/RoundNum.pac/RoundNum-1.png",
+      "name": "RoundNum-1.png",
+      "size": "1024x1024"
+    }
+  ],
+  "unpackedTextures": [
+    {
+      "path": "/Users/mac/TzUIFramework/assets/chiji/texture/beijing.png",
+      "name": "beijing.png",
+      "size": "724x1284"
+    }
+  ]
+}

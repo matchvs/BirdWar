@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "huiheshuzi",
+    "texture": "32ca3463-c3bc-4a1c-a023-f0a73a8ec4a6",
+    "atlas": "",
+    "rect": [
+      18,
+      0,
+      245,
+      51
+    ],
+    "offset": [
+      8,
+      0
+    ],
+    "originalSize": [
+      265,
+      51
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lanfangzidan",
+    "texture": "f2937efd-3902-4667-86da-6b46e2dcc8ee",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      78,
+      31
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      78,
+      32
+    ]
+  }
+}

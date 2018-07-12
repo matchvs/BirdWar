@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rank-logo",
+    "texture": "74b57a69-8e7f-41af-9779-632faaa2ff34",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      107,
+      63
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      107,
+      63
+    ]
+  }
+}

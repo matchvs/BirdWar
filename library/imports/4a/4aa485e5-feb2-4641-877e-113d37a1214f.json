@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jidishangyingzi",
+    "texture": "f9ca1fe2-8c4b-4e54-9ec9-4240c694c6ca",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      111,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      111,
+      30
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sr-rank-user-bg",
+    "texture": "5cfcdb80-427a-4661-b04f-8f9396df47c5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1181,
+      142
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1181,
+      142
+    ]
+  }
+}

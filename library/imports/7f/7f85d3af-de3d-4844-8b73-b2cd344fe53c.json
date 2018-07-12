@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dunpaizhao",
+    "texture": "6db7986b-ffc7-468d-8a05-7c422fb5d326",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      132,
+      147
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      132,
+      147
+    ]
+  }
+}

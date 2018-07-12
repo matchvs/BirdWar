@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bian",
+    "texture": "4eda0fba-3a5f-4560-993b-f3750e132282",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      14,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      14,
+      52
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rome-gold",
+    "texture": "91bb3b94-42d7-4b65-b872-c3747bcbe966",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      130,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      29
+    ]
+  }
+}

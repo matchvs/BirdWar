@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shijiandao",
+    "texture": "2e63b4c4-44a6-459f-940a-9ac686866946",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      600,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      600,
+      200
+    ]
+  }
+}

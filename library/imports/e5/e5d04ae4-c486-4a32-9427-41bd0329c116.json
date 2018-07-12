@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "explosionChicken",
+    "texture": "fdca007d-66a4-49bc-a42e-72175578f7ef",
+    "atlas": "",
+    "rect": [
+      0,
+      17,
+      122,
+      105
+    ],
+    "offset": [
+      -11.5,
+      -2
+    ],
+    "originalSize": [
+      145,
+      135
+    ]
+  }
+}

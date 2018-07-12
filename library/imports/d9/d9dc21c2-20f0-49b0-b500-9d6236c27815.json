@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "penqishangsheng",
+    "texture": "ffb6607d-1d03-4c80-9ec0-58a088961e6d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      127,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      127,
+      52
+    ]
+  }
+}

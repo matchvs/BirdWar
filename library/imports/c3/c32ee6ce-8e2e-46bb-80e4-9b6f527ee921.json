@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ver-rank-bg1",
+    "texture": "8f2b0d93-4ca6-4a86-85fe-6c6ccd83b60e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      732,
+      142
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      732,
+      142
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shengziyijie",
+    "texture": "79ca1ff8-44c9-4f78-8f8d-8f95a074a522",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      13,
+      10
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      13,
+      10
+    ]
+  }
+}

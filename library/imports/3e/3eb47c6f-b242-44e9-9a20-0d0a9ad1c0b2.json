@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "go",
+    "texture": "e4fd2837-9a57-4f9a-8d2f-bcf0db53ec40",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      193,
+      89
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      193,
+      89
+    ]
+  }
+}

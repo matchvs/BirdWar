@@ -1,0 +1,115 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "seal",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "seal2": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.5
+            },
+            {
+              "frame": 0.31666666666666665,
+              "value": 1.1
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 0.9
+            },
+            {
+              "frame": 0.7666666666666667,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.5
+            },
+            {
+              "frame": 0.31666666666666665,
+              "value": 1.1
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 0.9
+            },
+            {
+              "frame": 0.7666666666666667,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.03333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "seal1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 200
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.5333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.5333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": 1.5
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.016666666666666666,
+          "value": 255
+        }
+      ]
+    }
+  },
+  "events": []
+}

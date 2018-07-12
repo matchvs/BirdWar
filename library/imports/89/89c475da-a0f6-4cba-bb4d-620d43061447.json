@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shangmianban",
+    "texture": "03789686-fde9-4a6f-be9a-d019d4347ca1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      720,
+      162
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      720,
+      162
+    ]
+  }
+}

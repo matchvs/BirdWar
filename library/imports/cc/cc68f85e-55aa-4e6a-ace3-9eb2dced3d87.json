@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kaoji",
+    "texture": "8cfed0e0-128d-4db3-a685-47cc6b72de09",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      148,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      148,
+      108
+    ]
+  }
+}

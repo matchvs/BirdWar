@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "arrow",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.15,
+          "value": 8
+        },
+        {
+          "frame": 0.3,
+          "value": 0
+        },
+        {
+          "frame": 0.4666666666666667,
+          "value": 8
+        },
+        {
+          "frame": 0.6166666666666667,
+          "value": 0
+        },
+        {
+          "frame": 0.7833333333333333,
+          "value": 8
+        },
+        {
+          "frame": 0.9,
+          "value": 0
+        },
+        {
+          "frame": 1.05,
+          "value": 8
+        },
+        {
+          "frame": 1.2333333333333334,
+          "value": 0
+        },
+        {
+          "frame": 1.3833333333333333,
+          "value": 8
+        },
+        {
+          "frame": 1.5,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

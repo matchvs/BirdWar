@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "home-k",
+    "texture": "c0407134-27cc-44ec-b6fe-386ecf0a50ad",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      600,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      600,
+      80
+    ]
+  }
+}

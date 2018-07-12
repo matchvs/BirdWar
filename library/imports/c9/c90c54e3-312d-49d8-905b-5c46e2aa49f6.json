@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bar-user3",
+    "texture": "ed44842b-c536-4854-833f-8b142e9799ee",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      135,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      135,
+      39
+    ]
+  }
+}

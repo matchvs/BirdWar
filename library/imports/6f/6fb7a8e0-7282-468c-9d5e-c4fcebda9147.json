@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cpm-logo",
+    "texture": "25318814-21db-4e16-88ba-d9f05a40e88b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      623,
+      543
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      623,
+      543
+    ]
+  }
+}

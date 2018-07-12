@@ -1,0 +1,211 @@
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/common/script/uiRoom.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, '72f2f1cYGZOhIZyqvev+rWy', 'uiRoom', __filename);
+// common/script/uiRoom.js
+
+"use strict";
+
+var uiPanel = require("uiPanel");
+var mvs = require("Matchvs");
+var GLB = require("Glb");
+cc.Class({
+    extends: uiPanel,
+    properties: {},
+
+    onLoad: function onLoad() {
+        this._super();
+        this.players = [];
+        this.roomId = 0;
+        this.roomInfo = null;
+        this.owner = 0;
+        this.playerPrefab = this.nodeDict["player"];
+        this.playerPrefab.active = false;
+        this.nodeDict["quit"].on("click", this.quit, this);
+        this.nodeDict["startGame"].on("click", this.startGame, this);
+
+        clientEvent.on(clientEvent.eventType.joinRoomNotify, this.joinRoomNotify, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomResponse, this.leaveRoomResponse, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
+        clientEvent.on(clientEvent.eventType.kickPlayerResponse, this.kickPlayerResponse, this);
+        clientEvent.on(clientEvent.eventType.kickPlayerNotify, this.kickPlayerNotify, this);
+
+        for (var i = 0; i < GLB.MAX_PLAYER_COUNT; i++) {
+            var temp = cc.instantiate(this.playerPrefab);
+            temp.active = true;
+            temp.parent = this.nodeDict["layout"];
+            var roomUserInfo = temp.getComponent('roomUserInfo');
+            roomUserInfo.init();
+            this.players.push(roomUserInfo);
+        }
+    },
+
+
+    kickPlayerResponse: function kickPlayerResponse(data) {
+        for (var j = 0; j < this.players.length; j++) {
+            if (this.players[j].userId === data.kickPlayerRsp.userID) {
+                this.players[j].init();
+                break;
+            }
+        }
+        if (GLB.userInfo.id === data.kickPlayerRsp.userID) {
+            GLB.isRoomOwner = false;
+            uiFunc.closeUI(this.node.name);
+            this.node.destroy();
+        }
+    },
+
+    kickPlayerNotify: function kickPlayerNotify(data) {
+        for (var j = 0; j < this.players.length; j++) {
+            if (this.players[j].userId === data.kickPlayerNotify.userId) {
+                this.players[j].init();
+                break;
+            }
+        }
+
+        if (GLB.userInfo.id === data.kickPlayerNotify.userId) {
+            GLB.isRoomOwner = false;
+            uiFunc.closeUI(this.node.name);
+            this.node.destroy();
+        }
+    },
+
+    joinRoomNotify: function joinRoomNotify(data) {
+        for (var j = 0; j < this.players.length; j++) {
+            if (this.players[j].userId === 0) {
+                this.players[j].setData(data.roomUserInfo.userId, this.ownerId);
+                break;
+            }
+        }
+    },
+
+    leaveRoomResponse: function leaveRoomResponse(data) {
+        if (data.leaveRoomRsp.status === 200) {
+            console.log("离开房间成功！");
+        } else {
+            console.log("离开房间失败");
+        }
+        GLB.isRoomOwner = false;
+        uiFunc.closeUI(this.node.name);
+        this.node.destroy();
+    },
+
+    leaveRoomNotify: function leaveRoomNotify(data) {
+        for (var j = 0; j < this.players.length; j++) {
+            if (this.players[j].userId === data.leaveRoomInfo.userId) {
+                this.players[j].init();
+                break;
+            }
+        }
+        this.ownerId = data.leaveRoomInfo.owner;
+        if (this.ownerId === GLB.userInfo.id) {
+            GLB.isRoomOwner = true;
+        }
+        for (var i = 0; i < this.players.length; i++) {
+            if (this.players[i].userId !== 0) {
+                this.players[i].setData(this.players[i].userId, this.ownerId);
+            }
+        }
+        this.refreshStartBtn();
+    },
+
+    refreshStartBtn: function refreshStartBtn() {
+        var spNode = this.nodeDict["startGame"];
+        var btn = this.nodeDict["startGame"].getComponent(cc.Button);
+        if (GLB.isRoomOwner) {
+            spNode.color = cc.Color.WHITE;
+            btn.enabled = true;
+        } else {
+            spNode.color = cc.Color.BLACK;
+            btn.enabled = false;
+        }
+    },
+
+
+    quit: function quit() {
+        mvs.engine.leaveRoom("");
+    },
+
+    startGame: function startGame() {
+        if (!GLB.isRoomOwner) {
+            uiFunc.openUI("uiTip", function (obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("等待房主开始游戏");
+                }
+            }.bind(this));
+            return;
+        }
+        var userIds = [];
+        var playerCnt = 0;
+        for (var j = 0; j < this.players.length; j++) {
+            if (this.players[j].userId !== 0) {
+                playerCnt++;
+                userIds.push(this.players[j].userId);
+            }
+        }
+
+        if (playerCnt === GLB.MAX_PLAYER_COUNT) {
+            var result = mvs.engine.joinOver("");
+            console.log("发出关闭房间的通知");
+            if (result !== 0) {
+                console.log("关闭房间失败，错误码：", result);
+            }
+
+            GLB.playerUserIds = userIds;
+
+            var msg = {
+                action: GLB.GAME_START_EVENT,
+                userIds: userIds
+            };
+            Game.GameManager.sendEventEx(msg);
+        } else {
+            uiFunc.openUI("uiTip", function (obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("房间人数不足");
+                }
+            }.bind(this));
+        }
+    },
+
+    createRoomInit: function createRoomInit(rsp) {
+        this.roomId = rsp.roomID;
+        this.ownerId = rsp.owner;
+        this.players[0].setData(this.ownerId, this.ownerId);
+        GLB.isRoomOwner = true;
+        this.refreshStartBtn();
+    },
+    joinRoomInit: function joinRoomInit(roomUserInfoList, roomInfo) {
+        roomUserInfoList.sort(function (a, b) {
+            if (roomInfo.ownerId === b.userId) {
+                return 1;
+            }
+            return 0;
+        });
+        this.ownerId = roomInfo.ownerId;
+        for (var j = 0; j < roomUserInfoList.length; j++) {
+            this.players[j].setData(roomUserInfoList[j].userId, this.ownerId);
+        }
+        this.refreshStartBtn();
+    },
+    onDestroy: function onDestroy() {
+        clientEvent.off(clientEvent.eventType.joinRoomNotify, this.joinRoomNotify, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomResponse, this.leaveRoomResponse, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
+        clientEvent.off(clientEvent.eventType.kickPlayerResponse, this.kickPlayerResponse, this);
+        clientEvent.off(clientEvent.eventType.kickPlayerNotify, this.kickPlayerNotify, this);
+    }
+});
+
+cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=uiRoom.js.map
+        

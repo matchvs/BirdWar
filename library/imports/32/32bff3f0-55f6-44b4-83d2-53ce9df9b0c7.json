@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "roomnumber-bg",
+    "texture": "60288606-49a7-4714-9b43-39243b39ef5a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      600,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      600,
+      80
+    ]
+  }
+}

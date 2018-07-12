@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sr-con-lose",
+    "texture": "25017de6-dd8b-44ba-9bdd-8aa5a8a9e25f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      256,
+      201
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      201
+    ]
+  }
+}

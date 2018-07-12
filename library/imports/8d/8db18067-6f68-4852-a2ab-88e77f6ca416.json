@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lanji1",
+    "texture": "11794cec-b877-4c3e-af56-1678bce7a0cd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      122,
+      105
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      122,
+      105
+    ]
+  }
+}

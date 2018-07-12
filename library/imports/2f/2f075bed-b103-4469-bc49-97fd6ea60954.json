@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "home-btn2",
+    "texture": "b0ba8081-b6cd-4fb0-9d5c-5fd2ad825c2f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      92,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      92,
+      40
+    ]
+  }
+}

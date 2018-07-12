@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "list-sign",
+    "texture": "8bdadb3b-974a-4a70-8060-1bf76096092c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      460,
+      202
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      202
+    ]
+  }
+}

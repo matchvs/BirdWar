@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dating-btn2",
+    "texture": "8f7c9204-e89a-4623-afcd-85b0cd2afeea",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      264,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      264,
+      114
+    ]
+  }
+}

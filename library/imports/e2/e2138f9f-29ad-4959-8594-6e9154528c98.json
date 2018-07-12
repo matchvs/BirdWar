@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "handcon",
+    "texture": "bce6a9fa-f2be-44ca-9457-7e9cc084e269",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      239,
+      268
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      239,
+      268
+    ]
+  }
+}

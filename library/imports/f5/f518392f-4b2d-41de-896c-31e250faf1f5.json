@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "huiheban",
+    "texture": "c5a89722-8eae-4dbb-94c6-797f338de359",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      310,
+      138
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      310,
+      138
+    ]
+  }
+}

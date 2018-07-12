@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shenlan2",
+    "texture": "33dc52ed-e44f-46e7-b254-e1cb154d394f",
+    "atlas": "",
+    "rect": [
+      0,
+      17,
+      132,
+      102
+    ],
+    "offset": [
+      -6.5,
+      -0.5
+    ],
+    "originalSize": [
+      145,
+      135
+    ]
+  }
+}
