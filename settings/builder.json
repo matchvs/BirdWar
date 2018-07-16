@@ -3,7 +3,6 @@
   "appSecret": "",
   "encryptJs": true,
   "excludeScenes": [],
-  "fb-instant-games": {},
   "includeAnySDK": false,
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
@@ -21,9 +20,6 @@
   },
   "packageName": "org.cocos2d.DuckHunt",
   "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
   "renderMode": "0",
   "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
   "title": "birdWar",
