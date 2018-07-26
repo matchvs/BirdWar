@@ -29,17 +29,24 @@ var non_text_format = [
     'js','png','jpg','bmp','jpeg','gif','ico','tiff','webp','image','mp3','ogg','wav','m4a','font','eot','ttf','woff','svg','ttc'
 ];
 
-var fs = wx.getFileSystemManager();
+const REGEX = /^\w+:\/\/.*/;
+
+// has sub domain
+var isSubdomain = !wx.getFileSystemManager;
+
+var fs = isSubdomain ? {} : wx.getFileSystemManager();
 
 var WXDownloader = window.WXDownloader = function () {
     this.id = ID;
     this.async = true;
     this.pipeline = null;
     this.REMOTE_SERVER_ROOT = '';
+    this.SUBCONTEXT_ROOT = '';
 };
 WXDownloader.ID = ID;
 
 WXDownloader.prototype.handle = function (item, callback) {
+
     if (item.type === 'js') {
         callback(null, null);
         return;
@@ -57,6 +64,21 @@ WXDownloader.prototype.handle = function (item, callback) {
             }
         }
     }
+
+    if (isSubdomain) {
+        if (REGEX.test(item.url)) {
+            callback(null, null);
+            return;
+        }
+
+        item.url = this.SUBCONTEXT_ROOT + '/' + item.url;
+
+        if (item.type && non_text_format.indexOf(item.type) !== -1) {
+            nextPipe(item, callback);
+            return;
+        }
+    }
+
     var filePath = item.url;
     // Read from package
     fs.access({
@@ -83,7 +105,7 @@ WXDownloader.prototype.cleanOldAssets = function () {
                 for (var i = 0; i < list.length; i++) {
                     var path = list[i].filePath;
                     fs.unlink({
-                        filePath: list[i].filePath, 
+                        filePath: list[i].filePath,
                         success: function () {
                             cc.log('Removed local file ' + path + ' successfully!');
                         },
@@ -108,7 +130,7 @@ WXDownloader.prototype.cleanAllAssets = function () {
                 for (var i = 0; i < list.length; i++) {
                     var path = list[i].filePath;
                     fs.unlink({
-                        filePath: list[i].filePath, 
+                        filePath: list[i].filePath,
                         success: function () {
                             cc.log('Removed local file ' + path + ' successfully!');
                         },
@@ -132,7 +154,7 @@ function nextPipe (item, callback) {
     queue.addListener(item.id, function (item) {
         if (item.error) {
             fs.unlink({
-                filePath: item.url, 
+                filePath: item.url,
                 success: function () {
                     cc.log('Load failed, removed local file ' + item.url + ' successfully!');
                 }
@@ -154,13 +176,13 @@ function readText (item, callback) {
         fail: function (res) {
             cc.warn('Read file failed: ' + url);
             fs.unlink({
-                filePath: url, 
+                filePath: url,
                 success: function () {
                     cc.log('Read file failed, removed local file ' + url + ' successfully!');
                 }
             });
             callback({
-                status: 0, 
+                status: 0,
                 errorMessage: res && res.errMsg ? res.errMsg : "Read text file failed: " + url
             });
         }
@@ -193,40 +215,73 @@ function readFromLocal (item, callback) {
     });
 }
 
+function ensureDirFor (path, callback) {
+    // cc.log('mkdir:' + path);
+    var ensureDir = cc.path.dirname(path);
+    if (ensureDir === "wxfile://usr" || ensureDir === "http://usr") {
+        callback();
+        return;
+    }
+    fs.access({
+        path: ensureDir,
+        success: callback,
+        fail: function (res) {
+            ensureDirFor(ensureDir, function () {
+                fs.mkdir({
+                    dirPath: ensureDir,
+                    complete: callback,
+                });
+            });
+        },
+    });
+}
+
 function downloadRemoteFile (item, callback) {
     // Download from remote server
     var relatUrl = item.url;
+
+    // filter protocol url (E.g: https:// or http:// or ftp://)
+    if (REGEX.test(relatUrl)) {
+        callback(null, null);
+        return;
+    }
+
     var remoteUrl = wxDownloader.REMOTE_SERVER_ROOT + '/' + relatUrl;
     item.url = remoteUrl;
     wx.downloadFile({
         url: remoteUrl,
-        success: function(res) {
-            if (res.tempFilePath) {
-                // Save to local path
-                var localPath = wx.env.USER_DATA_PATH + '/' + relatUrl;
-                wx.saveFile({
-                    tempFilePath: res.tempFilePath,
-                    filePath: localPath,
-                    success: function (res) {
-                        cc.log('Write file to ' + res.savedFilePath + ' successfully!');
-                        item.url = res.savedFilePath;
-                        if (item.type && non_text_format.indexOf(item.type) !== -1) {
-                            nextPipe(item, callback);
-                        }
-                        else {
-                            readText(item, callback);
-                        }
-                    },
-                    fail: function () {
-                        // Failed to save file, then just use remote url
-                        callback(null, null);
-                    }
-                });
-            } else if (res.statusCode === 404) {
+        success: function (res) {
+            if (res.statusCode === 404) {
                 cc.warn("Download file failed: " + remoteUrl);
                 callback({
-                    status: 0, 
+                    status: 0,
                     errorMessage: res && res.errMsg ? res.errMsg : "Download file failed: " + remoteUrl
+                });
+            }
+            else if (res.tempFilePath) {
+                // http reading is not cached
+                var localPath = wx.env.USER_DATA_PATH + '/' + relatUrl;
+                // check and mkdir remote folder has exists
+                ensureDirFor(localPath, function () {
+                    // Save to local path
+                    wx.saveFile({
+                        tempFilePath: res.tempFilePath,
+                        filePath: localPath,
+                        success: function (res) {
+                            // cc.log('save:' + localPath);
+                            item.url = res.savedFilePath;
+                            if (item.type && non_text_format.indexOf(item.type) !== -1) {
+                                nextPipe(item, callback);
+                            }
+                            else {
+                                readText(item, callback);
+                            }
+                        },
+                        fail: function (res) {
+                            // Failed to save file, then just use remote url
+                            callback(null, null);
+                        }
+                    });
                 });
             }
         },

@@ -63,6 +63,7 @@ cc.Class({
     quit: function() {
         uiFunc.closeUI(this.node.name);
         this.node.destroy();
+        GLB.MAX_PLAYER_COUNT = 4;
     },
 
     createRoom: function() {

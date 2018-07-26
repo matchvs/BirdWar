@@ -20,7 +20,10 @@ function _extends(Class,Super){
 		function t(){};
 		t.prototype = Super.prototype;
 		t = new t();
-		copy(pt,t);
+		// copy(pt,t);
+        for(var p in pt){
+            t[p] = pt[p];
+        }
 		Class.prototype = pt = t;
 	}
 	if(pt.constructor != Class){
@@ -124,7 +127,10 @@ function _updateLiveList(list){
 		var ls = list._refresh(list._node);
 		//console.log(ls.length)
 		__set__(list,'length',ls.length);
-		copy(ls,list);
+		//copy(ls,list);
+        for(var p in ls){
+            list[p] = ls[p];
+        }
 		list._inc = inc;
 	}
 }

@@ -1,7 +1,8 @@
-require('libs/weapp-adapter-min');
+require('libs/weapp-adapter/index');
 var Parser = require('libs/xmldom/dom-parser');
 window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
-wxDownloader.REMOTE_SERVER_ROOT = "";
-require('src/settings.851c8');
-require('main.26d89');
+wxDownloader.REMOTE_SERVER_ROOT = "https://data.tianziyou.com/matchvsGamesRes/birdwar";
+wxDownloader.SUBCONTEXT_ROOT = "";
+require('src/settings.adb69');
+require('main.07d26');

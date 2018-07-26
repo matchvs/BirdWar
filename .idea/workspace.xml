@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd399be8-1af4-4465-8d4f-68766a7125ff" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiCreateRoom.js" afterPath="$PROJECT_DIR$/assets/common/script/uiCreateRoom.js" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" afterPath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiRoom.js" afterPath="$PROJECT_DIR$/assets/common/script/uiRoom.js" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiMatching2v2Ver.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiMatching2v2Ver.prefab" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/cocos2d-js-min.906fc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/game.js" afterPath="$PROJECT_DIR$/build/wechatgame/game.js" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/libs/weapp-adapter-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/libs/wx-downloader.js" afterPath="$PROJECT_DIR$/build/wechatgame/libs/wx-downloader.js" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/libs/xmldom/dom.js" afterPath="$PROJECT_DIR$/build/wechatgame/libs/xmldom/dom.js" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/main.26d89.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/project.config.json" afterPath="$PROJECT_DIR$/build/wechatgame/project.config.json" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/04/0406573bc.8f6d9.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/07/07d3114c5.f2ba4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/60/60331843-cd45-4a29-845f-a04a25500983.b9cf6.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/gameover.8e8ba.mp3" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/gameover.8e8ba.mp3" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/hit.35939.mp3" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/hit.35939.mp3" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/readygo.5faf2.mp3" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/readygo.5faf2.mp3" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/data/sampleTemplate.c7b5d.csv" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/data/sampleTemplate.c7b5d.csv" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_disabled.286c6.png" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_disabled.286c6.png" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_normal.1ecb7.png" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_normal.1ecb7.png" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_pressed.bedf4.png" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_pressed.bedf4.png" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_panel.cdbc9.png" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_panel.cdbc9.png" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_sprite_splash.cea68.png" afterPath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_sprite_splash.cea68.png" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/src/assets/common/script/basic/rankNetwork/ProtoBuf.2f30c.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/src/project.d8e20.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/src/settings.851c8.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/library/imports/03/03ed8259-3c91-4ad4-8ead-879ffadfb7e7.js.map" afterPath="$PROJECT_DIR$/library/imports/03/03ed8259-3c91-4ad4-8ead-879ffadfb7e7.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/07/07e38502-cc31-4d58-b32d-310bce319380.js.map" afterPath="$PROJECT_DIR$/library/imports/07/07e38502-cc31-4d58-b32d-310bce319380.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/0e/0ed97de0-4ba9-4f47-a484-49cee32c507a.js.map" afterPath="$PROJECT_DIR$/library/imports/0e/0ed97de0-4ba9-4f47-a484-49cee32c507a.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/11/11173fe5-ff42-4c52-be57-13189a0149fc.js.map" afterPath="$PROJECT_DIR$/library/imports/11/11173fe5-ff42-4c52-be57-13189a0149fc.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/27/27c7b7dd-9207-4432-8610-af6a62b779de.js.map" afterPath="$PROJECT_DIR$/library/imports/27/27c7b7dd-9207-4432-8610-af6a62b779de.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/2c/2c8cf83d-6e15-4133-a76f-c27594b79aa9.js.map" afterPath="$PROJECT_DIR$/library/imports/2c/2c8cf83d-6e15-4133-a76f-c27594b79aa9.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/30/30528c29-d76a-4009-a998-b746d0fc151a.js.map" afterPath="$PROJECT_DIR$/library/imports/30/30528c29-d76a-4009-a998-b746d0fc151a.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/35/359baa39-7619-45e3-8438-e24fbfa8d448.js.map" afterPath="$PROJECT_DIR$/library/imports/35/359baa39-7619-45e3-8438-e24fbfa8d448.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/38/3870698f-4030-4272-af2a-8ccbaa407563.js.map" afterPath="$PROJECT_DIR$/library/imports/38/3870698f-4030-4272-af2a-8ccbaa407563.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/47/4732185e-6734-4dad-835a-121c6a8cef3f.js.map" afterPath="$PROJECT_DIR$/library/imports/47/4732185e-6734-4dad-835a-121c6a8cef3f.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/4c/4cd87a25-7ad6-4c2f-a25b-6420c81b112c.js.map" afterPath="$PROJECT_DIR$/library/imports/4c/4cd87a25-7ad6-4c2f-a25b-6420c81b112c.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/57/57b2c21f-224e-472d-89b2-d5e3bf4a9e18.js.map" afterPath="$PROJECT_DIR$/library/imports/57/57b2c21f-224e-472d-89b2-d5e3bf4a9e18.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/5a/5abc5c3d-9b0d-4b43-89cc-b493a368d3f5.js.map" afterPath="$PROJECT_DIR$/library/imports/5a/5abc5c3d-9b0d-4b43-89cc-b493a368d3f5.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/5c/5c49dd28-5f31-47e4-9489-a29c5c46213e.js.map" afterPath="$PROJECT_DIR$/library/imports/5c/5c49dd28-5f31-47e4-9489-a29c5c46213e.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/63/6368c2f5-5b36-4fa6-ad8b-73efad28bc80.js.map" afterPath="$PROJECT_DIR$/library/imports/63/6368c2f5-5b36-4fa6-ad8b-73efad28bc80.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/69/6993e5d1-8444-477c-8198-5d6b2511fc12.js.map" afterPath="$PROJECT_DIR$/library/imports/69/6993e5d1-8444-477c-8198-5d6b2511fc12.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/6d/6d6c930b-cd48-4766-b6eb-781e2d9817cf.js.map" afterPath="$PROJECT_DIR$/library/imports/6d/6d6c930b-cd48-4766-b6eb-781e2d9817cf.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/6e/6ef7600f-b824-4490-9d04-e7b7b2f8d45e.js.map" afterPath="$PROJECT_DIR$/library/imports/6e/6ef7600f-b824-4490-9d04-e7b7b2f8d45e.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/70/70508e5f-73cf-4f21-abc2-a3d09fd646e9.js.map" afterPath="$PROJECT_DIR$/library/imports/70/70508e5f-73cf-4f21-abc2-a3d09fd646e9.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js" afterPath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js.map" afterPath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/77/771d9b66-0df6-41f5-bfc4-b6e2970ed35a.js.map" afterPath="$PROJECT_DIR$/library/imports/77/771d9b66-0df6-41f5-bfc4-b6e2970ed35a.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/79/7960f842-aa09-4da9-a5b9-25627cfd3762.js.map" afterPath="$PROJECT_DIR$/library/imports/79/7960f842-aa09-4da9-a5b9-25627cfd3762.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/7a/7af4c07e-6da4-4e33-a111-2a7e3d7d2c10.json" afterPath="$PROJECT_DIR$/library/imports/7a/7af4c07e-6da4-4e33-a111-2a7e3d7d2c10.json" />
+      <change beforePath="$PROJECT_DIR$/library/imports/7c/7c5b03cc-e46c-4be3-9e30-b50dae244750.js.map" afterPath="$PROJECT_DIR$/library/imports/7c/7c5b03cc-e46c-4be3-9e30-b50dae244750.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/86/8617ae07-aaa7-4a37-bb74-028e36621282.js.map" afterPath="$PROJECT_DIR$/library/imports/86/8617ae07-aaa7-4a37-bb74-028e36621282.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a5/a5d4dd11-a4fd-4cc2-9bb6-39971bdb58c1.js.map" afterPath="$PROJECT_DIR$/library/imports/a5/a5d4dd11-a4fd-4cc2-9bb6-39971bdb58c1.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a5/a5e20086-6ca8-40c7-9197-826b20c4f9bf.js" afterPath="$PROJECT_DIR$/library/imports/a5/a5e20086-6ca8-40c7-9197-826b20c4f9bf.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a5/a5e20086-6ca8-40c7-9197-826b20c4f9bf.js.map" afterPath="$PROJECT_DIR$/library/imports/a5/a5e20086-6ca8-40c7-9197-826b20c4f9bf.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js.map" afterPath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a7/a7381cf3-b240-49e1-b0c9-43d02b04cc86.js.map" afterPath="$PROJECT_DIR$/library/imports/a7/a7381cf3-b240-49e1-b0c9-43d02b04cc86.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a8/a8513bdd-1a54-457c-92ab-e33439b9df7b.js.map" afterPath="$PROJECT_DIR$/library/imports/a8/a8513bdd-1a54-457c-92ab-e33439b9df7b.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a9/a9812302-2fae-432d-94b4-6b86db93294d.js.map" afterPath="$PROJECT_DIR$/library/imports/a9/a9812302-2fae-432d-94b4-6b86db93294d.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/aa/aadc2e20-50b8-423d-850b-3d77919c113f.js.map" afterPath="$PROJECT_DIR$/library/imports/aa/aadc2e20-50b8-423d-850b-3d77919c113f.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/ae/aeb5e199-c0cc-4e22-8f5e-104791645a2f.js.map" afterPath="$PROJECT_DIR$/library/imports/ae/aeb5e199-c0cc-4e22-8f5e-104791645a2f.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/b1/b1b3c2e6-444d-4cf0-889f-627d80063617.js.map" afterPath="$PROJECT_DIR$/library/imports/b1/b1b3c2e6-444d-4cf0-889f-627d80063617.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/b5/b559be9f-c544-48b4-9ba7-a552b7b98a85.js.map" afterPath="$PROJECT_DIR$/library/imports/b5/b559be9f-c544-48b4-9ba7-a552b7b98a85.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/b8/b8d92187-4d6b-45f5-bf27-4fe03cf192d2.js.map" afterPath="$PROJECT_DIR$/library/imports/b8/b8d92187-4d6b-45f5-bf27-4fe03cf192d2.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/c3/c337d20c-77fb-4f3e-a214-41e7124962da.js.map" afterPath="$PROJECT_DIR$/library/imports/c3/c337d20c-77fb-4f3e-a214-41e7124962da.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/d9/d9a036f3-b2d9-4439-881c-4715be04fae3.js.map" afterPath="$PROJECT_DIR$/library/imports/d9/d9a036f3-b2d9-4439-881c-4715be04fae3.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/e1/e15a049e-9654-4be9-870b-7ee6c2612ac0.js" afterPath="$PROJECT_DIR$/library/imports/e1/e15a049e-9654-4be9-870b-7ee6c2612ac0.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/e1/e15a049e-9654-4be9-870b-7ee6c2612ac0.js.map" afterPath="$PROJECT_DIR$/library/imports/e1/e15a049e-9654-4be9-870b-7ee6c2612ac0.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/e2/e27eafd2-4039-4a11-808b-9005fd1a4260.js.map" afterPath="$PROJECT_DIR$/library/imports/e2/e27eafd2-4039-4a11-808b-9005fd1a4260.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/f3/f36abf9a-dee5-47a6-b198-fad13fc67974.js.map" afterPath="$PROJECT_DIR$/library/imports/f3/f36abf9a-dee5-47a6-b198-fad13fc67974.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/f7/f772d4ee-8495-4ea8-874e-82335e1613d7.js.map" afterPath="$PROJECT_DIR$/library/imports/f7/f772d4ee-8495-4ea8-874e-82335e1613d7.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/fb/fb82de52-affd-499d-96de-2bfafcba2fed.js.map" afterPath="$PROJECT_DIR$/library/imports/fb/fb82de52-affd-499d-96de-2bfafcba2fed.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/fc/fcbc4271-2cfb-4adb-94df-53735aa08f84.js.map" afterPath="$PROJECT_DIR$/library/imports/fc/fcbc4271-2cfb-4adb-94df-53735aa08f84.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" />
+      <change beforePath="$PROJECT_DIR$/local/console.json" afterPath="$PROJECT_DIR$/local/console.json" />
+      <change beforePath="$PROJECT_DIR$/local/layout.windows.json" afterPath="$PROJECT_DIR$/local/layout.windows.json" />
+      <change beforePath="$PROJECT_DIR$/settings/builder.json" afterPath="$PROJECT_DIR$/settings/builder.json" />
+      <change beforePath="$PROJECT_DIR$/temp/BackupAssets/assets/resources/ui/uiMatching2v2Ver.prefab" afterPath="$PROJECT_DIR$/temp/BackupAssets/assets/resources/ui/uiMatching2v2Ver.prefab" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/__node_modules/base64-js/index.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/__node_modules/base64-js/index.js" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/__node_modules/ieee754/index.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/__node_modules/ieee754/index.js" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/playerIcon.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/playerIcon.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/rankUserInfo.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/rankUserInfo.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/resultPlayerIcon.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/resultPlayerIcon.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/roomInfo.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/roomInfo.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/roomUserInfo.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/roomUserInfo.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/DataFunc.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/DataFunc.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/Glb.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/Glb.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/Globals.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/Globals.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/Matchvs.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/Matchvs.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/MatchvsEngine.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/MatchvsEngine.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/UIFunc.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/UIFunc.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/messenger/clientEvent.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/messenger/clientEvent.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/messenger/eventListener.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/messenger/eventListener.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/rankNetwork/msgType.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/rankNetwork/msgType.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/rankNetwork/network.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/rankNetwork/network.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/rankNetwork/pomeloBuild.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/rankNetwork/pomeloBuild.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/uiPanel.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/uiPanel.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiCreateRoom.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiCreateRoom.js" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiCreateRoom.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiCreateRoom.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiExit.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiExit.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiGamePanel.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiGamePanel.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLobbyPanel.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLobbyPanel.js" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLobbyPanel.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLobbyPanel.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLogin.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLogin.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMaskLayout.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMaskLayout.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching1v1.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching1v1.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching1v1Ver.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching1v1Ver.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching2v2.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching2v2.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching2v2Ver.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching2v2Ver.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRankPanel.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRankPanel.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiResult.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiResult.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiResultPanel.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiResultPanel.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoomList.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoomList.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiTip.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiTip.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiVsResult.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiVsResult.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/bullet.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/bullet.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/bulletManager.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/bulletManager.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/item.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/item.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/itemManager.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/itemManager.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/player.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/player.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/playerManager.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/playerManager.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/smoke.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/game/script/smoke.js.map" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/plugin-matchvs-js/matchvs.all.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/plugin-matchvs-js/matchvs.all.js.map" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="671">
+              <caret line="139" column="30" lean-forward="false" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1366" />
+    <option name="y" value="-289" />
+    <option name="width" value="1920" />
+    <option name="height" value="989" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BirdWar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BirdWar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd399be8-1af4-4465-8d4f-68766a7125ff" name="Default" comment="" />
+      <created>1532595254647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532595254647</updated>
+      <workItem from="1532595258836" duration="2760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2760000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1366" y="-289" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="139" column="30" lean-forward="false" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
