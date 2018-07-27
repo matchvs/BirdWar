@@ -12,7 +12,7 @@ cc._RF.push(module, 'aeb5eGZwMxOIo9eEEeRZFov', 'DataFunc');
 
 window.dataFunc = {
     // 表格加载--
-    arrTables: ["sampleTemplate"],
+    arrTables: [],
     csvTables: {},
     csvTableForArr: {},
     tableCast: {},
