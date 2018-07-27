@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd399be8-1af4-4465-8d4f-68766a7125ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/basic/DataFunc.js" afterPath="$PROJECT_DIR$/assets/common/script/basic/DataFunc.js" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/data/sampleTemplate.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/data/sampleTemplate.csv.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/data.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/game.js" afterPath="$PROJECT_DIR$/build/wechatgame/game.js" />
       <change beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" />
+      <change beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />

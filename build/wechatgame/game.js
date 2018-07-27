@@ -4,5 +4,5 @@ window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
 wxDownloader.REMOTE_SERVER_ROOT = "https://data.tianziyou.com/matchvsGamesRes/birdwar";
 wxDownloader.SUBCONTEXT_ROOT = "";
-require('src/settings.adb69');
-require('main.07d26');
+require('src/settings.4627d');
+require('main.b658c');
