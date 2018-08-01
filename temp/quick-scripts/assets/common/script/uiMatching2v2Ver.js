@@ -80,15 +80,23 @@ cc.Class({
                 break;
             }
         }
-        GLB.playerUserIds = userIds;
-        if (userIds.length >= GLB.MAX_PLAYER_COUNT) {
+
+        var playerIds = [];
+        for (var i = 0; i < this.playerIcons.length; i++) {
+            playerIcon = this.playerIcons[i].getComponent('playerIcon');
+            if (playerIcon && playerIcon.playerId !== 0) {
+                playerIds.push(playerIcon.playerId);
+            }
+        }
+
+        GLB.playerUserIds = playerIds;
+        if (playerIds.length >= GLB.MAX_PLAYER_COUNT) {
             var result = mvs.engine.joinOver("");
             console.log("发出关闭房间的通知");
             if (result !== 0) {
                 console.log("关闭房间失败，错误码：", result);
             }
-
-            GLB.playerUserIds = userIds;
+            GLB.playerUserIds = playerIds;
         }
     },
 

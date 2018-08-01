@@ -29,6 +29,7 @@ cc.Class({
     },
 
     init: function() {
+        this.playerId = 0;
         this.userInfo = null;
         this.playerSprite.node.active = false;
         clientEvent.on(clientEvent.eventType.playerAccountGet, this.userInfoSet, this);

@@ -115,6 +115,8 @@ cc.Class({
 
     quit: function() {
         mvs.engine.leaveRoom("");
+        GLB.MAX_PLAYER_COUNT = 4;
+
     },
 
     startGame: function() {
@@ -189,6 +191,5 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
         clientEvent.off(clientEvent.eventType.kickPlayerResponse, this.kickPlayerResponse, this);
         clientEvent.off(clientEvent.eventType.kickPlayerNotify, this.kickPlayerNotify, this);
-        GLB.MAX_PLAYER_COUNT = 4;
     }
 });
