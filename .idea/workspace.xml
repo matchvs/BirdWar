@@ -3,29 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="bd399be8-1af4-4465-8d4f-68766a7125ff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/common/lobby/playerIcon.js" afterPath="$PROJECT_DIR$/assets/common/lobby/playerIcon.js" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" afterPath="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" />
       <change beforePath="$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js" afterPath="$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiRoom.js" afterPath="$PROJECT_DIR$/assets/common/script/uiRoom.js" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiRoomVer.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiRoomVer.prefab" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/game.js" afterPath="$PROJECT_DIR$/build/wechatgame/game.js" />
-      <change beforePath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js" afterPath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js" />
-      <change beforePath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js.map" afterPath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js.map" />
-      <change beforePath="$PROJECT_DIR$/library/imports/7c/7c5b03cc-e46c-4be3-9e30-b50dae244750.js" afterPath="$PROJECT_DIR$/library/imports/7c/7c5b03cc-e46c-4be3-9e30-b50dae244750.js" />
-      <change beforePath="$PROJECT_DIR$/library/imports/7c/7c5b03cc-e46c-4be3-9e30-b50dae244750.js.map" afterPath="$PROJECT_DIR$/library/imports/7c/7c5b03cc-e46c-4be3-9e30-b50dae244750.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" />
       <change beforePath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js" afterPath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js" />
       <change beforePath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js.map" afterPath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js.map" />
-      <change beforePath="$PROJECT_DIR$/library/imports/db/db29b85e-8a5a-4f1a-8627-d91a699111d8.json" afterPath="$PROJECT_DIR$/library/imports/db/db29b85e-8a5a-4f1a-8627-d91a699111d8.json" />
       <change beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" />
-      <change beforePath="$PROJECT_DIR$/local/assets.json" afterPath="$PROJECT_DIR$/local/assets.json" />
       <change beforePath="$PROJECT_DIR$/local/layout.windows.json" afterPath="$PROJECT_DIR$/local/layout.windows.json" />
       <change beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
-      <change beforePath="$PROJECT_DIR$/temp/BackupAssets/assets/resources/ui/uiRoomVer.prefab" afterPath="$PROJECT_DIR$/temp/BackupAssets/assets/resources/ui/uiRoomVer.prefab" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/playerIcon.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/playerIcon.js" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/playerIcon.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/lobby/playerIcon.js.map" />
+      <change beforePath="$PROJECT_DIR$/local/package-asset.export.json" afterPath="$PROJECT_DIR$/local/package-asset.export.json" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js.map" />
       <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching2v2Ver.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching2v2Ver.js" />
       <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching2v2Ver.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiMatching2v2Ver.js.map" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +33,8 @@
       <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="267">
+              <caret line="136" column="9" lean-forward="false" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -52,11 +43,9 @@
       <file leaf-file-name="DataFunc.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/basic/DataFunc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7255">
+            <state relative-caret-position="342">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,18 +53,8 @@
       <file leaf-file-name="uiRoomList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoomList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="140">
               <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uiRoom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1054">
-              <caret line="91" column="24" lean-forward="false" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -84,8 +63,18 @@
       <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="384" column="53" lean-forward="false" selection-start-line="384" selection-start-column="37" selection-end-line="384" selection-end-column="53" />
+            <state relative-caret-position="-226">
+              <caret line="421" column="64" lean-forward="false" selection-start-line="421" selection-start-column="51" selection-end-line="421" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uiGamePanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/common/script/uiGamePanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-489">
+              <caret line="31" column="83" lean-forward="false" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -94,21 +83,9 @@
       <file leaf-file-name="uiMatching2v2Ver.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playerIcon.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/common/lobby/playerIcon.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,9 +98,12 @@
       <find>GAME_START_EVENT</find>
       <find>队</find>
       <find>notifyGameStart</find>
-      <find>playerIcons</find>
       <find>playerIcon</find>
       <find>split</find>
+      <find>playerUserIds</find>
+      <find>setData</find>
+      <find>playerIcons</find>
+      <find>playerIds</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,6 +115,7 @@
         <option value="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiRoom.js" />
         <option value="$PROJECT_DIR$/assets/common/lobby/playerIcon.js" />
+        <option value="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js" />
       </list>
     </option>
@@ -151,11 +132,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
-    <option name="y" value="-82" />
-    <option name="width" value="1920" />
-    <option name="height" value="989" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -194,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +186,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,28 +222,31 @@
       <option name="presentableId" value="Default" />
       <updated>1532595254647</updated>
       <workItem from="1532595258836" duration="2779000" />
-      <workItem from="1533025424570" duration="6206000" />
+      <workItem from="1533025424570" duration="6269000" />
+      <workItem from="1533172772470" duration="11000" />
+      <workItem from="1533175011239" duration="13000" />
+      <workItem from="1533261366181" duration="3182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8985000" />
+    <option name="totallyTimeSpent" value="12254000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-82" width="1920" height="989" extended-state="6" />
+    <frame x="0" y="23" width="1366" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122696154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1724907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -283,17 +266,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/Glb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="2318">
           <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding />
         </state>
@@ -301,33 +276,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/basic/DataFunc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7255">
+        <state relative-caret-position="342">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="384" column="53" lean-forward="false" selection-start-line="384" selection-start-column="37" selection-end-line="384" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoomList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="2470">
           <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7296">
+          <caret line="384" column="53" lean-forward="false" selection-start-line="384" selection-start-column="37" selection-end-line="384" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1054">
+        <state relative-caret-position="1729">
           <caret line="91" column="24" lean-forward="false" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
           <folding />
         </state>
@@ -335,7 +308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/lobby/playerIcon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="437">
           <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -345,8 +318,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="1254">
           <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/Glb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/DataFunc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="136" column="9" lean-forward="false" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="421" column="64" lean-forward="false" selection-start-line="421" selection-start-column="51" selection-end-line="421" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiGamePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-489">
+          <caret line="31" column="83" lean-forward="false" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoomList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/lobby/playerIcon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="20" />
           <folding />
         </state>
       </provider>

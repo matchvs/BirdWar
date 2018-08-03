@@ -382,7 +382,6 @@ cc.Class({
         var cpProto = JSON.parse(info.cpProto);
 
         if (info.cpProto.indexOf(GLB.GAME_START_EVENT) >= 0) {
-            GLB.playerUserIds = [GLB.userInfo.id];
             var remoteUserIds = JSON.parse(info.cpProto).userIds;
             // 分队--
             if (remoteUserIds.length % 2 !== 0) {

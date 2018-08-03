@@ -52,17 +52,14 @@ cc.Class({
             console.log('房间号: ' + data.roomInfo.roomID);
         }
         GLB.roomId = data.roomInfo.roomID;
-        var userIds = [GLB.userInfo.id]
-        console.log('房间用户: ' + userIds);
 
         var playerIcon = null;
+        console.log("data.roomUserInfoList:");
+        console.log(data.roomUserInfoList);
         for (var j = 0; j < data.roomUserInfoList.length; j++) {
             playerIcon = this.playerIcons[j].getComponent('playerIcon');
             if (playerIcon && !playerIcon.userInfo) {
                 playerIcon.setData(data.roomUserInfoList[j]);
-                if (GLB.userInfo.id !== data.roomUserInfoList[j].userId) {
-                    userIds.push(data.roomUserInfoList[j].userId);
-                }
             }
         }
 
@@ -82,8 +79,8 @@ cc.Class({
             }
         }
 
-        GLB.playerUserIds = playerIds;
         if (playerIds.length >= GLB.MAX_PLAYER_COUNT) {
+            console.warn("playerIds:" + playerIds);
             var result = mvs.engine.joinOver("");
             console.log("发出关闭房间的通知");
             if (result !== 0) {
@@ -155,6 +152,7 @@ cc.Class({
             action: GLB.GAME_START_EVENT,
             userIds: GLB.playerUserIds
         };
+        console.warn("GLB.playerUserIds:" + GLB.playerUserIds);
         Game.GameManager.sendEventEx(msg);
     },
 
