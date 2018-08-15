@@ -15,7 +15,7 @@ window.clientEvent = {
         joinRoomNotify: "joinRoomNotify",
         leaveRoomResponse: "leaveRoomResponse",
         leaveRoomNotify: "leaveRoomNotify",
-        leaveRoomNotifyMed: "leaveRoomNotifyMed",
+        leaveRoomMedNotify: "leaveRoomMedNotify",
         joinOverResponse: "joinOverResponse",
         createRoomResponse: "createRoomResponse",
         getRoomListResponse: "getRoomListResponse",

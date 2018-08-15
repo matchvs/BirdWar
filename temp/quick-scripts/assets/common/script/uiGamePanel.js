@@ -31,7 +31,7 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.timeOver, this.timeOver, this);
-        clientEvent.on(clientEvent.eventType.leaveRoomNotifyMed, this.leaveRoom, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
 
         this.nodeDict["exit"].on("click", this.exit, this);
         this.playerIcons = [];
@@ -184,7 +184,7 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.off(clientEvent.eventType.playerDead, this.playerDead, this);
         clientEvent.off(clientEvent.eventType.timeOver, this.timeOver, this);
-        clientEvent.off(clientEvent.eventType.leaveRoomNotifyMed, this.leaveRoom, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
     }
 });
 

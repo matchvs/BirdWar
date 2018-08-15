@@ -49,7 +49,7 @@ cc.Class({
 
     leaveRoom: function(data) {
         // 离开房间--
-        clientEvent.dispatch(clientEvent.eventType.leaveRoomNotifyMed, data);
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, data);
         console.log("离开房间");
         if (this.gameState === GameState.Play) {
             if (data.leaveRoomInfo.owner === GLB.userInfo.id) {
@@ -197,6 +197,7 @@ cc.Class({
         mvs.response.loginResponse = this.loginResponse.bind(this); // 用户登录之后的回调
         mvs.response.logoutResponse = this.logoutResponse.bind(this); // 用户登录之后的回调
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
+        mvs.response.networkStateNotify = this.networkStateNotify.bind(this);
 
         var result = mvs.engine.init(mvs.response, GLB.channel, GLB.platform, GLB.gameId);
         if (result !== 0) {
@@ -204,6 +205,10 @@ cc.Class({
         }
         Game.GameManager.blockInput();
 
+    },
+
+    networkStateNotify: function(netNotify) {
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, netNotify);
     },
 
     kickPlayerNotify: function(kickPlayerNotify) {
