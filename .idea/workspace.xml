@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd399be8-1af4-4465-8d4f-68766a7125ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/basic/messenger/clientEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/basic/messenger/clientEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiGamePanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiGamePanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiRoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiRoomList.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiRoomList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/imports/5c/5c49dd28-5f31-47e4-9489-a29c5c46213e.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/5c/5c49dd28-5f31-47e4-9489-a29c5c46213e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/imports/5c/5c49dd28-5f31-47e4-9489-a29c5c46213e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/5c/5c49dd28-5f31-47e4-9489-a29c5c46213e.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/imports/77/771d9b66-0df6-41f5-bfc4-b6e2970ed35a.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/77/771d9b66-0df6-41f5-bfc4-b6e2970ed35a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/imports/77/771d9b66-0df6-41f5-bfc4-b6e2970ed35a.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/77/771d9b66-0df6-41f5-bfc4-b6e2970ed35a.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/messenger/clientEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/messenger/clientEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/messenger/clientEvent.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/messenger/clientEvent.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiGamePanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiGamePanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiGamePanel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiGamePanel.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiRoom.js.map" afterDir="false" />
-    </list>
+    <list default="true" id="bd399be8-1af4-4465-8d4f-68766a7125ff" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -38,94 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="51" column="69" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uiMatching2v2Ver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/common/script/basic/messenger/clientEvent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../ShaoLinTemple/ShaoLinTemple/assets/common/script/basic/messenger/clientEvent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../OneTwoStep/OneTwoStep/assets/common/script/basic/messenger/clientEvent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../DuckHunt/DuckHunt/assets/common/script/basic/messenger/clientEvent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../BasketBall/BasketBall/assets/common/script/basic/messenger/clientEvent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../JumpJump/JumpJump/assets/basic/script/basic/messenger/clientEvent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../RobCoin/RobCoin/assets/lobby/basic/messenger/clientEvent.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="clientEvent.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../AnimalChecker/AnimalChecker/assets/common/script/basic/messenger/clientEvent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -257,16 +145,15 @@
       <workItem from="1533172772470" duration="11000" />
       <workItem from="1533175011239" duration="13000" />
       <workItem from="1533261366181" duration="3182000" />
-      <workItem from="1534300887589" duration="194000" />
+      <workItem from="1534300887589" duration="500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12448000" />
+    <option name="totallyTimeSpent" value="12754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="990" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12216956" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -465,7 +352,7 @@
     <entry file="file://$PROJECT_DIR$/../../../OneTwoStep/OneTwoStep/assets/common/script/basic/messenger/clientEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -479,7 +366,7 @@
     <entry file="file://$PROJECT_DIR$/../../../BasketBall/BasketBall/assets/common/script/basic/messenger/clientEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -495,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../AnimalChecker/AnimalChecker/assets/common/script/basic/messenger/clientEvent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="281">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
         </state>
       </provider>
     </entry>
