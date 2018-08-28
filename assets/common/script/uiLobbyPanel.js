@@ -142,6 +142,6 @@ cc.Class({
     },
 
     inviteFriend: function() {
-        wx.shareAppMessage({imageUrl: "https://data.tianziyou.com/matchvsGamesRes/logo/xiaojilogo.png"});
+        wx.shareAppMessage({imageUrl: "https://data.tianziyou.com/matchvsGamesRes/logo/xiaojilogo1.png"});
     }
 });
