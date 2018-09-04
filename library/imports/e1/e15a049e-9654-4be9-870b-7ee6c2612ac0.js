@@ -119,6 +119,11 @@ cc.Class({
     },
 
     onDestroy: function onDestroy() {
+        if (window.wx) {
+            wx.offKeyboardComplete();
+            wx.offKeyboardInput();
+            wx.hideKeyboard();
+        }
         clientEvent.off(clientEvent.eventType.createRoomResponse, this.createRoomResponse, this);
     }
 });
