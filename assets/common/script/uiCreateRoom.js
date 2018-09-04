@@ -64,6 +64,7 @@ cc.Class({
         uiFunc.closeUI(this.node.name);
         this.node.destroy();
         GLB.MAX_PLAYER_COUNT = 4;
+
     },
 
     createRoom: function() {
@@ -111,6 +112,11 @@ cc.Class({
     },
 
     onDestroy: function() {
+        if (window.wx) {
+            wx.offKeyboardComplete();
+            wx.offKeyboardInput();
+            wx.hideKeyboard();
+        }
         clientEvent.off(clientEvent.eventType.createRoomResponse, this.createRoomResponse, this);
     }
 });
