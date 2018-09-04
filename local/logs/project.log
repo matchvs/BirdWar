@@ -1,62 +1,57 @@
-2018-08-15T02:19:31.597Z - normal: Load ~/.CocosCreator/settings.json
-2018-08-15T02:19:31.601Z - normal: checking language setting...
-2018-08-15T02:19:31.601Z - normal: Language: zh
-2018-08-15T02:19:33.053Z - success: protocol editor-framework registered
-2018-08-15T02:19:33.054Z - success: protocol app registered
-2018-08-15T02:19:33.054Z - success: protocol theme registered
-2018-08-15T02:19:33.054Z - success: protocol packages registered
-2018-08-15T02:19:33.055Z - success: protocol unpack registerred
-2018-08-15T02:19:33.055Z - success: protocol disable-commonjs registerred
-2018-08-15T02:19:33.312Z - normal: connected!
-2018-08-15T02:19:33.314Z - normal: Check project /Users/mac/MatchVsGithub/BirdWar/BirdWar/BirdWar
-2018-08-15T02:19:33.316Z - normal: Initializing Cocos2d
-2018-08-15T02:19:33.553Z - normal: Initializing Asset Database
-2018-08-15T02:19:33.587Z - success: protocol uuid registerred
-2018-08-15T02:19:33.588Z - success: protocol db registerred
-2018-08-15T02:19:33.588Z - success: protocol thumbnail registerred
-2018-08-15T02:19:33.588Z - normal: Loading editor/builtin packages
-2018-08-15T02:19:33.610Z - success: anysdk loaded
-2018-08-15T02:19:33.831Z - success: assets loaded
-2018-08-15T02:19:33.835Z - success: builder loaded
-2018-08-15T02:19:33.837Z - success: cocos-analytics loaded
-2018-08-15T02:19:33.843Z - success: console loaded
-2018-08-15T02:19:33.880Z - success: fb-instant-games loaded
-2018-08-15T02:19:33.885Z - success: hierarchy loaded
-2018-08-15T02:19:33.890Z - success: inspector loaded
-2018-08-15T02:19:33.891Z - success: keystore loaded
-2018-08-15T02:19:33.896Z - success: node-library loaded
-2018-08-15T02:19:33.898Z - success: package-asset loaded
-2018-08-15T02:19:33.900Z - success: preferences loaded
-2018-08-15T02:19:33.903Z - success: project-exporter loaded
-2018-08-15T02:19:33.920Z - success: project-importer loaded
-2018-08-15T02:19:33.924Z - success: project-settings loaded
-2018-08-15T02:19:33.928Z - success: ui-kit loaded
-2018-08-15T02:19:33.943Z - success: ui-grid loaded
-2018-08-15T02:19:33.948Z - success: scene loaded
-2018-08-15T02:19:33.949Z - success: sprite-editor loaded
-2018-08-15T02:19:33.957Z - success: store loaded
-2018-08-15T02:19:33.967Z - success: timeline loaded
-2018-08-15T02:19:33.967Z - normal: Loading builtin packages
-2018-08-15T02:19:33.972Z - success: asset-db-debugger loaded
-2018-08-15T02:19:33.972Z - success: color-picker loaded
-2018-08-15T02:19:33.976Z - success: package-manager loaded
-2018-08-15T02:19:33.977Z - success: qqplay-adapter loaded
-2018-08-15T02:19:33.989Z - success: sdkbox loaded
-2018-08-15T02:19:33.995Z - success: tester loaded
-2018-08-15T02:19:33.999Z - success: ui-kit-preview-extra loaded
-2018-08-15T02:19:34.007Z - success: ui-kit-preview loaded
-2018-08-15T02:19:34.010Z - success: ui-tree loaded
-2018-08-15T02:19:34.011Z - success: weapp-adapter loaded
-2018-08-15T02:19:35.363Z - normal: Initializing project /Users/mac/MatchVsGithub/BirdWar/BirdWar/BirdWar
-2018-08-15T02:19:35.367Z - normal: Loading packages
-2018-08-15T02:19:35.381Z - success: plugin-matchvs loaded
-2018-08-15T02:19:35.381Z - normal: Watching packages
-2018-08-15T02:19:35.540Z - normal: Run Application
-2018-08-15T02:19:36.955Z - success: preview server running at http://localhost:7466
-2018-08-15T02:20:16.296Z - normal: 1.9.3
-2018-08-15T02:48:19.970Z - error: TypeError: Cannot read property '_userId' of undefined
-    at HTMLElement.updateItemID (packages://ui-tree/widget/id-tree.js:70:32)
-    at HTMLElement.asset-db:asset-uuid-changed (file:///Applications/CocosCreator%201.9.3.app/Contents/Resources/app.asar/editor/builtin/assets/panel/panel.js:1:6588)
-    at EventEmitter.e.on.t (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
-    at emitTwo (events.js:111:20)
-    at EventEmitter.emit (events.js:194:7)
+2018-09-04T02:43:08.631Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-04T02:43:08.639Z - normal: checking language setting...
+2018-09-04T02:43:08.639Z - normal: Language: zh
+2018-09-04T02:43:09.536Z - success: protocol editor-framework registered
+2018-09-04T02:43:09.536Z - success: protocol app registered
+2018-09-04T02:43:09.536Z - success: protocol theme registered
+2018-09-04T02:43:09.536Z - success: protocol packages registered
+2018-09-04T02:43:09.537Z - success: protocol unpack registerred
+2018-09-04T02:43:09.537Z - success: protocol disable-commonjs registerred
+2018-09-04T02:43:09.798Z - normal: connected!
+2018-09-04T02:43:09.809Z - normal: Check project /Users/mac/MatchVsGithub/BirdWar/BirdWar/BirdWar
+2018-09-04T02:43:09.811Z - normal: Initializing Cocos2d
+2018-09-04T02:43:10.017Z - normal: Initializing Asset Database
+2018-09-04T02:43:10.050Z - success: protocol uuid registerred
+2018-09-04T02:43:10.050Z - success: protocol db registerred
+2018-09-04T02:43:10.050Z - success: protocol thumbnail registerred
+2018-09-04T02:43:10.050Z - normal: Loading editor/builtin packages
+2018-09-04T02:43:10.068Z - success: anysdk loaded
+2018-09-04T02:43:10.179Z - success: assets loaded
+2018-09-04T02:43:10.183Z - success: builder loaded
+2018-09-04T02:43:10.185Z - success: cocos-analytics loaded
+2018-09-04T02:43:10.188Z - success: console loaded
+2018-09-04T02:43:10.218Z - success: fb-instant-games loaded
+2018-09-04T02:43:10.222Z - success: hierarchy loaded
+2018-09-04T02:43:10.226Z - success: inspector loaded
+2018-09-04T02:43:10.228Z - success: keystore loaded
+2018-09-04T02:43:10.231Z - success: node-library loaded
+2018-09-04T02:43:10.233Z - success: package-asset loaded
+2018-09-04T02:43:10.234Z - success: preferences loaded
+2018-09-04T02:43:10.237Z - success: project-exporter loaded
+2018-09-04T02:43:10.254Z - success: project-importer loaded
+2018-09-04T02:43:10.257Z - success: project-settings loaded
+2018-09-04T02:43:10.262Z - success: ui-kit loaded
+2018-09-04T02:43:10.268Z - success: ui-grid loaded
+2018-09-04T02:43:10.272Z - success: scene loaded
+2018-09-04T02:43:10.273Z - success: sprite-editor loaded
+2018-09-04T02:43:10.277Z - success: store loaded
+2018-09-04T02:43:10.282Z - success: timeline loaded
+2018-09-04T02:43:10.282Z - normal: Loading builtin packages
+2018-09-04T02:43:10.286Z - success: asset-db-debugger loaded
+2018-09-04T02:43:10.287Z - success: color-picker loaded
+2018-09-04T02:43:10.291Z - success: package-manager loaded
+2018-09-04T02:43:10.292Z - success: qqplay-adapter loaded
+2018-09-04T02:43:10.352Z - success: sdkbox loaded
+2018-09-04T02:43:10.357Z - normal: last time update is in one day
+2018-09-04T02:43:10.358Z - success: tester loaded
+2018-09-04T02:43:10.361Z - success: ui-kit-preview-extra loaded
+2018-09-04T02:43:10.365Z - success: ui-kit-preview loaded
+2018-09-04T02:43:10.369Z - success: ui-tree loaded
+2018-09-04T02:43:10.372Z - success: weapp-adapter loaded
+2018-09-04T02:43:11.299Z - normal: Initializing project /Users/mac/MatchVsGithub/BirdWar/BirdWar/BirdWar
+2018-09-04T02:43:11.302Z - normal: Loading packages
+2018-09-04T02:43:11.312Z - success: plugin-matchvs loaded
+2018-09-04T02:43:11.312Z - normal: Watching packages
+2018-09-04T02:43:11.423Z - normal: Run Application
+2018-09-04T02:43:12.909Z - success: preview server running at http://localhost:7458
+2018-09-04T02:43:19.789Z - normal: 1.9.3

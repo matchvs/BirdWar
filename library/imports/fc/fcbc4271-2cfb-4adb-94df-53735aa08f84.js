@@ -1427,11 +1427,11 @@ pomeloBuild.create = function () {
                 };
                 var onerror = function onerror(event) {
                     pomelo.emit('io-error', event);
-                    console.error('socket error: ', JSON.stringify(event));
+                    console.warn('socket error: ', JSON.stringify(event));
                 };
                 var onclose = function onclose(event) {
                     pomelo.emit('close', event);
-                    console.error('socket close: ', JSON.stringify(event));
+                    console.warn('socket close: ', JSON.stringify(event));
                     // //尝试修复断线后继续发心跳包后报错
                     // if (heartbeatId) {
                     //     clearTimeout(heartbeatId);
@@ -1595,7 +1595,7 @@ pomeloBuild.create = function () {
                 if (gap > gapThreshold) {
                     heartbeatTimeoutId = setTimeout(heartbeatTimeoutCb, gap);
                 } else {
-                    console.error('server heartbeat timeout');
+                    console.warn('server heartbeat timeout');
                     pomelo.emit('heartbeat timeout');
                     pomelo.disconnect();
                 }

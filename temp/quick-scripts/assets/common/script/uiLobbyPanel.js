@@ -149,7 +149,7 @@ cc.Class({
     },
 
     inviteFriend: function inviteFriend() {
-        wx.shareAppMessage({ imageUrl: "https://data.tianziyou.com/matchvsGamesRes/logo/xiaojilogo.png" });
+        wx.shareAppMessage({ imageUrl: "https://data.tianziyou.com/matchvsGamesRes/logo/xiaojilogo1.png" });
     }
 });
 

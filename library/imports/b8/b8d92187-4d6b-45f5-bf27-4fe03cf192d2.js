@@ -27,8 +27,10 @@ cc.Class({
 
         this.getRoomList();
         this.roomRqId = setInterval(function () {
-            this.getRoomList();
-        }.bind(this), 20000);
+            if (this.editBox.string === '') {
+                this.getRoomList();
+            }
+        }.bind(this), 5000);
     },
 
 
@@ -148,6 +150,8 @@ cc.Class({
     },
 
     onDestroy: function onDestroy() {
+        clearInterval(this.roomRqId);
+
         clientEvent.off(clientEvent.eventType.getRoomListResponse, this.getRoomListResponse, this);
         clientEvent.off(clientEvent.eventType.joinRoomResponse, this.joinRoomResponse, this);
         clientEvent.off(clientEvent.eventType.getRoomListExResponse, this.getRoomListExResponse, this);

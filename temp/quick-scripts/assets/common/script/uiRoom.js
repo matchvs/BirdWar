@@ -27,6 +27,7 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
         clientEvent.on(clientEvent.eventType.kickPlayerResponse, this.kickPlayerResponse, this);
         clientEvent.on(clientEvent.eventType.kickPlayerNotify, this.kickPlayerNotify, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoomMedNotify, this);
 
         for (var i = 0; i < GLB.MAX_PLAYER_COUNT; i++) {
             var temp = cc.instantiate(this.playerPrefab);
