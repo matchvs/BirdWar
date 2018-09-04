@@ -87,7 +87,9 @@ cc.Class({
             if (recvMsg.headIcon && recvMsg.headIcon !== "-") {
                 cc.loader.load({url: recvMsg.headIcon, type: 'png'}, function(err, texture) {
                     var spriteFrame = new cc.SpriteFrame(texture, cc.Rect(0, 0, texture.width, texture.height));
-                    this.userIcon.spriteFrame = spriteFrame;
+                    if(this.userIcon) {
+                        this.userIcon.spriteFrame = spriteFrame;
+                    }
                 }.bind(this));
             }
         }
