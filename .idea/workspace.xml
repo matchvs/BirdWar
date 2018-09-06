@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd399be8-1af4-4465-8d4f-68766a7125ff" name="Default" comment="" />
+    <list default="true" id="bd399be8-1af4-4465-8d4f-68766a7125ff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/wechatgame/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/wechatgame/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a5/a5e20086-6ca8-40c7-9197-826b20c4f9bf.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/a5/a5e20086-6ca8-40c7-9197-826b20c4f9bf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a5/a5e20086-6ca8-40c7-9197-826b20c4f9bf.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/a5/a5e20086-6ca8-40c7-9197-826b20c4f9bf.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/imports/fb/fb82de52-affd-499d-96de-2bfafcba2fed.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/fb/fb82de52-affd-499d-96de-2bfafcba2fed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/imports/fb/fb82de52-affd-499d-96de-2bfafcba2fed.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/library/imports/fb/fb82de52-affd-499d-96de-2bfafcba2fed.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/basic/gameManager.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLobbyPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLobbyPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLobbyPanel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLobbyPanel.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLogin.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/common/script/uiLogin.js.map" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,7 +35,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -35,18 +76,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiRoom.js" />
         <option value="$PROJECT_DIR$/assets/common/lobby/playerIcon.js" />
-        <option value="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js" />
         <option value="$PROJECT_DIR$/assets/common/script/basic/messenger/clientEvent.js" />
-        <option value="$PROJECT_DIR$/../../../ShaoLinTemple/ShaoLinTemple/assets/common/script/basic/messenger/clientEvent.js" />
-        <option value="$PROJECT_DIR$/../../../OneTwoStep/OneTwoStep/assets/common/script/basic/messenger/clientEvent.js" />
-        <option value="$PROJECT_DIR$/../../../DuckHunt/DuckHunt/assets/common/script/basic/messenger/clientEvent.js" />
-        <option value="$PROJECT_DIR$/../../../BasketBall/BasketBall/assets/common/script/basic/messenger/clientEvent.js" />
-        <option value="$PROJECT_DIR$/../../../JumpJump/JumpJump/assets/basic/script/basic/messenger/clientEvent.js" />
-        <option value="$PROJECT_DIR$/../../../AnimalChecker/AnimalChecker/assets/common/script/basic/messenger/clientEvent.js" />
+        <option value="$USER_HOME$/ShaoLinTemple/ShaoLinTemple/assets/common/script/basic/messenger/clientEvent.js" />
+        <option value="$USER_HOME$/OneTwoStep/OneTwoStep/assets/common/script/basic/messenger/clientEvent.js" />
+        <option value="$USER_HOME$/DuckHunt/DuckHunt/assets/common/script/basic/messenger/clientEvent.js" />
+        <option value="$USER_HOME$/BasketBall/BasketBall/assets/common/script/basic/messenger/clientEvent.js" />
+        <option value="$USER_HOME$/JumpJump/JumpJump/assets/basic/script/basic/messenger/clientEvent.js" />
+        <option value="$USER_HOME$/AnimalChecker/AnimalChecker/assets/common/script/basic/messenger/clientEvent.js" />
+        <option value="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
+        <option value="$PROJECT_DIR$/assets/common/script/basic/gameManager.js" />
       </list>
     </option>
   </component>
@@ -62,10 +103,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/packages/plugin-matchvs/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="977" />
+    <option name="height" value="989" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -112,6 +158,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -146,20 +193,21 @@
       <workItem from="1533175011239" duration="13000" />
       <workItem from="1533261366181" duration="3182000" />
       <workItem from="1534300887589" duration="500000" />
+      <workItem from="1536199034146" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12754000" />
+    <option name="totallyTimeSpent" value="13056000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="990" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="989" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12216956" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -172,6 +220,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32922733" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="136" column="9" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
@@ -328,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="51" column="69" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/basic/messenger/clientEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -342,48 +377,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../ShaoLinTemple/ShaoLinTemple/assets/common/script/basic/messenger/clientEvent.js">
+    <entry file="file://$USER_HOME$/ShaoLinTemple/ShaoLinTemple/assets/common/script/basic/messenger/clientEvent.js" />
+    <entry file="file://$USER_HOME$/OneTwoStep/OneTwoStep/assets/common/script/basic/messenger/clientEvent.js" />
+    <entry file="file://$USER_HOME$/DuckHunt/DuckHunt/assets/common/script/basic/messenger/clientEvent.js" />
+    <entry file="file://$USER_HOME$/BasketBall/BasketBall/assets/common/script/basic/messenger/clientEvent.js" />
+    <entry file="file://$USER_HOME$/JumpJump/JumpJump/assets/basic/script/basic/messenger/clientEvent.js" />
+    <entry file="file://$USER_HOME$/RobCoin/RobCoin/assets/lobby/basic/messenger/clientEvent.js" />
+    <entry file="file://$USER_HOME$/AnimalChecker/AnimalChecker/assets/common/script/basic/messenger/clientEvent.js" />
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="448">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../OneTwoStep/OneTwoStep/assets/common/script/basic/messenger/clientEvent.js">
+    <entry file="file://$PROJECT_DIR$/assets/common/script/basic/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../DuckHunt/DuckHunt/assets/common/script/basic/messenger/clientEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../BasketBall/BasketBall/assets/common/script/basic/messenger/clientEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../JumpJump/JumpJump/assets/basic/script/basic/messenger/clientEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../RobCoin/RobCoin/assets/lobby/basic/messenger/clientEvent.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../AnimalChecker/AnimalChecker/assets/common/script/basic/messenger/clientEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="265">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

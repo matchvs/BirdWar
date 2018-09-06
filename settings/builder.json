@@ -3,6 +3,7 @@
   "appSecret": "",
   "encryptJs": true,
   "excludeScenes": [],
+  "fb-instant-games": {},
   "includeAnySDK": false,
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
@@ -20,20 +21,19 @@
   },
   "packageName": "org.cocos2d.DuckHunt",
   "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
   "renderMode": "0",
   "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
   "title": "birdWar",
   "webOrientation": "portrait",
   "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/birdwar",
+    "REMOTE_SERVER_ROOT": "https://imgs.matchvs.com/static/tianziyou/birdWar",
     "appid": "wx793199d0ca521154",
     "orientation": "portrait"
   },
   "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "qqplay": {
-    "orientation": "portrait",
-    "REMOTE_SERVER_ROOT": ""
-  },
-  "fb-instant-games": {}
+  "zipCompressJs": true
 }
