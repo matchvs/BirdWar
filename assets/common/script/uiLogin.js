@@ -36,10 +36,12 @@ cc.Class({
                         setTimeout(function() {
                             Game.GameManager.isClickCd = false;
                         }, 1000);
-                        Game.GameManager.nickName = res.userInfo.nickName;
-                        Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
-                        Game.GameManager.matchVsInit();
-                        Game.GameManager.getUserInfoBtn.hide();
+                        if(res.userInfo) {
+                            Game.GameManager.nickName = res.userInfo.nickName;
+                            Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
+                            Game.GameManager.matchVsInit();
+                            Game.GameManager.getUserInfoBtn.hide();
+                        }
                     });
                 }
             });
