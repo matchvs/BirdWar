@@ -17,6 +17,12 @@
     "originalSize": [
       32,
       32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

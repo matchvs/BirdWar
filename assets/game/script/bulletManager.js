@@ -42,12 +42,14 @@ cc.Class({
                     return;
                 }
                 var data = [];
-                for (var j = 0; j < Game.PlayerManager.players.length; j++) {
-                    var playerScript = Game.PlayerManager.players[j].getComponent("player");
-                    if (playerScript) {
-                        var worldPos = playerScript.firePoint.convertToWorldSpaceAR(cc.v2(0, 0));
-                        var bulletPoint = playerScript.node.parent.convertToNodeSpaceAR(worldPos);
-                        data.push({ playerId: playerScript.userId, bulletPointY: bulletPoint.y });
+                if(Game.PlayerManager.players){
+                    for (var j = 0; j < Game.PlayerManager.players.length; j++) {
+                        var playerScript = Game.PlayerManager.players[j].getComponent("player");
+                        if (playerScript) {
+                            var worldPos = playerScript.firePoint.convertToWorldSpaceAR(cc.v2(0, 0));
+                            var bulletPoint = playerScript.node.parent.convertToNodeSpaceAR(worldPos);
+                            data.push({ playerId: playerScript.userId, bulletPointY: bulletPoint.y });
+                        }
                     }
                 }
                 var msg = {

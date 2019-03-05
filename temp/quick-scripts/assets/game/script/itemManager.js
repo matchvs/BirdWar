@@ -36,7 +36,9 @@ cc.Class({
                     clearInterval(this.scheduleSpawn);
                     return;
                 }
-                var index = dataFunc.randomNum(0, this.itemPrefabs.length - 1);
+                if (this.itemPrefabs) {
+                    var index = dataFunc.randomNum(0, this.itemPrefabs.length - 1);
+                }
                 var position = cc.v2(0, dataFunc.randomNum(-450, 350));
                 var msg = {
                     action: GLB.NEW_ITEM_EVENT,

@@ -1,157 +1,57 @@
-2018-09-06T03:07:34.194Z - normal: Load ~/.CocosCreator/settings.json
-2018-09-06T03:07:34.197Z - normal: checking language setting...
-2018-09-06T03:07:34.197Z - normal: Language: zh
-2018-09-06T03:07:34.757Z - success: protocol editor-framework registered
-2018-09-06T03:07:34.758Z - success: protocol app registered
-2018-09-06T03:07:34.758Z - success: protocol theme registered
-2018-09-06T03:07:34.758Z - success: protocol packages registered
-2018-09-06T03:07:34.758Z - success: protocol unpack registerred
-2018-09-06T03:07:34.759Z - success: protocol disable-commonjs registerred
-2018-09-06T03:07:34.966Z - normal: connected!
-2018-09-06T03:07:34.967Z - normal: Check project /Users/mac/Documents/MatchVs/BirdWar
-2018-09-06T03:07:34.969Z - normal: Initializing Cocos2d
-2018-09-06T03:07:35.127Z - normal: Initializing Asset Database
-2018-09-06T03:07:35.158Z - success: protocol uuid registerred
-2018-09-06T03:07:35.158Z - success: protocol db registerred
-2018-09-06T03:07:35.159Z - success: protocol thumbnail registerred
-2018-09-06T03:07:35.159Z - normal: Loading editor/builtin packages
-2018-09-06T03:07:35.178Z - success: anysdk loaded
-2018-09-06T03:07:35.282Z - success: assets loaded
-2018-09-06T03:07:35.286Z - success: builder loaded
-2018-09-06T03:07:35.288Z - success: cocos-analytics loaded
-2018-09-06T03:07:35.292Z - success: console loaded
-2018-09-06T03:07:35.323Z - success: fb-instant-games loaded
-2018-09-06T03:07:35.326Z - success: hierarchy loaded
-2018-09-06T03:07:35.330Z - success: inspector loaded
-2018-09-06T03:07:35.332Z - success: keystore loaded
-2018-09-06T03:07:35.336Z - success: node-library loaded
-2018-09-06T03:07:35.338Z - success: package-asset loaded
-2018-09-06T03:07:35.339Z - success: preferences loaded
-2018-09-06T03:07:35.342Z - success: project-exporter loaded
-2018-09-06T03:07:35.357Z - success: project-importer loaded
-2018-09-06T03:07:35.360Z - success: project-settings loaded
-2018-09-06T03:07:35.363Z - success: ui-kit loaded
-2018-09-06T03:07:35.368Z - success: ui-grid loaded
-2018-09-06T03:07:35.371Z - success: scene loaded
-2018-09-06T03:07:35.373Z - success: sprite-editor loaded
-2018-09-06T03:07:35.376Z - success: store loaded
-2018-09-06T03:07:35.381Z - success: timeline loaded
-2018-09-06T03:07:35.382Z - normal: Loading builtin packages
-2018-09-06T03:07:35.385Z - success: asset-db-debugger loaded
-2018-09-06T03:07:35.386Z - success: color-picker loaded
-2018-09-06T03:07:35.389Z - success: package-manager loaded
-2018-09-06T03:07:35.390Z - success: qqplay-adapter loaded
-2018-09-06T03:07:35.396Z - success: sdkbox loaded
-2018-09-06T03:07:35.400Z - success: tester loaded
-2018-09-06T03:07:35.403Z - success: ui-kit-preview-extra loaded
-2018-09-06T03:07:35.406Z - success: ui-kit-preview loaded
-2018-09-06T03:07:35.409Z - success: ui-tree loaded
-2018-09-06T03:07:35.410Z - success: weapp-adapter loaded
-2018-09-06T03:07:36.326Z - normal: Initializing project /Users/mac/Documents/MatchVs/BirdWar
-2018-09-06T03:07:36.329Z - normal: Loading packages
-2018-09-06T03:07:36.343Z - success: plugin-matchvs loaded
-2018-09-06T03:07:36.343Z - normal: Watching packages
-2018-09-06T03:07:36.470Z - normal: Run Application
-2018-09-06T03:07:37.448Z - success: preview server running at http://localhost:7457
-2018-09-06T03:07:45.930Z - normal: 1.9.3
-2018-09-06T03:08:19.731Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/Documents/MatchVs/BirdWar/build",
-  "debug": false,
-  "dest": "/Users/mac/Documents/MatchVs/BirdWar/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "birdWar",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://imgs.matchvs.com/static/tianziyou/birdWar",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/Documents/MatchVs/BirdWar",
-  "projectName": "birdWar",
-  "debugBuildWorker": false
-}
-2018-09-06T03:08:19.734Z - normal: Building /Users/mac/Documents/MatchVs/BirdWar
-2018-09-06T03:08:19.734Z - normal: Destination /Users/mac/Documents/MatchVs/BirdWar/build/wechatgame
-2018-09-06T03:08:19.968Z - normal: Delete /Users/mac/Documents/MatchVs/BirdWar/build/wechatgame/**/*
-2018-09-06T03:08:27.978Z - normal: Compiled project javascript file successfully
-2018-09-06T03:08:27.979Z - normal: Start building assets
-2018-09-06T03:08:27.979Z - normal: Start spawn build-worker
-2018-09-06T03:08:28.588Z - normal: Finish spawn build-worker
-2018-09-06T03:08:28.589Z - normal: Start init build-worker
-2018-09-06T03:08:30.235Z - normal: 1.9.3
-2018-09-06T03:08:30.516Z - normal: Finish init build-worker
-2018-09-06T03:08:30.516Z - normal: Start build-assets in worker
-2018-09-06T03:08:31.106Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching1v1/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-09-06T03:08:31.108Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
-2018-09-06T03:08:31.680Z - normal: Finish build-assets in worker
-2018-09-06T03:08:31.683Z - normal: Finish building assets
-2018-09-06T03:08:31.717Z - normal: Start building raw assets
-2018-09-06T03:08:31.718Z - normal: Start building plugin scripts
-2018-09-06T03:08:33.645Z - normal: Finish building plugin scripts
-2018-09-06T03:08:33.773Z - normal: Finish building raw assets
-2018-09-06T03:08:33.776Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-09-06T03:08:35.255Z - normal: Built to "/Users/mac/Documents/MatchVs/BirdWar/build/wechatgame" successfully
-2018-09-06T03:08:51.443Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-09-06T03:08:51.444Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-09-06T03:08:51.756Z - normal: Initializing...
-
-2018-09-06T03:08:51.762Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-09-06T03:08:51.778Z - normal: IDE server has started, listening on http://127.0.0.1:55410
-
-2018-09-06T03:08:51.779Z - normal: initialization finished
-
-2018-09-06T03:08:52.002Z - normal: open IDE success
-
-2018-09-06T03:09:05.335Z - info: shutdown preview server
+2019-03-05T06:52:18.227Z - normal: Load ~/.CocosCreator/settings.json
+2019-03-05T06:52:18.232Z - normal: checking language setting...
+2019-03-05T06:52:18.232Z - normal: Language: zh
+2019-03-05T06:52:18.946Z - success: protocol editor-framework registered
+2019-03-05T06:52:18.946Z - success: protocol app registered
+2019-03-05T06:52:18.946Z - success: protocol theme registered
+2019-03-05T06:52:18.947Z - success: protocol packages registered
+2019-03-05T06:52:18.947Z - success: protocol unpack registerred
+2019-03-05T06:52:18.947Z - success: protocol disable-commonjs registerred
+2019-03-05T06:52:19.140Z - normal: connected!
+2019-03-05T06:52:19.143Z - normal: Check project /Users/mac/BirdWar
+2019-03-05T06:52:19.145Z - normal: Initializing Cocos2d
+2019-03-05T06:52:19.351Z - normal: Initializing Asset Database
+2019-03-05T06:52:19.381Z - success: protocol uuid registerred
+2019-03-05T06:52:19.382Z - success: protocol db registerred
+2019-03-05T06:52:19.382Z - success: protocol thumbnail registerred
+2019-03-05T06:52:19.382Z - normal: Loading editor/builtin packages
+2019-03-05T06:52:19.403Z - success: anysdk loaded
+2019-03-05T06:52:19.511Z - success: assets loaded
+2019-03-05T06:52:19.514Z - success: builder loaded
+2019-03-05T06:52:19.516Z - success: cocos-analytics loaded
+2019-03-05T06:52:19.520Z - success: console loaded
+2019-03-05T06:52:19.554Z - success: fb-instant-games loaded
+2019-03-05T06:52:19.558Z - success: hierarchy loaded
+2019-03-05T06:52:19.569Z - success: inspector loaded
+2019-03-05T06:52:19.571Z - success: keystore loaded
+2019-03-05T06:52:19.575Z - success: node-library loaded
+2019-03-05T06:52:19.577Z - success: package-asset loaded
+2019-03-05T06:52:19.579Z - success: preferences loaded
+2019-03-05T06:52:19.582Z - success: project-exporter loaded
+2019-03-05T06:52:19.598Z - success: project-importer loaded
+2019-03-05T06:52:19.602Z - success: project-settings loaded
+2019-03-05T06:52:19.607Z - success: ui-kit loaded
+2019-03-05T06:52:19.618Z - success: ui-grid loaded
+2019-03-05T06:52:19.624Z - success: scene loaded
+2019-03-05T06:52:19.625Z - success: sprite-editor loaded
+2019-03-05T06:52:19.632Z - success: store loaded
+2019-03-05T06:52:19.638Z - success: timeline loaded
+2019-03-05T06:52:19.638Z - normal: Loading builtin packages
+2019-03-05T06:52:19.646Z - success: asset-db-debugger loaded
+2019-03-05T06:52:19.647Z - success: color-picker loaded
+2019-03-05T06:52:19.650Z - success: package-manager loaded
+2019-03-05T06:52:19.651Z - success: qqplay-adapter loaded
+2019-03-05T06:52:19.657Z - success: sdkbox loaded
+2019-03-05T06:52:19.662Z - success: tester loaded
+2019-03-05T06:52:19.666Z - success: ui-kit-preview-extra loaded
+2019-03-05T06:52:19.669Z - success: ui-kit-preview loaded
+2019-03-05T06:52:19.672Z - success: ui-tree loaded
+2019-03-05T06:52:19.674Z - success: weapp-adapter loaded
+2019-03-05T06:52:20.592Z - normal: Initializing project /Users/mac/BirdWar
+2019-03-05T06:52:20.594Z - normal: Loading packages
+2019-03-05T06:52:20.606Z - success: plugin-matchvs loaded
+2019-03-05T06:52:20.606Z - normal: Watching packages
+2019-03-05T06:52:20.709Z - normal: Run Application
+2019-03-05T06:52:23.176Z - success: preview server running at http://localhost:7457
+2019-03-05T06:52:30.803Z - normal: 1.9.3
+2019-03-05T07:17:00.888Z - info: shutdown preview server

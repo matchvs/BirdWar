@@ -65,7 +65,9 @@ cc.Class({
                 if (playerScript && playerScript.camp !== this.hostPlayer.camp) {
                     var selfPos = this.node.convertToWorldSpaceAR(cc.v2(0, 0));
                     var targetPos = playerScript.node.convertToWorldSpaceAR(cc.v2(0, 0));
-                    var distance = cc.pDistance(selfPos, targetPos);
+                    //修改
+                    //var distance = cc.pDistance(selfPos, targetPos);
+                    var distance = selfPos.sub(targetPos).mag();
                     if (distance < minDistance) {
                         targetPlayer = this.players[i];
                     }
@@ -80,7 +82,9 @@ cc.Class({
                 } else {
                     pos = cc.v2(targetPlayer.x - this.node.x, targetPlayer.y - this.node.y);
                 }
-                var rad = cc.pAngleSigned(pos, cc.v2(-1, 0));
+                //修改
+                //var rad = cc.pAngleSigned(pos, cc.v2(-1, 0));
+                var rad = pos.signAngle(cc.v2(-1, 0));
                 var angle = 180 / Math.PI * rad;
 
                 if (angle > 60) {
@@ -99,14 +103,22 @@ cc.Class({
                     } else {
                         this.speedY += Math.abs(this.speed * dt);
                     }
-                    this.node.setPositionY(this.node.position.y + this.speedY * dt);
+                    //修改
+                    //this.node.setPositionY(this.node.position.y + (this.speedY * dt));
+                    this.node.y = this.node.position.y + this.speedY * dt;
                 }
-                this.node.setPositionX(this.node.position.x + this.speed * dt);
+                //修改
+                //this.node.setPositionX(this.node.position.x + (this.speed * dt));
+                this.node.x = this.node.position.x + this.speed * dt;
             } else {
-                this.node.setPositionX(this.node.position.x + this.speed * dt);
+                //修改
+                //this.node.setPositionX(this.node.position.x + (this.speed * dt));
+                this.node.x = this.node.position.x + this.speed * dt;
             }
         } else {
-            this.node.setPositionX(this.node.position.x + this.speed * dt);
+            //修改
+            //this.node.setPositionX(this.node.position.x + (this.speed * dt));
+            this.node.x = this.node.position.x + this.speed * dt;
         }
         if (Math.abs(this.node.position.x) > 360) {
             Game.BulletManager.recycleBullet(this);

@@ -106,7 +106,9 @@ cc.Class({
                 }
                 this.players.push(player);
             }
-            this.players[0].setLocalZOrder(999);
+            //修改
+            //this.players[0].setLocalZOrder(999);
+            this.players[0].zIndex = 999;
         }
     },
 

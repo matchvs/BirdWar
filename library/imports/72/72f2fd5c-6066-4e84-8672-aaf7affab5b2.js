@@ -134,8 +134,9 @@ cc.Class({
             spNode.color = cc.Color.WHITE;
             btn.enabled = true;
         } else {
-            spNode.color = cc.Color.BLACK;
-            btn.enabled = false;
+            //spNode.color = cc.Color.BLACK;
+            btn.getComponent(cc.Button).interactable = false;
+            //btn.enabled = false;
         }
     },
 
@@ -214,6 +215,7 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
         clientEvent.off(clientEvent.eventType.kickPlayerResponse, this.kickPlayerResponse, this);
         clientEvent.off(clientEvent.eventType.kickPlayerNotify, this.kickPlayerNotify, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoomMedNotify, this);
     }
 });
 

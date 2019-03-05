@@ -1,3 +1,6 @@
 {
-  "user": null
+  "user": {
+    "name": "User",
+    "prefab": []
+  }
 }
