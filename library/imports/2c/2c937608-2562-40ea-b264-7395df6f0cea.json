@@ -3,10 +3,11 @@
     "__type__": "cc.Prefab",
     "_name": "canvas",
     "_objFlags": 0,
-    "_rawFiles": null,
+    "_native": "",
     "data": {
       "__id__": 1
     },
+    "optimizationPolicy": 1,
     "asyncLoadAssets": false
   },
   {

@@ -14,6 +14,6 @@
   "template": "link",
   "useDebugKeystore": true,
   "vsVersion": "auto",
-  "includeEruda": false,
-  "androidStudio": true
+  "actualPlatform": "",
+  "embedWebDebugger": false
 }

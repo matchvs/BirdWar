@@ -17,6 +17,12 @@
     "originalSize": [
       720,
       86
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
     ]
   }
 }
