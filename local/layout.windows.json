@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 348.78125,
+                "height": 348.078125,
                 "type": "panel",
                 "width": 363
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 552.21875,
+                "height": 551.140625,
                 "type": "panel",
                 "width": 363
               }
             ],
-            "height": 903,
+            "height": 901.21875,
             "type": "dock-v",
             "width": 363
           },
@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 618.375,
+                    "height": 617.15625,
                     "type": "panel",
                     "width": 578
                   },
@@ -54,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 618.375,
+                    "height": 617.15625,
                     "type": "panel",
                     "width": 264
                   }
                 ],
-                "height": 618.375,
+                "height": 617.15625,
                 "type": "dock-h",
                 "width": 844
               },
@@ -69,22 +69,22 @@
                   "console",
                   "timeline"
                 ],
-                "height": 282.625,
+                "height": 282.0625,
                 "type": "panel",
                 "width": 844
               }
             ],
-            "height": 903,
+            "height": 901.21875,
             "type": "dock-v",
             "width": 844
           },
           {
-            "active": 0,
+            "active": 1,
             "children": [
               "inspector",
               "builder"
             ],
-            "height": 903,
+            "height": 901.21875,
             "type": "panel",
             "width": 656
           }

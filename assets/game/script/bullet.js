@@ -88,7 +88,7 @@ cc.Class({
                     angle = -60;
                 }
 
-                var rotation = cc.lerp(this.node.rotation, angle, dt);
+                var rotation = this.lerp(this.node.rotation, angle, dt);
                 this.node.rotation = rotation;
 
                 if (Math.abs(this.node.y - targetPlayer.y) > 1) {
@@ -117,6 +117,10 @@ cc.Class({
         if (Math.abs(this.node.position.x) > 360) {
             Game.BulletManager.recycleBullet(this);
         }
-    }
+    },
+
+    lerp(a, b, r) {
+        return a + (b - a) * r;
+    },
 })
 ;
